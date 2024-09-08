@@ -19,14 +19,14 @@ export const Home = () => {
             </div>
             <div>
                 <h1 className="text-xl mb-2" >what libraries did i use to write this site?</h1>
-                <div className="grid" >
-                    <a href="https://ru.legacy.reactjs.org/"  className="ml-2 text-blue-500 hover:underline italic" >React</a>
+                 <div className="grid" >
+                 {/*  <a href="https://ru.legacy.reactjs.org/"  className="ml-2 text-blue-500 hover:underline italic" >React</a>
                     <a href="https://tailwindcss.com" className="ml-2 text-blue-500 hover:underline italic" >Tailwind css</a>
                     <a href="https://tailwindcss.com"  className="ml-2 text-blue-500 hover:underline italic" >Sass</a>
-                    <a href="https://sass-lang.com/"  className="ml-2 text-blue-500 hover:underline italic" >React router dom</a>
+                    <a href="https://sass-lang.com/"  className="ml-2 text-blue-500 hover:underline italic" >React router dom</a> */} 
                 </div>
             </div>
           </div>  
     </div>
-  )
-}
+  );
+};
