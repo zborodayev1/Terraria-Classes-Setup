@@ -19,12 +19,10 @@ export const MeleeMain = () => {
       <div>
         <h1 className='text-2xl mb-2 mt-2'>Guide</h1>
       </div>
-      <div className='flex'>
+      <div className='flex bg-slate-300 border border-slate-400 '>
           <div>
-            <div>
-              <h1 className='text-xl my-2'>Pre Bosses</h1>
-            </div>  
-            <div className='ml-2'>
+            <div className='ml-2 p-2'>
+              <h1 className='text-xl'>Pre Bosses</h1>
               <div className='border border-gray-600 rounded-lg p-3 bg-slate-100 '>
                 <h1 className='mb-2 font-bold' >Weapons:</h1>
                 <div className='flex'>
