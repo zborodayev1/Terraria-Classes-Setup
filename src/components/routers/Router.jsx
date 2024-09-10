@@ -30,6 +30,7 @@ import { Vine } from "../screens/Wiki/Items/PreHardMode/From_mobs/Vine"
 import { PreHardModeAnvils } from "../screens/Wiki/Items/PreHardMode/From_underground/PreHardModeAnvils"
 import { IronBar } from "../screens/Wiki/Items/PreHardMode/From_underground/Bars/IronBar"
 import { LeadBar } from "../screens/Wiki/Items/PreHardMode/From_underground/Bars/LeadBar"
+import { Hornet } from "../screens/Wiki/Mobs/Hornet"
 
 export const Router = () => {
   return (
@@ -73,6 +74,7 @@ export const Router = () => {
             <Route element={<PreHardModeAnvils/>} path="/wiki/preHardMode/preHardModeAnvils"/>
             <Route element={<IronBar/>} path="/wiki/preHardMode/ironBar"/>
             <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>
+            <Route element={<Hornet/>} path="/wiki/preHardMode/mobs/hornet"/>
 
             {/* <Route element={} path=""/> */}
         </Routes>
