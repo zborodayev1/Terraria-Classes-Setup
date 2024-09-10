@@ -6,14 +6,14 @@ import {MeleeMain} from '../screens/Class/Melee/MeleeMain'
 import {Magic} from '../screens/Class/Magic/Magic'
 import {Ranged} from '../screens/Class/Ranged/Ranged'
 import {Summoner} from '../screens/Class/Summoner/Summoner'
-import {Starfury} from '../screens/Class/Melee/MeleeWeapons/Starfury'
-import { BladeOfGrass } from "../screens/Class/Melee/MeleeWeapons/BladeOfGrass"
+import { Starfury } from "../screens/Class/Melee/MeleeWeapons/PreBosses/Starfury"
+import {BladeOfGrass} from '../screens/Class/Melee/MeleeWeapons/PreBosses/BladeOfGrass'
 import { PlatinumArmor } from "../screens/Class/Melee/MeleeArmor/PlatinumArmor"
 import { MoltenArmor } from "../screens/Class/Melee/MeleeArmor/MoltenArmor"
-import { NightsEdge } from "../screens/Class/Melee/MeleeWeapons/NightsEdge"
+import {NightsEdge} from '../screens/Class/Melee/MeleeWeapons/PreHardMode/NightsEdge'
 import { SharpeningStation } from "../screens/Class/Melee/MeleeBuffs/SharpeningStation"
-import { IceSickle } from "../screens/Class/Melee/MeleeWeapons/IceSickle"
-import { ShadowflameKnife } from "../screens/Class/Melee/MeleeWeapons/ShadowflameKnife"
+import { IceSickle } from "../screens/Class/Melee/MeleeWeapons/Pre-MechBosses/IceSickle"
+import { ShadowflameKnife } from "../screens/Class/Melee/MeleeWeapons/Pre-MechBosses/ShadowflameKnife"
 import { TitaniumArmor } from "../screens/Class/Melee/MeleeArmor/TitaniumArmor"
 import { Sake } from "../screens/Class/Melee/MeleeBuffs/Sake"
 import { Ichor } from "../screens/Class/Melee/MeleeBuffs/Ichor"
@@ -30,7 +30,18 @@ import { Vine } from "../screens/Wiki/Items/PreHardMode/From_mobs/Vine"
 import { PreHardModeAnvils } from "../screens/Wiki/Items/PreHardMode/From_underground/PreHardModeAnvils"
 import { IronBar } from "../screens/Wiki/Items/PreHardMode/From_underground/Bars/IronBar"
 import { LeadBar } from "../screens/Wiki/Items/PreHardMode/From_underground/Bars/LeadBar"
-import { Hornet } from "../screens/Wiki/Mobs/Hornet"
+import { Muramasa } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/Muramasa'
+import { LightsBane } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/LightsBane'
+import {Volcano} from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/Volcano'
+import { TrueNightsEdge } from "../screens/Class/Melee/MeleeWeapons/Pre-Plantera/TrueNightsEdge"
+
+import { MeleePreBosses } from "../screens/Class/Melee/Guide/Pre-bosses/MeleePreBosses"
+import { MeleePreHardMode } from "../screens/Class/Melee/Guide/Pre-hardmode/MeleePreHardMode"
+import { MeleePreMechBosses } from "../screens/Class/Melee/Guide/Pre-MechBosses/MeleePreMechBosses"
+import { MeleePrePlantera } from "../screens/Class/Melee/Guide/Pre-plantera/MeleePrePlantera"
+import { MeleePreGolem } from "../screens/Class/Melee/Guide/Pre-Golem/MeleePreGolem"
+import { MeleePreLunarEvents } from "../screens/Class/Melee/Guide/Pre-LunarEvents/MeleePreLunarEvents"
+import { MeleeEndgame } from '../screens/Class/Melee/Guide/Endgame/MeleeEndgame'
 
 export const Router = () => {
   return (
@@ -64,7 +75,9 @@ export const Router = () => {
             <Route element={<WrathPotion/>} path="/meleeBafs/wrathPotion"/>
             <Route element={<Zenith/>} path="/meleeWeapons/zenith"/>
             <Route element={<Rage/>} path="/meleeBafs/rage"/>
-
+            <Route element={<Muramasa/>} path="/meleeWeapons/muramasa"/>
+            <Route element={<LightsBane/>} path="/meleeWeapons/lightsBane"/>
+            <Route element={<Volcano/>} path="/meleeWeapons/volcano"/>
 
             {/* Wiki */}
             <Route element={<HardModeAnvils/>} path="/wiki/items/hardModeAnvils"/>
@@ -74,7 +87,16 @@ export const Router = () => {
             <Route element={<PreHardModeAnvils/>} path="/wiki/preHardMode/preHardModeAnvils"/>
             <Route element={<IronBar/>} path="/wiki/preHardMode/ironBar"/>
             <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>
-            <Route element={<Hornet/>} path="/wiki/preHardMode/mobs/hornet"/>
+            <Route element={<TrueNightsEdge/>} path="/meleeWeapons/trueNightsEdge"/>
+
+            {/* melee stages */}
+            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
+            <Route element={<MeleePreHardMode/>} path="/melee/MeleePreHardMode"/>
+            <Route element={<MeleePreMechBosses/>} path="/melee/MeleePreMechBosses"/>
+            <Route element={<MeleePrePlantera/>} path="/melee/MeleePrePlantera"/>
+            <Route element={<MeleePreGolem/>} path="/melee/MeleePreGolem"/>
+            <Route element={<MeleePreLunarEvents/>} path="/melee/MeleePreLunarEvents"/>
+            <Route element={<MeleeEndgame/>} path="/melee/MeleeEndgame"/>
 
             {/* <Route element={} path=""/> */}
         </Routes>

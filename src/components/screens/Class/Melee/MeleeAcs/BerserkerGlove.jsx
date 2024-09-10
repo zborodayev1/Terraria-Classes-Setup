@@ -3,7 +3,7 @@ import styles from '../../../../css/App.module.scss'
 export const BerserkerGlove = () => {
   return (
     <div className={styles.main}>
-        <h1>The Berserkers Glove is a Hardmode accessory crafted from the Power Glove and Flesh Knuckles, granting the abilities of both. It grants the following:
+        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' >The Berserkers Glove is a Hardmode accessory crafted from the Power Glove and Flesh Knuckles, granting the abilities of both. It grants the following:
 
 +8 defense
 +12% increased melee speed

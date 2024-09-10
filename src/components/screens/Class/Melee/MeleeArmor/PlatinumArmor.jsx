@@ -3,7 +3,7 @@ import styles from '../../../../css/App.module.scss'
 export const PlatinumArmor = () => {
   return (
     <div className={styles.main}>
-        <h1 className='' ><a className='font-bold'>Platinum armor</a>. is a pre-Hardmode armor set. It consists of the Platinum Helmet, Platinum Chainmail, and Platinum Greaves. It takes a total of  75 /  90 Platinum Bars ( 300 /  360 Platinum Ores) to craft a full set.
+        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>Platinum armor</a>. is a pre-Hardmode armor set. It consists of the Platinum Helmet, Platinum Chainmail, and Platinum Greaves. It takes a total of  75 /  90 Platinum Bars ( 300 /  360 Platinum Ores) to craft a full set.
 
 Its same-tier counterpart is the Gold armor.</h1>    
       <div className=''>

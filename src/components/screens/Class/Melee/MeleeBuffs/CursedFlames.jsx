@@ -3,7 +3,7 @@ import styles from '../../../../css/App.module.scss'
 export const CursedFlames = () => {
   return (
     <div className={styles.main}>
-        <h1>The Flask of Cursed Flames is a Hardmode flask that causes melee weapons and whips to inflict the Cursed Inferno debuff for 3–6 seconds on enemies hit. Melee weapons that fire projectiles will also inflict the debuff on enemies hit by the projectiles (except for the Flairons bubbles).
+        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' >The Flask of Cursed Flames is a Hardmode flask that causes melee weapons and whips to inflict the Cursed Inferno debuff for 3–6 seconds on enemies hit. Melee weapons that fire projectiles will also inflict the debuff on enemies hit by the projectiles (except for the Flairons bubbles).
 
 The Flask of Cursed Flames cannot be used in conjunction with other flasks, and using it will remove any existing flask effects.  Like all other flasks, the effect will not be canceled when the player dies.
 

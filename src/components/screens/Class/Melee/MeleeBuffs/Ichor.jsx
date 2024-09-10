@@ -3,7 +3,7 @@ import styles from '../../../../css/App.module.scss'
 export const Ichor = () => {
   return (
     <div className={styles.main}>
-        <h1>Ichor is a Hardmode crafting material dropped by Ichor Stickers in the Underground Crimson and the Tainted Ghoul in the Crimson Underground Desert. It is also obtained from Hematic Crates. It is used to craft many Ichor-related items. It is the Crimson counterpart to the Corruptions Cursed Flame.The Flask of Ichor is a Hardmode flask that causes melee weapons and whips to inflict the Ichor debuff for 10–19 seconds on enemies hit. Melee weapons that fire projectiles will also inflict the debuff on enemies hit by the projectiles (except for the Flairons bubbles).
+        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' >Ichor is a Hardmode crafting material dropped by Ichor Stickers in the Underground Crimson and the Tainted Ghoul in the Crimson Underground Desert. It is also obtained from Hematic Crates. It is used to craft many Ichor-related items. It is the Crimson counterpart to the Corruptions Cursed Flame.The Flask of Ichor is a Hardmode flask that causes melee weapons and whips to inflict the Ichor debuff for 10–19 seconds on enemies hit. Melee weapons that fire projectiles will also inflict the debuff on enemies hit by the projectiles (except for the Flairons bubbles).
 
 The Flask of Ichor cannot be used in conjunction with other flasks, and using it will remove any existing flask effects.  Like all other flasks, the effect will not be canceled when the player dies.
 

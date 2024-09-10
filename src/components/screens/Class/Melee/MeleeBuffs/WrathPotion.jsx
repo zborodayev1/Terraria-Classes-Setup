@@ -3,7 +3,7 @@ import styles from '../../../../css/App.module.scss'
 export const WrathPotion = () => {
   return (
     <div className={styles.main}>
-        <h1>The Wrath Potion is a buff potion which grants the Wrath buff when consumed. The buff generally increases damage dealt by weapons by 10%. This lasts for 4 minutes</h1>
+        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' >The Wrath Potion is a buff potion which grants the Wrath buff when consumed. The buff generally increases damage dealt by weapons by 10%. This lasts for 4 minutes</h1>
      <div>
         <h1 className='mt-2 text-lg' >Crafting:</h1>
         <div className='flex'>
