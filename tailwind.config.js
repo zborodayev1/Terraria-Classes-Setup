@@ -71,13 +71,6 @@ export default {
         '150': '150ms',
       },
       colors: {
-        forWiki:{
-          links: "#a0ffff",
-          bgBrown: "#0000003b",
-          borderWiki: "#9b907e",
-          expert: "#ffcb5d",
-          master: "#ff5d5d",
-        },
         primary: "#18171c",
         secondary: {
           'bg': "#18171c",

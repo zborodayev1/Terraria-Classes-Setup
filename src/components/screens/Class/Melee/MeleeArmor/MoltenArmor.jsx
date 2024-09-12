@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const MoltenArmor = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>Molten armor </a>is an armor set consisting of the Molten Helmet, Molten Breastplate, and Molten Greaves. It has the highest defense of any pre-Hardmode armor set.
+        <h1 className=' p-2 roundet-md' ><a className='font-bold'>Molten armor </a>is an armor set consisting of the Molten Helmet, Molten Breastplate, and Molten Greaves. It has the highest defense of any pre-Hardmode armor set.
 
 A full set of Molten armor provides the following benefits:
 
@@ -43,10 +43,10 @@ It takes a total of 45 Hellstone Bars to craft a full set of Molten armor, or 13
               <div className='w-52 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2 text-forWiki-links hover:underline' >Iron Anvil</Link>
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2 text-blue-500 hover:underline' >Iron Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/32/Lead_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2 text-forWiki-links hover:underline' >Lead Anvil</Link>
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/32/Lead_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2 text-blue-500 hover:underline' >Lead Anvil</Link>
                   </div>
               </div>
           </div>

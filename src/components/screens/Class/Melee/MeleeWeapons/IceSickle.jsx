@@ -1,4 +1,4 @@
-import styles from '../../../../../css/App.module.scss'
+import styles from '../../../../css/App.module.scss'
 
 export const IceSickle = () => {
   return (

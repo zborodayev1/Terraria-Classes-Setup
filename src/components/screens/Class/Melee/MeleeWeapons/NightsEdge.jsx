@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import styles from '../../../../../css/App.module.scss'
+import styles from '../../../../css/App.module.scss'
 
 export const NightsEdge = () => {
   return (
@@ -22,25 +22,25 @@ Its best modifier is Legendary.</h1>
               <div className='w-52 p-2'>
                   <h1 className='' >Ingridients</h1>
                   <div className='flex mt-2' >
-                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/1/13/Light%27s_Bane.png'/> <Link to='/meleeWeapons/lightsBane' className='ml-1 text-sm  text-forWiki-links hover:underline duration-75' >Lights Bane</Link>
+                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/1/13/Light%27s_Bane.png'/> <Link to='/meleeWeapons/lightsBane' className='ml-1 text-sm   text-blue-500 hover:underline duration-75' >Lights Bane</Link>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-12 h-14' src='https://terraria.wiki.gg/images/c/c2/Muramasa.png'/> <Link to='/meleeWeapons/muramasa' className='ml-1 text-sm  text-forWiki-links hover:underline duration-75' >Muramasa</Link>
+                      <img className='w-12 h-14' src='https://terraria.wiki.gg/images/c/c2/Muramasa.png'/> <Link to='/meleeWeapons/muramasa' className='ml-1 text-sm   text-blue-500 hover:underline duration-75' >Muramasa</Link>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link to='/meleeWeapons/bladeofgrass' className='ml-2 text-sm  text-forWiki-links hover:underline duration-75' >Blade of Grass</Link>
+                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link to='/meleeWeapons/bladeofgrass' className='ml-2 text-sm   text-blue-500 hover:underline duration-75' >Blade of Grass</Link>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/c/cf/Volcano.png'/> <Link to='/meleeWeapons/volcano' className='ml-2 text-sm  text-forWiki-links hover:underline duration-75' >Volcano</Link>
+                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/c/cf/Volcano.png'/> <Link to='/meleeWeapons/volcano' className='ml-2 text-sm   text-blue-500 hover:underline duration-75' >Volcano</Link>
                   </div>
               </div>
               <div className='w-52 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-12 h-8 ' src='https://terraria.wiki.gg/images/f/f8/Demon_Altar.png'/> <h1 className='text-base ml-2  text-forWiki-links hover:underline duration-75' >Demon altar</h1>
+                      <img className='w-12 h-8 ' src='https://terraria.wiki.gg/images/f/f8/Demon_Altar.png'/> <h1 className='text-base ml-2   text-blue-500 hover:underline duration-75' >Demon altar</h1>
                   </div>
                   <div className='flex' >
-                      <img className='w-12 h-8' src='https://terraria.wiki.gg/images/7/70/Crimson_Altar.png'/> <h1 className='text-base ml-2  text-forWiki-links hover:underline duration-75' >Crimson Altar</h1>
+                      <img className='w-12 h-8' src='https://terraria.wiki.gg/images/7/70/Crimson_Altar.png'/> <h1 className='text-base ml-2   text-blue-500 hover:underline duration-75' >Crimson Altar</h1>
                   </div>
               </div>
           </div>

@@ -6,14 +6,14 @@ import {MeleeMain} from '../screens/Class/Melee/MeleeMain'
 import {Magic} from '../screens/Class/Magic/Magic'
 import {Ranged} from '../screens/Class/Ranged/Ranged'
 import {Summoner} from '../screens/Class/Summoner/Summoner'
-import { Starfury } from "../screens/Class/Melee/MeleeWeapons/PreBosses/Starfury"
-import {BladeOfGrass} from '../screens/Class/Melee/MeleeWeapons/PreBosses/BladeOfGrass'
+import { Starfury } from "../screens/Class/Melee/MeleeWeapons/Starfury"
+import {BladeOfGrass} from '../screens/Class/Melee/MeleeWeapons/BladeOfGrass'
 import { PlatinumArmor } from "../screens/Class/Melee/MeleeArmor/PlatinumArmor"
 import { MoltenArmor } from "../screens/Class/Melee/MeleeArmor/MoltenArmor"
-import {NightsEdge} from '../screens/Class/Melee/MeleeWeapons/PreHardMode/NightsEdge'
+import {NightsEdge} from '../screens/Class/Melee/MeleeWeapons/NightsEdge'
 import { SharpeningStation } from "../screens/Class/Melee/MeleeBuffs/SharpeningStation"
-import { IceSickle } from "../screens/Class/Melee/MeleeWeapons/Pre-MechBosses/IceSickle"
-import { ShadowflameKnife } from "../screens/Class/Melee/MeleeWeapons/Pre-MechBosses/ShadowflameKnife"
+import { IceSickle } from "../screens/Class/Melee/MeleeWeapons/IceSickle"
+import { ShadowflameKnife } from "../screens/Class/Melee/MeleeWeapons/ShadowflameKnife"
 import { TitaniumArmor } from "../screens/Class/Melee/MeleeArmor/TitaniumArmor"
 import { Sake } from "../screens/Class/Melee/MeleeBuffs/Sake"
 import { Ichor } from "../screens/Class/Melee/MeleeBuffs/Ichor"
@@ -23,7 +23,7 @@ import { BerserkerGlove } from "../screens/Class/Melee/MeleeAcs/BerserkerGlove"
 import { WrathPotion } from "../screens/Class/Melee/MeleeBuffs/WrathPotion"
 import { Zenith } from "../screens/Class/Melee/MeleeWeapons/Zenith"
 import { Rage } from "../screens/Class/Melee/MeleeBuffs/Rage"
-import {HardModeAnvils} from '../screens/Wiki/Items/HardMode/From_underground/HardModeAnvils'
+import { HardModeAnvils } from "../screens/Wiki/Items/HardMode/From_underbroundHard/HardModeAnvils"
 import { Jungle_Spores } from "../screens/Wiki/Items/PreHardMode/From_mobs/Jungle_Spores"
 import { Stingers } from "../screens/Wiki/Items/PreHardMode/From_mobs/Stingers"
 import { Vine } from "../screens/Wiki/Items/PreHardMode/From_mobs/Vine"
@@ -33,15 +33,18 @@ import { LeadBar } from "../screens/Wiki/Items/PreHardMode/From_underground/Bars
 import { Muramasa } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/Muramasa'
 import { LightsBane } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/LightsBane'
 import {Volcano} from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/Volcano'
-import { TrueNightsEdge } from "../screens/Class/Melee/MeleeWeapons/Pre-Plantera/TrueNightsEdge"
+import { TrueNightsEdge } from "../screens/Class/Melee/MeleeWeapons/TrueNightsEdge"
 
-import { MeleePreBosses } from "../screens/Class/Melee/Guide/Pre-bosses/MeleePreBosses"
-import { MeleePreHardMode } from "../screens/Class/Melee/Guide/Pre-hardmode/MeleePreHardMode"
-import { MeleePreMechBosses } from "../screens/Class/Melee/Guide/Pre-MechBosses/MeleePreMechBosses"
-import { MeleePrePlantera } from "../screens/Class/Melee/Guide/Pre-plantera/MeleePrePlantera"
-import { MeleePreGolem } from "../screens/Class/Melee/Guide/Pre-Golem/MeleePreGolem"
-import { MeleePreLunarEvents } from "../screens/Class/Melee/Guide/Pre-LunarEvents/MeleePreLunarEvents"
+import { MeleePreBosses } from "../screens/Class/Melee/Guide/Pre-bosses(melee)/MeleePreBosses"
+import { MeleePreHardMode } from "../screens/Class/Melee/Guide/Pre-hardmode(melee)/MeleePreHardMode"
+import { MeleePreMechBosses } from "../screens/Class/Melee/Guide/Pre-MechBosses(melee)/MeleePreMechBosses"
+import { MeleePrePlantera } from "../screens/Class/Melee/Guide/Pre-plantera(melee)/MeleePrePlantera"
+import { MeleePreGolem } from "../screens/Class/Melee/Guide/Pre-Golem(melee)/MeleePreGolem"
+import { MeleePreLunarEvents } from "../screens/Class/Melee/Guide/Pre-LunarEvents(melee)/MeleePreLunarEvents"
 import { MeleeEndgame } from '../screens/Class/Melee/Guide/Endgame/MeleeEndgame'
+import { Excalibur } from "../screens/Class/Melee/MeleeWeapons/Excalibur"
+import { TurtleArmor } from "../screens/Class/Melee/MeleeArmor/TurtleArmor"
+import { FireGauntlet } from "../screens/Class/Melee/MeleeAcs/FireGauntlet"
 
 export const Router = () => {
   return (
@@ -78,6 +81,10 @@ export const Router = () => {
             <Route element={<Muramasa/>} path="/meleeWeapons/muramasa"/>
             <Route element={<LightsBane/>} path="/meleeWeapons/lightsBane"/>
             <Route element={<Volcano/>} path="/meleeWeapons/volcano"/>
+            <Route element={<TrueNightsEdge/>} path="/meleeWeapons/trueNightsEdge"/>
+            <Route element={<Excalibur/>} path="/meleeWepons/excalibur"/>
+            <Route element={<TurtleArmor/>} path="/meleeArmor/turtleArmor"/>
+            <Route element={<FireGauntlet/>} path="/meleeAcs/fireGauntlet"/>
 
             {/* Wiki */}
             <Route element={<HardModeAnvils/>} path="/wiki/items/hardModeAnvils"/>
@@ -87,7 +94,6 @@ export const Router = () => {
             <Route element={<PreHardModeAnvils/>} path="/wiki/preHardMode/preHardModeAnvils"/>
             <Route element={<IronBar/>} path="/wiki/preHardMode/ironBar"/>
             <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>
-            <Route element={<TrueNightsEdge/>} path="/meleeWeapons/trueNightsEdge"/>
 
             {/* melee stages */}
             <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>

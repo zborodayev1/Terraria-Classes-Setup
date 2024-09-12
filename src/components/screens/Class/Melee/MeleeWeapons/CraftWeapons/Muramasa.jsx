@@ -16,31 +16,31 @@ Its best modifier is Legendary.</h1>
               <div className='w-52 p-2'>
                   <h1 className='' >Result</h1>
                   <div className='flex'>
-                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/9/98/Night%27s_Edge.png'/> <Link to='/meleeWeapons/nightsEdge' className='mt-2 ml-2  text-forWiki-links hover:underline duration-75' >Nights Edge</Link>
+                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/9/98/Night%27s_Edge.png'/> <Link to='/meleeWeapons/nightsEdge' className='mt-2 ml-2   text-blue-500 hover:underline duration-75' >Nights Edge</Link>
                   </div>
               </div>   
               <div className='w-52 p-2'>
                   <h1 className='' >Ingridients</h1>
                   <div className='flex mt-2' >
-                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/1/13/Light%27s_Bane.png'/> <Link to='/meleeWeapons/lightsBane' className='ml-1 text-sm  text-forWiki-links hover:underline duration-75' >Lights Bane</Link>
+                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/1/13/Light%27s_Bane.png'/> <Link to='/meleeWeapons/lightsBane' className='ml-1 text-sm   text-blue-500 hover:underline duration-75' >Lights Bane</Link>
                   </div>
                   <div className='flex mt-2' >
                       <img className='w-12 h-14' src='https://terraria.wiki.gg/images/c/c2/Muramasa.png'/> <h1 className='ml-1 text-sm font-bold' >Muramasa</h1>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link to='/meleeWeapons/bladeofgrass' className='ml-2 text-sm  text-forWiki-links hover:underline duration-75' >Blade of Grass</Link>
+                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link to='/meleeWeapons/bladeofgrass' className='ml-2 text-sm   text-blue-500 hover:underline duration-75' >Blade of Grass</Link>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/c/cf/Volcano.png'/> <Link className='ml-2 text-sm  text-forWiki-links hover:underline duration-75' >Volcano</Link>
+                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/c/cf/Volcano.png'/> <Link className='ml-2 text-sm   text-blue-500 hover:underline duration-75' >Volcano</Link>
                   </div>
               </div>
               <div className='w-52 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-12 h-8 ' src='https://terraria.wiki.gg/images/f/f8/Demon_Altar.png'/> <Link className='text-base ml-2  text-forWiki-links hover:underline duration-75' >Demon altar</Link>
+                      <img className='w-12 h-8 ' src='https://terraria.wiki.gg/images/f/f8/Demon_Altar.png'/> <Link className='text-base ml-2 ' >Demon altar</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-12 h-8' src='https://terraria.wiki.gg/images/7/70/Crimson_Altar.png'/> <Link className='text-base ml-2  text-forWiki-links hover:underline duration-75' >Crimson Altar</Link>
+                      <img className='w-12 h-8' src='https://terraria.wiki.gg/images/7/70/Crimson_Altar.png'/> <Link className='text-base ml-2 ' >Crimson Altar</Link>
                   </div>
               </div>
           </div>
