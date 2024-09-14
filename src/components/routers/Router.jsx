@@ -3,7 +3,7 @@ import { Home } from "../Home/Home"
 import { ErrorNotFound } from "../../assets/Errors/ErrorNotFound"
 import { Classes } from "../screens/ClassesMain"
 import {MeleeMain} from '../screens/Class/Melee/MeleeMain'
-import {Magic} from '../screens/Class/Magic/Magic'
+import {Mage} from '../screens/Class/Mage/Mage'
 import {Ranged} from '../screens/Class/Ranged/Ranged'
 import {Summoner} from '../screens/Class/Summoner/Summoner'
 import { Starfury } from "../screens/Class/Melee/MeleeWeapons/Starfury"
@@ -34,7 +34,6 @@ import { Muramasa } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/Muram
 import { LightsBane } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/LightsBane'
 import {Volcano} from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/Volcano'
 import { TrueNightsEdge } from "../screens/Class/Melee/MeleeWeapons/TrueNightsEdge"
-
 import { MeleePreBosses } from "../screens/Class/Melee/Guide/Pre-bosses(melee)/MeleePreBosses"
 import { MeleePreHardMode } from "../screens/Class/Melee/Guide/Pre-hardmode(melee)/MeleePreHardMode"
 import { MeleePreMechBosses } from "../screens/Class/Melee/Guide/Pre-MechBosses(melee)/MeleePreMechBosses"
@@ -45,6 +44,29 @@ import { MeleeEndgame } from '../screens/Class/Melee/Guide/Endgame/MeleeEndgame'
 import { Excalibur } from "../screens/Class/Melee/MeleeWeapons/Excalibur"
 import { TurtleArmor } from "../screens/Class/Melee/MeleeArmor/TurtleArmor"
 import { FireGauntlet } from "../screens/Class/Melee/MeleeAcs/FireGauntlet"
+import { HermesBoots } from "../screens/Class/Acs/PreBosses/HermesBoots"
+import { RocketBoots } from "../screens/Class/Acs/Crafting/RocketBoots"
+import { SpectreBoots } from "../screens/Class/Acs/Crafting/SpectreBoots"
+import { LightningBoots } from "../screens/Class/Acs/PreBosses/LightningBoots"
+import { FrostsparkBoots } from "../screens/Class/Acs/Crafting/FrostsparkBoots"
+import { LavaWaders } from "../screens/Class/Acs/Crafting/LavaWaders"
+import { ObsidianWaterWalkingBoots } from "../screens/Class/Acs/Crafting/ObsidianWaterWalkingBoots"
+import { Magiluminescence } from "../screens/Class/Acs/PreBosses/Magiluminescence"
+import { CloudInABottle } from "../screens/Class/Acs/PreBosses/CloudInABottle"
+import { BandOfRegeneration } from "../screens/Class/Acs/PreBosses/BandOfRegeneration"
+import { SharkToothNecklace } from "../screens/Class/Acs/PreBosses/SharkToothNecklace"
+import { FledglingWings } from "../screens/Class/Acs/PreBosses/FledglingWings"
+import { TerraBlade } from "../screens/Class/Melee/MeleeWeapons/TerraBlade"
+import { TrueExcalibur } from "../screens/Class/Melee/MeleeWeapons/TrueExcalibut"
+import { BeetleArmor } from "../screens/Class/Melee/MeleeArmor/BeetleArmor"
+import { TerrasparkBoots } from "../screens/Class/Acs/PreHardMode/TerrasparkBoots"
+import { BrainOfConfusion } from "../screens/Class/Acs/PreHardMode/BrainOfConfusion"
+import { ShieldOfCthulhu } from "../screens/Class/Acs/PreHardMode/ShieldOfCthulhu"
+import { WormScarf } from "../screens/Class/Acs/PreHardMode/WormScarf"
+import { AnkhShied } from "../screens/Class/Acs/PreMechBosses/AnkhShied"
+import { FrozenWings } from "../screens/Class/Acs/PreMechBosses/FrozenWings"
+import { AvangerEmblem } from "../screens/Class/Acs/PrePlantera/AvangerEmblem"
+import { FlameWings } from "../screens/Class/Acs/PrePlantera/FlameWings"
 
 export const Router = () => {
   return (
@@ -56,7 +78,7 @@ export const Router = () => {
 
             {/* clases */}
             <Route element={<MeleeMain/>} path="/melee"/>
-            <Route element={<Magic/>} path="/magic"/>
+            <Route element={<Mage/>} path="/mage"/>
             <Route element={<Ranged/>} path="/ranged"/>
             <Route element={<Summoner/>} path="/summoner"/>
 
@@ -85,6 +107,13 @@ export const Router = () => {
             <Route element={<Excalibur/>} path="/meleeWepons/excalibur"/>
             <Route element={<TurtleArmor/>} path="/meleeArmor/turtleArmor"/>
             <Route element={<FireGauntlet/>} path="/meleeAcs/fireGauntlet"/>
+            <Route element={<TerraBlade/>} path="/meleeWeapons/TerraBlade"/>
+            <Route element={<TrueExcalibur/>} path="/meleeWeapons/TrueExcalibur"/>
+            <Route element={<BeetleArmor/>} path="/meleeArmor/BeetleArmor"/>
+            
+            
+     
+            
 
             {/* Wiki */}
             <Route element={<HardModeAnvils/>} path="/wiki/items/hardModeAnvils"/>
@@ -103,6 +132,33 @@ export const Router = () => {
             <Route element={<MeleePreGolem/>} path="/melee/MeleePreGolem"/>
             <Route element={<MeleePreLunarEvents/>} path="/melee/MeleePreLunarEvents"/>
             <Route element={<MeleeEndgame/>} path="/melee/MeleeEndgame"/>
+            {/* acs */}
+
+            <Route element={<HermesBoots/>} path="/acs/HermesBoots"/>
+            <Route element={<RocketBoots/>} path="/acs/RocketBoots"/>
+            <Route element={<SpectreBoots/>} path="/acs/SpectreBoots"/>
+            <Route element={<LightningBoots/>} path="/acs/LightningBoots"/>
+            <Route element={<FrostsparkBoots/>} path="/acs/FrostsparkBoots"/>
+            <Route element={<LavaWaders/>} path="/acs/LavaWaders"/>
+            <Route element={<ObsidianWaterWalkingBoots/>} path="/acs/ObsidianWaterWalkingBoots"/>
+            <Route element={<Magiluminescence/>} path="/acs/Magiluminescence"/>
+            <Route element={<CloudInABottle/>} path="/acs/CloudInABottle"/>
+            <Route element={<BandOfRegeneration/>} path="/acs/BandOfRegeneration"/>
+            <Route element={<SharkToothNecklace/>} path="/acs/SharkToothNecklace"/>
+            <Route element={<FledglingWings/>} path="/acs/FledglingWings"/>
+            <Route element={<TerrasparkBoots/>} path="/acs/TerrasparkBoots"/>
+            <Route element={<BrainOfConfusion/>} path="/acs/BrainOfConfusion"/>
+            <Route element={<ShieldOfCthulhu/>} path="/acs/ShieldOfCthulhu"/>
+            <Route element={<WormScarf/>} path="/acs/WormScarf"/>
+            <Route element={<AnkhShied/>} path="/acs/AnkhShied"/>
+            <Route element={<FrozenWings/>} path="/acs/FrozenWings"/>
+            <Route element={<FlameWings/>} path="/acs/FlameWings"/>
+            <Route element={<AvangerEmblem/>} path="/acs/AvangerEmblem"/>
+            
+
+            
+
+            
 
             {/* <Route element={} path=""/> */}
         </Routes>

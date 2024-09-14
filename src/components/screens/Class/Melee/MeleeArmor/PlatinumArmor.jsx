@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from '../../../../css/App.module.scss'
 
 export const PlatinumArmor = () => {
@@ -25,7 +26,10 @@ Its same-tier counterpart is the Gold armor.</h1>
               <div className='w-44 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <h1 className='text-base ml-2' >Iron Anvil</h1>
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Iron Anvil</Link>
+                  </div>
+                  <div className='flex' >
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/32/Lead_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Lead Anvil</Link>
                   </div>
               </div>
           </div>

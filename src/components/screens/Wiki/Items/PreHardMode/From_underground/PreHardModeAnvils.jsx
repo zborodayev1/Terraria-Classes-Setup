@@ -23,10 +23,10 @@ Both anvils are craftable, but can sometimes also be found in Underground Cabins
               <div className='w-44 p-2'>
                   <h1 className='' >Ingridients</h1>
                   <div className='flex mt-2' >
-                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/6/6c/Iron_Bar.png'/> <Link to='/wiki/preHardMode/ironBar' className='ml-1 text-sm  text-forWiki-links hover:underline' >Iron Bar x5</Link>
+                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/6/6c/Iron_Bar.png'/> <Link to='/wiki/preHardMode/ironBar' className='ml-1 text-sm  hover:underline hover:text-blue-500 duration-200' >Iron Bar</Link><h1 className='ml-1 text-sm text-white/50 '>x5</h1>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/1/10/Lead_Bar.png'/> <Link to='/wiki/preHardMode/leadBar'className='ml-1 text-sm text-forWiki-links hover:underline5' >Lead Bar x5</Link>
+                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/1/10/Lead_Bar.png'/> <Link to='/wiki/preHardMode/leadBar'className='ml-1 text-sm hover:underline hover:text-blue-500 duration-200' >Lead Bar</Link><h1 className='ml-1 text-sm text-white/50 '>x5</h1>
                   </div>
               </div>
               <div className='w-44 p-2'>

@@ -36,7 +36,7 @@ export const LeadBar = () => {
               <div className='w-52 p-2'>
                   <h1 className='' >Result</h1>
                   <div className='flex'>
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/32/Lead_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='ml-2 text-forWiki-links hover:underline' >Lead Anvil</Link>
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/32/Lead_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='ml-2 hover:underline hover:text-blue-500 duration-200 ' >Lead Anvil</Link>
                   </div>
               </div>   
               <div className='w-52 p-2'>

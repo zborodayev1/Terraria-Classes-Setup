@@ -17,36 +17,29 @@ export const MeleeMain = () => {
         <img className="mt-1" src='https://terraria.wiki.gg/images/6/66/Zenith.png'/>
       </div>
       <div className='flex justify-center'>
-        <h1 className='text-2xl mb-2 mt-2'>Guide</h1>
+          <h1 className='text-2xl'>Guide</h1>
       </div>
-      <div className='flex justify-between border border-gray-600 rounded-lg p-3 bg-slate-100 mt-3 '>
-        <div>
-          <Link to='/melee/MeleePreBosses' className='w-30  text-center font-bold  text-blue-500 hover:underline' >Pre Bosses</Link>  
-          <img src='https://terraria.wiki.gg/images/7/70/Eye_of_Cthulhu_%28Phase_1%29.gif'/>
+      <div className='flex justify-between border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3 '>
+        <div >
+          <Link to='/melee/MeleePreBosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
         </div>
         <div>
-          <Link to='/melee/MeleePreHardMode' className='w-30 text-center font-bold   text-blue-500 hover:underline' >Pre HardMode</Link>
-          <img className='h-40' src='https://terraria.wiki.gg/images/c/c0/Wall_of_Flesh.gif' />
+          <Link to='/melee/MeleePreHardMode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
         </div>
         <div>
-          <Link to='/melee/MeleePreMechBosses' className='w-30 text-center font-bold   text-blue-500 hover:underline' >Pre Mech Bosses</Link>
-          <img src='https://terraria.wiki.gg/images/6/67/Skeletron_Prime_head.gif'/>
+          <Link to='/melee/MeleePreMechBosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
         </div>
         <div>
-          <Link to='/melee/MeleePrePlantera' className='w-30 text-center font-bold   text-blue-500 hover:underline' >Pre Plantera</Link>
-          <img src='https://terraria.wiki.gg/images/9/9e/Plantera_%28First_form%29.gif'/>
+          <Link to='/melee/MeleePrePlantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
         </div>
         <div>
-          <Link to='/melee/MeleePreGolem' className='w-30 text-center font-bold   text-blue-500 hover:underline' >Pre Golem</Link>
-          <img className='h-32' src='https://terraria.wiki.gg/images/c/ce/Golem.png'/>
+          <Link to='/melee/MeleePreGolem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
         </div>
         <div>
-          <Link to='/melee/MeleePreLunarEvents' className='w-30 text-center font-bold   text-blue-500 hover:underline' >Pre Lunar Events</Link>
-          <img className='h-32' src='https://terraria.wiki.gg/images/1/1c/Lunatic_Cultist.gif'/>
+          <Link to='/melee/MeleePreLunarEvents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
         </div>
         <div>
-          <Link to='/melee/MeleeEndgame' className='w-30 text-center font-bold   text-blue-500 hover:underline' >End game</Link>
-          <img className='h-32' src='https://terraria.wiki.gg/images/1/13/Moon_Lord.gif' />
+          <Link to='/melee/MeleeEndgame' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >End game</Link>
         </div>  
       </div>  
     </div>  

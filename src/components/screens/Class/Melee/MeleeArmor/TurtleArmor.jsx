@@ -37,10 +37,10 @@ Crafting this set requires a total of 54 Chlorophyte Bars ( 270 /  324 Chlorophy
               <div className='w-44 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2 text-blue-500 hover:underline' >Mythril Anvil</Link>
+                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200  ' >Mythril Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  text-blue-500 hover:underline' >Orichalcum Anvil</Link>
+                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2    hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvil</Link>
                   </div>
               </div>
           </div>

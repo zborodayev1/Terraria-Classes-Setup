@@ -14,13 +14,13 @@ Its best modifier is Legendary.</h1>
               <div className='w-52 p-2'>
                   <h1 className='' >Result</h1>
                   <div className='flex'>
-                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/2/28/True_Night%27s_Edge.png'/> <h1 className='mt-2 ml-2  font-bold' >Nights Edge</h1>
+                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/2/28/True_Night%27s_Edge.png'/> <h1 className='mt-2 ml-2  font-bold' >True Nights Edge</h1>
                   </div>
               </div>   
               <div className='w-52 p-2'>
                   <h1 className='' >Ingridients</h1>
                   <div className='flex mt-2' >
-                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/9/98/Night%27s_Edge.png'/> <Link to='/meleeWeapons/nightsEdge' className='ml-1 text-sm mt-2 text-blue-500 hover:underline duration-75' >Nights Edge</Link>
+                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/9/98/Night%27s_Edge.png'/> <Link to='/meleeWeapons/nightsEdge' className='ml-1 text-sm mt-2  hover:underline hover:text-blue-500 duration-200 ' >Nights Edge</Link>
                   </div>
                   <div className='flex mt-2' >
                       <img className='' src='https://terraria.wiki.gg/images/8/80/Soul_of_Fright.png'/> <h1  className='ml-1 text-sm ' >Soul of Fright</h1><h1 className='ml-1 text-sm text-white/75'>x20</h1>
@@ -35,10 +35,10 @@ Its best modifier is Legendary.</h1>
               <div className='w-52 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-5 ' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  text-blue-500  ' >Mythril Anvil</Link>
+                      <img className='w-8 h-5 ' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  text-blue-500 ' >Orichalcum Anvilr</Link>
+                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
                   </div>
               </div>
           </div>

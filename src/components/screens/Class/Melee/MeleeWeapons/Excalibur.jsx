@@ -26,10 +26,10 @@ Its best modifier is Legendary.</h1>
               <div className='w-52 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  text-blue-500  ' >Mythril Anvil</Link>
+                      <img className='' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Mythril Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  text-blue-500 ' >Orichalcum Anvilr</Link>
+                      <img className='' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Orichalcum Anvilr</Link>
                   </div>
               </div>
           </div>
