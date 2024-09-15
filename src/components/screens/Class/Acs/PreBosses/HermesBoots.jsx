@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const HermesBoots = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>Hermes Boots</a> are an accessory that can be found in Chests in the Underground and Cavern layers. When equipped, they allow the player to gain a movement speed boost after running for a certain distance continuously. The speed will continue increasing until maximum speed is attained. At full sprint, they will increase the players horizontal movement speed to 30 mph. However, if the player runs into a wall without autojumping, the player will stop and have to speed up again. (See Sprinting accessories for more information on the sprint effect).
+        <h1 className='' ><a className='font-bold'>Hermes Boots</a> are an accessory that can be found in Chests in the Underground and Cavern layers. When equipped, they allow the player to gain a movement speed boost after running for a certain distance continuously. The speed will continue increasing until maximum speed is attained. At full sprint, they will increase the players horizontal movement speed to 30 mph. However, if the player runs into a wall without autojumping, the player will stop and have to speed up again. (See Sprinting accessories for more information on the sprint effect).
 
 The Hermes Boots, Flurry Boots, and the Sailfish Boots have identical functionality, with their only differences being aesthetic. In the case of the Hermes Boots, the user will leave a lasting trail of small dust clouds as they run, which persists for a few seconds. The Dunerider Boots function similarly, but additionally grant an even larger boost on sand.
 

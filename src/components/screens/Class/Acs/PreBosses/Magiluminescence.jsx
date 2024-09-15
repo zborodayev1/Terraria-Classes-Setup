@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const Magiluminescence = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>The Magiluminescence</a> is a pre-Hardmode accessory that increases the players maximum movement speed by 15% and their acceleration and deceleration by 75%. This increase stacks with the bonus of the Hermes Boots and their variants.[1] It also creates an aura of light around the player, which can be useful when exploring underground. The Magiluminescences movement speed buffs are disabled when the player is not grounded.[2]</h1>    
+        <h1 className='' ><a className='font-bold'>The Magiluminescence</a> is a pre-Hardmode accessory that increases the players maximum movement speed by 15% and their acceleration and deceleration by 75%. This increase stacks with the bonus of the Hermes Boots and their variants.[1] It also creates an aura of light around the player, which can be useful when exploring underground. The Magiluminescences movement speed buffs are disabled when the player is not grounded.[2]</h1>    
       <div>
         <div>
           <h1 >Crafting</h1>

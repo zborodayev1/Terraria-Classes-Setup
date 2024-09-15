@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const LightningBoots = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>Lightning Boots</a> are an accessory that have essentially the same functionality as Spectre Boots, but with enhanced running speed. Its visual effects do not differ from the Spectre Boots. They have an 8% movement speed bonus compared to the Spectre Boots.</h1>    
+        <h1 className='' ><a className='font-bold'>Lightning Boots</a> are an accessory that have essentially the same functionality as Spectre Boots, but with enhanced running speed. Its visual effects do not differ from the Spectre Boots. They have an 8% movement speed bonus compared to the Spectre Boots.</h1>    
       <div>
         <div>
           <h1 >Crafting</h1>

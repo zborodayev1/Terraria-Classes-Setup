@@ -5,7 +5,7 @@ import styles from '../../../../css/App.module.scss'
 export const TerrasparkBoots = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>The Terraspark Boots </a>are a pre-Hardmode accessory crafted by combining Frostspark Boots and Lava Waders at a Tinkerers Workshop, providing the benefits of both items. They are the final upgrade of the Hermes/Sailfish/Flurry/Dunerider and Water Walking Boots.</h1>    
+        <h1 className='' ><a className='font-bold'>The Terraspark Boots </a>are a pre-Hardmode accessory crafted by combining Frostspark Boots and Lava Waders at a Tinkerers Workshop, providing the benefits of both items. They are the final upgrade of the Hermes/Sailfish/Flurry/Dunerider and Water Walking Boots.</h1>    
       <div>
         <div>
           <h1 >Crafting</h1>

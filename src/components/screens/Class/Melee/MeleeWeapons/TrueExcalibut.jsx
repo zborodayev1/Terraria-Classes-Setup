@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const TrueExcalibur= () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>The True Excalibur</a> is a Hardmode sword that is a direct upgrade to the Excalibur. It is one of the ingredients necessary to craft the Terra Blade.
+        <h1 className='' ><a className='font-bold'>The True Excalibur</a> is a Hardmode sword that is a direct upgrade to the Excalibur. It is one of the ingredients necessary to craft the Terra Blade.
 
 The True Excalibur possesses a stronger version of the Excaliburs effect, adding an additional pink aura past the existing yellow aura from its predecessor, which both follow along the swords swing arc to increase its effective range. When the sword or its auras strike enemies, a bright pink and yellow flash is created.
 

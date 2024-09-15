@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const FrostsparkBoots = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>The Frostspark Boots</a> are an accessory crafted by combining Lightning Boots and Ice Skates together at a Tinkerers Workshop. It provides the benefits of both. They also have an 8% increased movement speed.
+        <h1 className='' ><a className='font-bold'>The Frostspark Boots</a> are an accessory crafted by combining Lightning Boots and Ice Skates together at a Tinkerers Workshop. It provides the benefits of both. They also have an 8% increased movement speed.
 
 Frostspark Boots display a different particle effect than the Spectre Boots or Lightning Boots: they produce snow clouds similar to those made by the Blizzard in a Bottle.</h1>    
       <div>

@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const TrueNightsEdge = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>The True Nights Edge</a> is a Hardmode sword that is a stronger version of the Nights Edge, doing more damage and firing a projectile when swung. It is one of the ingredients necessary to craft the Terra Blade. The True Nights Edge is capable of autoswing.
+        <h1 className='' ><a className='font-bold'>The True Nights Edge</a> is a Hardmode sword that is a stronger version of the Nights Edge, doing more damage and firing a projectile when swung. It is one of the ingredients necessary to craft the Terra Blade. The True Nights Edge is capable of autoswing.
 
 The sword itself has a large aura of dark energy around the blade when swung, which significantly increases the range at which the weapon can deal damage to enemies, including coverage behind the player. Each time the sword swings, a projectile resembling a spinning disc of energy will be fired. The projectile will move relative to the player, staying on the same course on the screen as the player moves. The projectile deals 50% damage (35 base damage)[1] and strikes up to 3 times. It also applies 10 ticks[2] of immunity frames on the targets it hits, but can still hit a target multiple times (if the target is large enough for the projectiles to still stay on it after 10 ticks).[3] If the blade or its aura strikes an enemy, a purple flash is created. If its projectile strikes an enemy, a green flash is created.
 

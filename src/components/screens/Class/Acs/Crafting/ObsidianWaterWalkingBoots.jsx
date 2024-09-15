@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const ObsidianWaterWalkingBoots = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>Obsidian Water Walking Boots</a> are an immunity accessory which combines the abilities of the Water Walking Boots and the Obsidian Skull. They allow the wearer to walk on water, honey, and shimmer, while also giving immunity to the Burning debuff. They do not allow walking on lava.</h1>    
+        <h1 className='' ><a className='font-bold'>Obsidian Water Walking Boots</a> are an immunity accessory which combines the abilities of the Water Walking Boots and the Obsidian Skull. They allow the wearer to walk on water, honey, and shimmer, while also giving immunity to the Burning debuff. They do not allow walking on lava.</h1>    
       <div>
         <div>
           <h1 >Crafting</h1>

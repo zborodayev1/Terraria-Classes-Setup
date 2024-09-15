@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const SpectreBoots = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>Spectre Boots</a> are an accessory crafted from Rocket Boots and either Flurry Boots, Hermes Boots, Dunerider Boots, or Sailfish Boots, and combine their functionality. During flight, they emit a white/blue cloud trail, but unlike the Rocket Boots, they do not produce any light. Their flight time is about 1.6 seconds, identical to Rocket Boots.
+        <h1 className='' ><a className='font-bold'>Spectre Boots</a> are an accessory crafted from Rocket Boots and either Flurry Boots, Hermes Boots, Dunerider Boots, or Sailfish Boots, and combine their functionality. During flight, they emit a white/blue cloud trail, but unlike the Rocket Boots, they do not produce any light. Their flight time is about 1.6 seconds, identical to Rocket Boots.
 
 The effects of Spectre and Rocket Boots do not stack, though they do stack with Wings to increase flight time.</h1>    
       <div>

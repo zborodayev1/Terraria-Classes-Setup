@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const Excalibur = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>The Excalibur</a> is a Hardmode sword which is capable of autoswing and can be crafted with Hallowed Bars. When swung, it emits yellow light particles typical of the Hallowed theme. It can be upgraded into the True Excalibur.
+        <h1 className='' ><a className='font-bold'>The Excalibur</a> is a Hardmode sword which is capable of autoswing and can be crafted with Hallowed Bars. When swung, it emits yellow light particles typical of the Hallowed theme. It can be upgraded into the True Excalibur.
 
 On the Desktop version Desktop version, Console version Console version, and Mobile version Mobile version, the sword has a large aura of bright yellow energy around the blade when swung, which significantly increases the range at which the weapon can deal damage to enemies, including coverage behind the player. If an enemy is struck by the blade or its aura, a yellow flash is created.
 

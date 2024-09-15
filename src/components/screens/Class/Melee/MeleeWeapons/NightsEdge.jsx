@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const NightsEdge = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>The Nights Edge</a> is a pre-Hardmode, post-Skeletron sword. When swung, it emits fire-like purple particles, similar to the swords used in crafting it, but the effect is more subtle and does not last as long. It is notable for having, on par with Volcano, the highest base damage of a sword available before entering Hardmode.
+        <h1 className='' ><a className='font-bold'>The Nights Edge</a> is a pre-Hardmode, post-Skeletron sword. When swung, it emits fire-like purple particles, similar to the swords used in crafting it, but the effect is more subtle and does not last as long. It is notable for having, on par with Volcano, the highest base damage of a sword available before entering Hardmode.
 
 A purple aura comes off of the Nights Edge when swung, following the swing and increasing the range at which it can hit enemies. The aura also swings around a second time on its own, further increasing range and even covering behind the player. This aura can break Pots through walls, but cannot damage enemies there. If the blade or its aura strikes an enemy, a purple flash is created. The Nights Edge is also capable of autoswing.
 

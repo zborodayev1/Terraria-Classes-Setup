@@ -4,7 +4,7 @@ import styles from '../../../../css/App.module.scss'
 export const RocketBoots = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>Rocket Boots</a> are an accessory that allows a player to fly for a period of around 1.6 seconds (100 game frames). They require a jump from midair to activate (a double-jump, or a jump while falling). During flight, they emit a jet animation that produces a good deal of light. Rocket Boots are purchased from the Goblin Tinkerer for 5.
+        <h1 className='' ><a className='font-bold'>Rocket Boots</a> are an accessory that allows a player to fly for a period of around 1.6 seconds (100 game frames). They require a jump from midair to activate (a double-jump, or a jump while falling). During flight, they emit a jet animation that produces a good deal of light. Rocket Boots are purchased from the Goblin Tinkerer for 5.
 
 Flight time is reset immediately when the player lands on any solid object, or latches onto a surface with a Hook (even if the grapple is released early).
 

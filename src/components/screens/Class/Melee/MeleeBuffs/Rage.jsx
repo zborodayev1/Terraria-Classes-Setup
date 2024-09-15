@@ -5,7 +5,7 @@ import styles from '../../../../css/App.module.scss'
 export const Rage = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>The Rage Potion</a> is a buff potion which grants the Rage buff when consumed. The buff increases the players critical strike chance by 10%. This lasts for 4 minutes</h1>    
+        <h1 className='' ><a className='font-bold'>The Rage Potion</a> is a buff potion which grants the Rage buff when consumed. The buff increases the players critical strike chance by 10%. This lasts for 4 minutes</h1>    
       <div className=''>
         <div className=' w-96'>
           <h1 className='' >Crafting</h1>

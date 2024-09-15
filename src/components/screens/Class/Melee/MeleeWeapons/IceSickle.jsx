@@ -4,7 +4,7 @@ export const IceSickle = () => {
   return (
     <div className={styles.main} >
       <div>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' >The Ice Sickle is a Hardmode sword that fires a spinning blue sickle projectile with no ammunition or mana cost. The projectile will gradually reduce speed and eventually stop in midair, exist up to 5 seconds before disappearing, and pierce a limited number of targets. The Ice Sickle can be dropped by Armored Vikings, Ice Elementals, Ice Tortoises, and Icy Mermen, which spawn in the Snow and Ice biomes.</h1>
+        <h1 className='' >The Ice Sickle is a Hardmode sword that fires a spinning blue sickle projectile with no ammunition or mana cost. The projectile will gradually reduce speed and eventually stop in midair, exist up to 5 seconds before disappearing, and pierce a limited number of targets. The Ice Sickle can be dropped by Armored Vikings, Ice Elementals, Ice Tortoises, and Icy Mermen, which spawn in the Snow and Ice biomes.</h1>
       </div>
       <div className='mt-2' >
         <h1 className='font-bold'>Obtained from</h1>

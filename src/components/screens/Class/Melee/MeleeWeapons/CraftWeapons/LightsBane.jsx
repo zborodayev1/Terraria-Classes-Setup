@@ -4,7 +4,7 @@ import styles from '../../../../../css/App.module.scss'
 export const LightsBane = () => {
   return (
     <div className={styles.main}>
-        <h1 className='bg-forWiki-bgBrown p-2 roundet-md' ><a className='font-bold'>Lights Bane </a>it creates a short-lived slash of darkness near the tip of the sword each time it is swung. The slashes have 5 armor penetration,[1] and will automatically target enemies within a radius of 3.125 tiles. There are two types of slashes: default small slashes, and random big slashes. Small slashes deal 50% base damage (8 base damage), while big slashes deal 100% base damage (16 base damage). The chance of big slashes occurring equals to the players melee critical strike chance.[2]
+        <h1 className='' ><a className='font-bold'>Lights Bane </a>it creates a short-lived slash of darkness near the tip of the sword each time it is swung. The slashes have 5 armor penetration,[1] and will automatically target enemies within a radius of 3.125 tiles. There are two types of slashes: default small slashes, and random big slashes. Small slashes deal 50% base damage (8 base damage), while big slashes deal 100% base damage (16 base damage). The chance of big slashes occurring equals to the players melee critical strike chance.[2]
 
 The Lights Banes Crimson counterpart is the Blood Butcherer, which is stronger and larger but also much slower, and it is one of the key ingredients in crafting the Nights Edge.
 
