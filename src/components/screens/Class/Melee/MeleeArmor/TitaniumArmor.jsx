@@ -4,7 +4,20 @@ import styles from '../../../../css/App.module.scss'
 export const TitaniumArmor = () => {
   return (
     <div className={styles.main}>
-        <h1 className=' p-2 roundet-md' ><a className='font-bold'>Titanium armor </a>is a Hardmode armor set crafted from Titanium Bars, and is the alternative to Adamantite armor. Like many Hardmode armors, it has three different headgear/helmet options, allowing the player to focus on magical, melee, or ranged combat. Crafting a one-helmet set requires 59 Titanium Bars, made from  236 /  295 Titanium Ore. Crafting all five pieces requires 85 Titanium Bars or  340 /  425 Titanium Ore.</h1>    
+        <h1 className=' p-2 roundet-md' ><a className='font-bold'>Titanium armor </a>is a Hardmode armor set crafted from Titanium Bars, and is the alternative to Adamantite armor. Like many Hardmode armors, it has three different headgear/helmet options, allowing the player to focus on magical, melee, or ranged combat. Crafting a one-helmet set requires 59 Titanium Bars, made from  236 /  295 Titanium Ore. Crafting all five pieces requires 85 Titanium Bars or  340 /  425 Titanium Ore.</h1>  
+        {/* bufs */}
+      <div>
+        <h1 className='font-bold mt-3'>The stat bonuses are:</h1>
+        <div className='ml-3'>
+            <h1>+10% melee speed</h1>
+            <h1>+10% damage (all types)</h1>
+            <h1>+2% critical strike chance</h1>
+            <h1>+1 HP/s health regeneration</h1>
+            <h1>+4 defense</h1>
+            <h1>+15% mining speed</h1>
+            <h1>+0.5 minion knockback</h1>
+        </div>
+      </div>  
       <div className=''>
         <div className=''>
           <h1 className='' >Crafting</h1>

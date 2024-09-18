@@ -18,6 +18,7 @@ export const MeleeMain = () => {
       </div>
       <div className='flex justify-center'>
           <h1 className='text-2xl'>Guide</h1>
+          <div className='bg-red-600 w-4 h-6 mt-1 ml-2'></div>
       </div>
       <div className='flex justify-between border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3 '>
         <div >
@@ -39,7 +40,7 @@ export const MeleeMain = () => {
           <Link to='/melee/MeleePreLunarEvents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
         </div>
         <div>
-          <Link to='/melee/MeleeEndgame' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >End game</Link>
+          <Link to='/melee/MeleePreMoonLord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
         </div>  
       </div>  
     </div>  

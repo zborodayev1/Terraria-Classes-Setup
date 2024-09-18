@@ -3,14 +3,20 @@ import styles from '../../../../css/App.module.scss'
 export const BerserkerGlove = () => {
   return (
     <div className={styles.main}>
-        <h1 className='p-2 roundet-md' ><a className='font-bold'>The Berserkers Glove</a> is a Hardmode accessory crafted from the Power Glove and Flesh Knuckles, granting the abilities of both. It grants the following:
+        <h1 className='p-2 roundet-md' ><a className='font-bold'>The Berserkers Glove</a> is a Hardmode accessory crafted from the Power Glove and Flesh Knuckles, granting the abilities of both. It grants the following:</h1>
+{/* bufs */}
+<div className='mb-3'>
+        <h1 className='font-bold mt-3'>The stat bonuses are:</h1>
+        <div className='ml-3'>
+            <h1>+8 defense</h1>
+            <h1>+12% increased melee speed</h1>
+            <h1>+100% increased melee knockback</h1>
+            <h1>+10% increased melee weapon size</h1>
+            <h1>+400 aggro</h1>
+            <h1>Autoswing for melee weapons and whips</h1>
+        </div>
+      </div>
 
-+8 defense
-+12% increased melee speed
-+100% increased melee knockback
-+10% increased melee weapon size
-+400 aggro
-Autoswing for melee weapons and whips</h1>
 <div className=' w-96'>
           <h1 >Crafting</h1>
           <div className='flex'>

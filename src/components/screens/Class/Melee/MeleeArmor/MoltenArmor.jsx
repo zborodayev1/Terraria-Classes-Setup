@@ -4,17 +4,20 @@ import styles from '../../../../css/App.module.scss'
 export const MoltenArmor = () => {
   return (
     <div className={styles.main}>
-        <h1 className=' p-2 roundet-md' ><a className='font-bold'>Molten armor </a>is an armor set consisting of the Molten Helmet, Molten Breastplate, and Molten Greaves. It has the highest defense of any pre-Hardmode armor set.
-
-A full set of Molten armor provides the following benefits:
-
-+25 defense
-+17% melee damage
- +7% melee speed
- +7% melee critical strike chance
- Immunity to the On Fire! debuff
-If the full set is visible, it will leave a fire trail similar to that of the Meteor armor.
-It takes a total of 45 Hellstone Bars to craft a full set of Molten armor, or 135 Hellstone and 45 Obsidian.</h1>    
+        <h1 className=' p-2 roundet-md' ><a className='font-bold'>Molten armor </a>is an armor set consisting of the Molten Helmet, Molten Breastplate, and Molten Greaves. It has the highest defense of any pre-Hardmode armor set.</h1>   
+{/* bufs */}
+<div>
+        <h1 className='font-bold mt-3'>The stat bonuses are:</h1>
+        <div className='ml-3'>
+            <h1>+25 defense</h1>
+            <h1>+17% melee damage</h1>
+            <h1>+7% melee speed</h1>
+            <h1>+7% melee critical strike chance</h1>
+            <h1>+4 defense</h1>
+            <h1>+15% mining speed</h1>
+            <h1>+0.5 minion knockback</h1>
+        </div>
+      </div> 
       <div className=''>
         <div className=''>
           <h1 className='' >Crafting</h1>

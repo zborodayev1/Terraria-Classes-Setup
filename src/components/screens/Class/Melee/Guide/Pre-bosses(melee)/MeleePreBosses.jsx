@@ -8,7 +8,10 @@ export const MeleePreBosses = () => {
     <div className={styles.main}>
         <div className="flex ml-3">
             <div>
-              <h1 className='text-xl my-2'>Pre Bosses</h1>
+             <div className='flex'>
+                  <h1 className='text-xl my-2'>Pre Bosses</h1>
+                  <div className='bg-red-600 w-4 h-6 ml-2 mt-3'></div>
+                </div>  
               <div>
                 <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] '>
                   <h1 className='mb-2 font-bold' >Weapons:</h1>

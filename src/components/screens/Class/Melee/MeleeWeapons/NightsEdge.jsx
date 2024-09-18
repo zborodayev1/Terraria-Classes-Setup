@@ -37,10 +37,10 @@ Its best modifier is Legendary.</h1>
               <div className='w-52 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-12 h-8 ' src='https://terraria.wiki.gg/images/f/f8/Demon_Altar.png'/> <h1 className='text-base ml-2   hover:underline hover:text-blue-500 duration-200 ' >Demon altar</h1>
+                      <img className='w-12 h-8 ' src='https://terraria.wiki.gg/images/f/f8/Demon_Altar.png'/> <h1 className='text-base ml-2 ' >Demon altar</h1>
                   </div>
                   <div className='flex' >
-                      <img className='w-12 h-8' src='https://terraria.wiki.gg/images/7/70/Crimson_Altar.png'/> <h1 className='text-base ml-2   hover:underline hover:text-blue-500 duration-200 ' >Crimson Altar</h1>
+                      <img className='w-12 h-8' src='https://terraria.wiki.gg/images/7/70/Crimson_Altar.png'/> <h1 className='text-base ml-2 ' >Crimson Altar</h1>
                   </div>
               </div>
           </div>

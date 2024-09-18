@@ -5,7 +5,14 @@ export const AvangerEmblem = () => {
   return (
     <div className={styles.main}>
       <div className=' p-2 roundet-md'>
-        <h1>The Warrior Emblem is a Hardmode accessory that increases melee damage by 15%. It has a 1/4 (25%) chance to drop from the Wall of Flesh.</h1>
+        <h1>The Avenger Emblem is a Hardmode accessory that grants 12% increased damage to all weapons.</h1>
+        {/* bufs */}
+      <div>
+        <h1 className='font-bold mt-3'>The stat bonuses are:</h1>
+        <div className='ml-3'>
+            <h1>+12% increased damage to all weapons.</h1>
+        </div>
+      </div>
         <div className='flex'>
               <div className='w-52 p-2'>
                   <h1 className='' >Result</h1>
@@ -16,7 +23,7 @@ export const AvangerEmblem = () => {
               <div className='w-52 p-2'>
                   <h1 className='' >Ingridients</h1>
                   <div className='flex mt-2' >
-                      <img className='' src='https://terraria.wiki.gg/images/d/d7/Warrior_Emblem.png'/> <Link to='/mmeleeAcs/warriorEmblem' className='ml-1 text-sm mt-2  hover:underline hover:text-blue-500 duration-200 ' >Warrior Emblem</Link>
+                      <img className='' src='https://terraria.wiki.gg/images/d/d7/Warrior_Emblem.png'/> <Link to='/meleeAcs/warriorEmblem' className='ml-1 text-sm mt-2  hover:underline hover:text-blue-500 duration-200 ' >Warrior Emblem</Link>
                   </div>
                   <div className='flex mt-2' >
                       <img className='' src='https://terraria.wiki.gg/images/8/80/Soul_of_Fright.png'/> <h1  className='ml-1 text-sm ' >Soul of Fright</h1><h1 className='ml-1 text-sm text-white/75'>x20</h1>
@@ -31,10 +38,7 @@ export const AvangerEmblem = () => {
               <div className='w-52 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-5 ' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
-                  </div>
-                  <div className='flex' >
-                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
+                      <img className='' src='https://terraria.wiki.gg/images/1/17/Tinkerer%27s_Workshop.png'/> <h1 className='text-base ml-2 ' >Tinkerer Workshop</h1>
                   </div>
               </div>
           </div>

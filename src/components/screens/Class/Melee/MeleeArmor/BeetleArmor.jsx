@@ -10,7 +10,7 @@ The set consists of the Beetle Helmet and Beetle Leggings, as well as two differ
 
 Crafting the full set while wearing either the Beetle Scale Mail or Beetle Shell grants a different set bonus: wearing the Beetle Scale Mail enhances damage output and grants the Beetle Might buff, whereas the Beetle Shell provides more defense and can grant the Beetle Endurance buff.
 
-Crafting the full set with one chest piece requires 18 Beetle Husks and a full set of Turtle armor (54 Chlorophyte Bars (or  270 /  324 pieces of Chlorophyte Ore), and 3 Turtle Shells). Crafting all four pieces from scratch requires 26 Beetle Husks, 78 Chlorophyte Bars (or  390 /  468 pieces of Chlorophyte Ore), and 4 Turtle Shells.</h1>    
+<a className='font-bold underline'>Crafting the full set with one chest piece requires 18 Beetle Husks and a full set of Turtle armor (54 Chlorophyte Bars (or  270 /  324 pieces of Chlorophyte Ore), and 3 Turtle Shells). Crafting all four pieces from scratch requires 26 Beetle Husks, 78 Chlorophyte Bars (or  390 /  468 pieces of Chlorophyte Ore), and 4 Turtle Shells.</a></h1>    
       <div className='flex'>
         <div className=''>
           <h1 className='font-bold' >Crafting</h1>
@@ -89,20 +89,24 @@ Crafting the full set with one chest piece requires 18 Beetle Husks and a full s
                 <h1 className='font-bold'>Notes</h1>
             </div>
             <div>
-                <h1 className='flex'>With <img className='h-6 w-7' src='https://terraria.wiki.gg/images/6/64/Beetle_Scale_Mail.png'/> Beetle Scale MailBeetle Scale Mail:
-+61 defense
-+8% melee critical hit chance
-+14% melee damage
-+12% melee speed
-+12% movement speed
-+500 aggro, with the Helmet and Leggings both adding 250.</h1>
-                <h1 className='mt-3 flex'>With <img className='h-6 w-7' src='https://terraria.wiki.gg/images/a/a2/Beetle_Shell.png'/>  Beetle ShellBeetle Shell:
-+73 defense
-+5% melee critical hit chance
-+11% melee damage
-+6% melee speed
-+6% movement speed
-+900 aggro, with the Helmet, Shell, and Leggings adding 250, 400, and 250, respectively.</h1>
+                <h1 className='flex'>With <img className='h-6 w-7' src='https://terraria.wiki.gg/images/6/64/Beetle_Scale_Mail.png'/> Beetle ScaleMail:</h1>
+        <div className='ml-3'>
+            <h1>+61 defense</h1>
+            <h1>+8% melee critical hit chance</h1>
+            <h1>+14% melee damage</h1>
+            <h1>+12% melee speed</h1>
+            <h1>+12% movement speed</h1>
+            <h1>+500 aggro, with the Helmet and Leggings both adding 250.</h1>
+        </div>
+                <h1 className='mt-3 flex'>With <img className='h-6 w-7' src='https://terraria.wiki.gg/images/a/a2/Beetle_Shell.png'/>  Beetle Shell:</h1>
+          <div className='ml-3'>
+            <h1>+73 defense</h1>
+            <h1>+5% melee critical hit chance</h1>
+            <h1>+11% melee damage</h1>
+            <h1>+6% melee speed</h1>
+            <h1>+6% movement speed</h1>
+            <h1>+900 aggro, with the Helmet, Shell, and Leggings adding 250, 400, and 250, respectively.</h1>
+        </div>
             </div>
         </div>
       </div>

@@ -8,9 +8,10 @@ export const MeleePreHardMode = () => {
     <div className={styles.main}>
         <div className='ml-3 flex'>
           <div>
-            <div>
-              <h1 className='text-xl my-2 '>Pre Hardmode</h1>
-            </div>  
+          <div className='flex'>
+                  <h1 className='text-xl my-2'>Pre Hard Mode</h1>
+                  <div className='bg-red-600 w-4 h-6 ml-2 mt-3'></div>
+                </div>  
             <div className='ml-2 w-72'>
               <div className='border border-gray-600 rounded-lg p-3  bg-[#101017] '> 
                 <h1 className="font-bold">Weapons:</h1>
