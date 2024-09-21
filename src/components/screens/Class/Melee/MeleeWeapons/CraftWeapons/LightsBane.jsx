@@ -63,7 +63,7 @@ Its best modifier is Legendary.</h1>
                       <img className='w-16 h-16' src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link to='/meleeWeapons/bladeofgrass' className='  hover:underline hover:text-blue-500 duration-200 ' >Blade of Grass</Link>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/c/cf/Volcano.png'/> <Link className='ml-2 text-sm   hover:underline hover:text-blue-500 duration-200 ' >Volcano</Link>
+                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/c/cf/Volcano.png'/> <Link to='/meleeWeapons/volcano' className='ml-2 text-sm   hover:underline hover:text-blue-500 duration-200 ' >Volcano</Link>
                   </div>
               </div>
               <div className='w-52 p-2'>
