@@ -9,7 +9,7 @@ export const PreMechBossesAcs = () => {
                     <h1 className="font-bold" >Mixed Accessories:</h1>
                     <div className='p-2' > 
                       <div className='flex mt-2'>
-                         <img src='https://terraria.wiki.gg/images/5/54/Shield_of_Cthulhu.png'/> <Link to='/acs/ShieldOfCthulhu' className='ml-1 hover:underline hover:text-blue-500 duration-200 text-sm ' >Shield of Cthulhu</Link>
+                         <img src='https://terraria.wiki.gg/images/5/54/Shield_of_Cthulhu.png'/> <Link to='/acs/ShieldOfCthulhu' className='ml-1 hover:underline hover:text-blue-500 duration-200 ' >Shield of Cthulhu</Link>
                       </div>
                       <div className='flex mt-2'>
                         <img  src='https://terraria.wiki.gg/images/2/2c/Lightning_Boots.png' /> <Link className='h-6 hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/LightningBoots'}>Lightning Boots</Link>
