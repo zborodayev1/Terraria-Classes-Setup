@@ -74,6 +74,7 @@ import { MoonShell } from "../screens/Class/Acs/PreLunarEvents/MoonShell"
 import { DestroyerEmblem } from "../screens/Class/Acs/PreLunarEvents/DestroyerEmblem"
 import { SolarEruption } from "../screens/Class/Melee/MeleeWeapons/SolarEruption"
 import { Daybreak } from "../screens/Class/Melee/MeleeWeapons/Daybreak"
+import { Test } from "../../tests/Test"
 
 export const Router = () => {
   return (
@@ -82,6 +83,7 @@ export const Router = () => {
             <Route element={<Home/>} path="/" />
             <Route element={<ErrorNotFound/>} path="*" />
             <Route element={<Classes/>} path="/class" />
+            <Route element={<Test/>} path="/test"/>
 
             {/* clases */}
             <Route element={<MeleeMain/>} path="/melee"/>
