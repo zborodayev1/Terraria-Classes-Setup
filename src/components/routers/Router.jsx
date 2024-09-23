@@ -4,7 +4,6 @@ import { ErrorNotFound } from "../../assets/Errors/ErrorNotFound"
 import { Classes } from "../screens/ClassesMain"
 import { MeleeMain } from '../screens/Class/Melee/MeleeMain'
 import { Mage } from '../screens/Class/Mage/Mage'
-import { Ranged } from '../screens/Class/Ranged/Ranged'
 import { Summoner } from '../screens/Class/Summoner/Summoner'
 import { Starfury } from "../screens/Class/Melee/MeleeWeapons/Starfury"
 import { BladeOfGrass } from '../screens/Class/Melee/MeleeWeapons/BladeOfGrass'
@@ -34,13 +33,13 @@ import { Muramasa } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/Muram
 import { LightsBane } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/LightsBane'
 import { Volcano } from '../screens/Class/Melee/MeleeWeapons/CraftWeapons/Volcano'
 import { TrueNightsEdge } from "../screens/Class/Melee/MeleeWeapons/TrueNightsEdge"
-import { MeleePreBosses } from "../screens/Class/Melee/Guide/Pre-bosses(melee)/MeleePreBosses"
-import { MeleePreHardMode } from "../screens/Class/Melee/Guide/Pre-hardmode(melee)/MeleePreHardMode"
-import { MeleePreMechBosses } from "../screens/Class/Melee/Guide/Pre-MechBosses(melee)/MeleePreMechBosses"
-import { MeleePrePlantera } from "../screens/Class/Melee/Guide/Pre-plantera(melee)/MeleePrePlantera"
-import { MeleePreGolem } from "../screens/Class/Melee/Guide/Pre-Golem(melee)/MeleePreGolem"
-import { MeleePreLunarEvents } from "../screens/Class/Melee/Guide/Pre-LunarEvents(melee)/MeleePreLunarEvents"
-import { MeleePreMoonLord } from '../screens/Class/Melee/Guide/Pre-Moon-Lord/MeleePreMoonLord'
+import { MeleePreBosses } from "../screens/Class/Melee/GuideMelee/Pre-bosses(melee)/MeleePreBosses"
+import { MeleePreHardMode } from "../screens/Class/Melee/GuideMelee/Pre-hardmode(melee)/MeleePreHardMode"
+import { MeleePreMechBosses } from "../screens/Class/Melee/GuideMelee/Pre-MechBosses(melee)/MeleePreMechBosses"
+import { MeleePrePlantera } from "../screens/Class/Melee/GuideMelee/Pre-plantera(melee)/MeleePrePlantera"
+import { MeleePreGolem } from "../screens/Class/Melee/GuideMelee/Pre-Golem(melee)/MeleePreGolem"
+import { MeleePreLunarEvents } from "../screens/Class/Melee/GuideMelee/Pre-LunarEvents(melee)/MeleePreLunarEvents"
+import { MeleePreMoonLord } from '../screens/Class/Melee/GuideMelee/Pre-Moon-Lord(melee)/MeleePreMoonLord'
 import { Excalibur } from "../screens/Class/Melee/MeleeWeapons/Excalibur"
 import { TurtleArmor } from "../screens/Class/Melee/MeleeArmor/TurtleArmor"
 import { FireGauntlet } from "../screens/Class/Melee/MeleeAcs/FireGauntlet"
@@ -75,6 +74,10 @@ import { DestroyerEmblem } from "../screens/Class/Acs/PreLunarEvents/DestroyerEm
 import { SolarEruption } from "../screens/Class/Melee/MeleeWeapons/SolarEruption"
 import { Daybreak } from "../screens/Class/Melee/MeleeWeapons/Daybreak"
 import { Test } from "../../tests/Test"
+import { RangedMain } from "../screens/Class/Ranged/RangedMain"
+import { RangedPreBosses } from "../screens/Class/Ranged/GuideRanged/Pre-bosses(ranged)/RangedPreBosses"
+import { RangedPreHardMode } from "../screens/Class/Ranged/GuideRanged/Pre-hardmode(ranged)/RangedPreHardMode"
+import { RangedPreMechBosses } from "../screens/Class/Ranged/GuideRanged/Pre-mechbosses(ranged)/RangedPreMechBosses"
 
 export const Router = () => {
   return (
@@ -88,7 +91,7 @@ export const Router = () => {
             {/* clases */}
             <Route element={<MeleeMain/>} path="/melee"/>
             <Route element={<Mage/>} path="/mage"/>
-            <Route element={<Ranged/>} path="/ranged"/>
+            <Route element={<RangedMain/>} path="/ranged"/>
             <Route element={<Summoner/>} path="/summoner"/>
 
             {/* melee */}
@@ -123,16 +126,14 @@ export const Router = () => {
             <Route element={<Daybreak/>} path="/acs/Daybreak"/>
             
             {/* ranger */}
-
-            {/* Wiki */}
-            <Route element={<HardModeAnvils/>} path="/wiki/items/hardModeAnvils"/>
-            <Route element={<Jungle_Spores/>} path="/wiki/items/jungle_Spore"/>
-            <Route element={<Stingers/>} path="/wiki/items/stinger"/>
-            <Route element={<Vine/>} path="/wiki/items/vine"/>
-            <Route element={<PreHardModeAnvils/>} path="/wiki/preHardMode/preHardModeAnvils"/>
-            <Route element={<IronBar/>} path="/wiki/preHardMode/ironBar"/>
-            <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>
-
+            
+            <Route element={<RangedPreBosses/>} path="/ranged/RangedPreBosses"/>
+            <Route element={<RangedPreHardMode/>} path="/ranged/RangedPreHardMode"/>
+            <Route element={<RangedPreMechBosses/>} path="/ranged/RangedPreMechBosses"/>
+            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
+            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
+            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
+            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
             {/* melee stages */}
             <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
             <Route element={<MeleePreHardMode/>} path="/melee/MeleePreHardMode"/>
@@ -141,6 +142,8 @@ export const Router = () => {
             <Route element={<MeleePreGolem/>} path="/melee/MeleePreGolem"/>
             <Route element={<MeleePreLunarEvents/>} path="/melee/MeleePreLunarEvents"/>
             <Route element={<MeleePreMoonLord/>} path="/melee/MeleePreMoonLord"/>
+
+            
 
             {/* acs */}
             <Route element={<HermesBoots/>} path="/acs/HermesBoots"/>
@@ -168,6 +171,16 @@ export const Router = () => {
             <Route element={<CelestialShell/>} path="/acs/CelestialShell"/>
             <Route element={<MoonShell/>} path="/acs/MoonShell"/>
             <Route element={<DestroyerEmblem/>} path="/acs/DestroyerEmblem"/>
+
+
+            {/* Wiki */}
+            <Route element={<HardModeAnvils/>} path="/wiki/items/hardModeAnvils"/>
+            <Route element={<Jungle_Spores/>} path="/wiki/items/jungle_Spore"/>
+            <Route element={<Stingers/>} path="/wiki/items/stinger"/>
+            <Route element={<Vine/>} path="/wiki/items/vine"/>
+            <Route element={<PreHardModeAnvils/>} path="/wiki/preHardMode/preHardModeAnvils"/>
+            <Route element={<IronBar/>} path="/wiki/preHardMode/ironBar"/>
+            <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>
 
             {/* <Route element={} path=""/> */}
         </Routes>

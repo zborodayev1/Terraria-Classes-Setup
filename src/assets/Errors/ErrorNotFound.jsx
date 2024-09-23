@@ -1,5 +1,3 @@
-
-
 export const ErrorNotFound = () => {
   return (
     <div>
