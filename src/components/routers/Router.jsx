@@ -78,6 +78,10 @@ import { RangedMain } from "../screens/Class/Ranged/RangedMain"
 import { RangedPreBosses } from "../screens/Class/Ranged/GuideRanged/Pre-bosses(ranged)/RangedPreBosses"
 import { RangedPreHardMode } from "../screens/Class/Ranged/GuideRanged/Pre-hardmode(ranged)/RangedPreHardMode"
 import { RangedPreMechBosses } from "../screens/Class/Ranged/GuideRanged/Pre-mechbosses(ranged)/RangedPreMechBosses"
+import { RangedreGolem } from "../screens/Class/Ranged/GuideRanged/Pre-golem(ranged)/RangedPreGolem"
+import { RangedPrePlantera } from "../screens/Class/Ranged/GuideRanged/Pre-plantera(ranged)/RangedPrePlantera"
+import { RangedPreLunarEvents } from "../screens/Class/Ranged/GuideRanged/Pre-lunarevents(ranged)/RangedPreLunarEvents"
+import { RangedPreMoonLord } from "../screens/Class/Ranged/GuideRanged/Pre-moonlord(ranged)/RangedPreMoonLord"
 
 export const Router = () => {
   return (
@@ -88,11 +92,13 @@ export const Router = () => {
             <Route element={<Classes/>} path="/class" />
             <Route element={<Test/>} path="/test"/>
 
+
             {/* clases */}
             <Route element={<MeleeMain/>} path="/melee"/>
             <Route element={<Mage/>} path="/mage"/>
             <Route element={<RangedMain/>} path="/ranged"/>
             <Route element={<Summoner/>} path="/summoner"/>
+
 
             {/* melee */}
             <Route element={<Starfury/>} path="/meleeWeapons/starfury"/>
@@ -124,16 +130,8 @@ export const Router = () => {
             <Route element={<BeetleArmor/>} path="/meleeArmor/BeetleArmor"/>
             <Route element={<SolarEruption/>} path="/acs/SolarEruption"/>
             <Route element={<Daybreak/>} path="/acs/Daybreak"/>
-            
-            {/* ranger */}
-            
-            <Route element={<RangedPreBosses/>} path="/ranged/RangedPreBosses"/>
-            <Route element={<RangedPreHardMode/>} path="/ranged/RangedPreHardMode"/>
-            <Route element={<RangedPreMechBosses/>} path="/ranged/RangedPreMechBosses"/>
-            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
-            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
-            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
-            <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
+
+
             {/* melee stages */}
             <Route element={<MeleePreBosses/>} path="/melee/MeleePreBosses"/>
             <Route element={<MeleePreHardMode/>} path="/melee/MeleePreHardMode"/>
@@ -144,7 +142,16 @@ export const Router = () => {
             <Route element={<MeleePreMoonLord/>} path="/melee/MeleePreMoonLord"/>
 
             
+            {/* ranger stages */}
+            <Route element={<RangedPreBosses/>} path="/ranged/RangedPreBosses"/>
+            <Route element={<RangedPreHardMode/>} path="/ranged/RangedPreHardMode"/>
+            <Route element={<RangedPreMechBosses/>} path="/ranged/RangedPreMechBosses"/>
+            <Route element={<RangedPrePlantera/>} path="/ranged/RangedPrePlantera"/>
+            <Route element={<RangedreGolem/>} path="/ranged/RangedreGolem"/>
+            <Route element={<RangedPreLunarEvents/>} path="/ranged/RangedPreLunarEvents"/>
+            <Route element={<RangedPreMoonLord/>} path="/ranged/RangedPreMoonLord"/>
 
+        
             {/* acs */}
             <Route element={<HermesBoots/>} path="/acs/HermesBoots"/>
             <Route element={<RocketBoots/>} path="/acs/RocketBoots"/>
@@ -181,6 +188,7 @@ export const Router = () => {
             <Route element={<PreHardModeAnvils/>} path="/wiki/preHardMode/preHardModeAnvils"/>
             <Route element={<IronBar/>} path="/wiki/preHardMode/ironBar"/>
             <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>
+
 
             {/* <Route element={} path=""/> */}
         </Routes>
