@@ -20,7 +20,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <Link to='/test'>test</Link>
+      {/* <Link to='/test'>test</Link> */}
     </>
   );
 };
