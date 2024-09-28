@@ -2,29 +2,29 @@ import { Link } from 'react-router-dom'
 import styles from '../../../../../css/App.module.scss'
 import { PreMechBossesAcs } from '../../../Acs/PreMechBosses/PreMechBossesAcs'
 
-export const RangedPreMechBosses = () => {
+export const SumPreMechBosses = () => {
   return (
     <div className={styles.main} >
         <div className='ml-3 '>  
             <div className='flex'>
                   <h1 className='text-xl my-2'>Pre-Mech Bosses</h1>
-                  <div className='bg-[#5aceb5] w-4 h-6 ml-2 mt-3'></div>
+                  <div className='bg-[#004cc6] w-4 h-6 ml-2 mt-3'></div>
             </div>  
             <div className='flex'>
               <div className='ml-2'>
                 <div className='border border-gray-600 rounded-lg p-3 bg-[#101017]  mt-3'>
                   <h1 className='font-bold'>Weapons:</h1>
                   <div className='flex'>
-                    <img className='' src='https://terraria.wiki.gg/images/b/b0/Daedalus_Stormbow.png'/> <Link className='h-6 mt-2' to={'/ranged/DaedalusStormbow'}><h1 className=' mt-3 hover:underline hover:text-blue-500 duration-200 ml-2'>Daedalus Stormbow</h1></Link>
+                    <img className='' src='https://terraria.wiki.gg/images/c/cd/Cool_Whip.png'/> <Link to={'/sum/CoolWhip'}><h1 className=' mt-3 hover:underline hover:text-blue-500 duration-200 ml-2'>Cool Whip</h1></Link>
                   </div>
-                  <div className='flex mt-2'>
-                    <img className='h-6' src='https://terraria.wiki.gg/images/6/6b/Onyx_Blaster.png'/> <Link className='' to={'/ranged/OnyxBlaster'}><h1 className=' hover:underline hover:text-blue-500 duration-200 ml-2'>Onyx Blaster </h1></Link>
+                  <div className='flex mt-3'>
+                    <img className='' src='https://terraria.wiki.gg/images/6/65/Spider_Staff.png'/> <Link to={'/sum/SpiderStaff'}><h1 className=' mt-3 hover:underline hover:text-blue-500 duration-200 ml-2'>Spider Staff</h1></Link>
                   </div>
                 </div>
                 <div className='border border-gray-600 rounded-lg p-3 bg-[#101017]  mt-3'>
                   <h1 className='font-bold'>Armor:</h1>
                   <div className='flex'>
-                    <img src='https://terraria.wiki.gg/images/2/24/Titanium_armor_%28old%29.png' /> <Link className='h-6 mt-2' to={'/meleeArmor/titanumArmor'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-1'>Titanium armor</h1></Link>
+                    <img src='https://terraria.wiki.gg/images/0/08/Spider_armor.png' /> <Link className='h-6 mt-2' to={'/sum/SpiderArmor'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-1'>Spider armor</h1></Link>
                   </div>
                 </div>
                 <div className='border border-gray-600 rounded-lg p-3 bg-[#101017]  mt-3'>
@@ -47,7 +47,7 @@ export const RangedPreMechBosses = () => {
                       <img src='https://terraria.wiki.gg/images/e/ec/Rage_Potion.png' /> <Link className='h-6 mt-2' to={'/meleeBafs/rage'}><h1 className='ml-2   hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='https://terraria.wiki.gg/images/9/9f/Archery_Potion.png' /> <Link className='h-6 mt-2' to={'/ranged/ArcheryPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Archery Potion</h1></Link>
+                      <img src='https://terraria.wiki.gg/images/9/91/Summoning_Potion.png' /> <Link className='h-6 mt-2' to={'/sum/SummoningPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Summoning Potion</h1></Link>
                     </div>
                 </div>
                 
@@ -55,31 +55,19 @@ export const RangedPreMechBosses = () => {
               <div>
                 <PreMechBossesAcs/>
               </div>
-              <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] h-40 ml-3 mt-3'>
-                  <h1 className='font-bold'>Ranged Accessories:</h1>
-                  <div className='flex'>
-                    <img className='w-7 h-7' src='https://terraria.wiki.gg/images/3/31/Ranger_Emblem.png' /> <Link className='h-6' to={'/ranged/RangerEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Ranger Emblem</h1></Link>
-                  </div>
-                  <div className='flex mt-2'>
-                    <img  src='https://terraria.wiki.gg/images/b/b8/Magic_Quiver.png' /> <Link className='' to={'/ranged/Quivers'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Quivers</h1></Link>
-                  </div>
+              <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3 ml-3 h-44'>
+              <h1 className='mb-2 font-bold' >Summoner Accessories:</h1>
+              <div>
+                <div className="flex">
+                  <img src="https://terraria.wiki.gg/images/9/9d/Feral_Claws.png"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/FeralClaws' >Feral Claws</Link >
                 </div>
-                <div className="">
-                  <div>
-                      <div className='ml-3'>
-                              <div className='border border-gray-600 rounded-lg p-3 bg-[#101017]  mt-3 '>
-                                  <h1 className="font-bold" >Ammunition:</h1>
-                                  <div className='p-2' > 
-                                    <div className='flex '>
-                                      <img className='h-3 mt-1' src='https://terraria.wiki.gg/images/b/bc/Crystal_Bullet.png'/> <h1  className='ml-1 ' >Crystal Bullett</h1>
-                                    </div>
-                                    <div className='flex mt-2'>
-                                      <img src='https://terraria.wiki.gg/images/c/c9/Holy_Arrow.png'/> <h1 className='flex ml-1'>Holy Arrow</h1>
-                                    </div>                                
-                                  </div>
-                              </div>
-                      </div>
-                    </div>
+                <div className="flex mt-3">
+                  <img src="https://terraria.wiki.gg/images/2/2f/Pygmy_Necklace.png"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/PygmyNecklace' >Pygmy Necklace</Link >
+                </div>
+                <div className="flex mt-3">
+                  <img src="https://terraria.wiki.gg/images/7/70/Summoner_Emblem.png"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/SummonerEmblem' >Summoner Emblem</Link >
+                </div>
+              </div>
             </div>
               </div>
               

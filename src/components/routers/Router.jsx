@@ -3,8 +3,7 @@ import { Home } from "../Home/Home"
 import { ErrorNotFound } from "../../assets/Errors/ErrorNotFound"
 import { Classes } from "../screens/ClassesMain"
 import { MeleeMain } from '../screens/Class/Melee/MeleeMain'
-import { Mage } from '../screens/Class/Mage/Mage'
-import { Summoner } from '../screens/Class/Summoner/Summoner'
+import { SummonerMain } from '../screens/Class/Summoner/SummonerMailn'
 import { Starfury } from "../screens/Class/Melee/MeleeWeapons/Starfury"
 import { BladeOfGrass } from '../screens/Class/Melee/MeleeWeapons/BladeOfGrass'
 import { PlatinumArmor } from "../screens/Class/Melee/MeleeArmor/PlatinumArmor"
@@ -82,6 +81,67 @@ import { RangedreGolem } from "../screens/Class/Ranged/GuideRanged/Pre-golem(ran
 import { RangedPrePlantera } from "../screens/Class/Ranged/GuideRanged/Pre-plantera(ranged)/RangedPrePlantera"
 import { RangedPreLunarEvents } from "../screens/Class/Ranged/GuideRanged/Pre-lunarevents(ranged)/RangedPreLunarEvents"
 import { RangedPreMoonLord } from "../screens/Class/Ranged/GuideRanged/Pre-moonlord(ranged)/RangedPreMoonLord"
+import { Minishark } from "../screens/Class/Ranged/RangedWeapons/Minishark"
+import { ArcheryPotion } from "../screens/Class/Ranged/RangedBuffs/ArcheryPotion"
+import { TheBeesKnees } from "../screens/Class/Ranged/RangedWeapons/TheBeesKnees"
+import { NecroArmor } from "../screens/Class/Ranged/RangedArmor/NecroArmor"
+import { DaedalusStormbow } from "../screens/Class/Ranged/RangedWeapons/DaedalusStormbow"
+import { OnyxBlaster } from "../screens/Class/Ranged/RangedWeapons/OnyxBlaster"
+import { RangerEmblem } from "../screens/Class/Ranged/RangedAcs/RangerEmblem"
+import { Quivers } from "../screens/Class/Ranged/RangedAcs/Quivers"
+import { Megashark } from "../screens/Class/Ranged/RangedWeapons/Megashark"
+import { HallowedArmor } from "../screens/Class/Ranged/RangedArmor/HallowedArmor"
+import { ShroomiteArmor } from "../screens/Class/Ranged/RangedArmor/ShroomiteArmor"
+import { Tsunami } from "../screens/Class/Ranged/RangedWeapons/Tsunami"
+import { SniperScope } from "../screens/Class/Ranged/RangedAcs/SniperScope"
+import { Phantasm } from "../screens/Class/Ranged/RangedWeapons/Phantasm"
+import { MageMain } from "../screens/Class/Mage/MageMain"
+import { MagePreBosses } from "../screens/Class/Mage/GuideMage/Pre-bosses(mage)/MagePreBosses"
+import { MagePreHardmode } from "../screens/Class/Mage/GuideMage/Pre-hardmode(mage)/MagePreHardmode"
+import { MagePreMechBosses } from "../screens/Class/Mage/GuideMage/Pre-mechbosses(mage)/MagePreMechBosses"
+import { MagePrePlantera } from "../screens/Class/Mage/GuideMage/Pre-plantera(mage)/MagePrePlantera"
+import { MagePreGolem } from "../screens/Class/Mage/GuideMage/Pre-golem(mage)/MagePreGolem"
+import { MagePreLunarEvents } from "../screens/Class/Mage/GuideMage/Pre-lunarevents(mage)/MagePreLunarEvents"
+import { MagePreMoonLord } from "../screens/Class/Mage/GuideMage/Pre-moonlord(mage)/MagePreMoonLord"
+import { ThunderZapper } from "../screens/Class/Mage/MageWeapons/ThunderZapper"
+import { ManaRegenerationPotion } from "../screens/Class/Mage/MageBuffs/ManaRegenerationPotion"
+import { MagicPowerPotion } from "../screens/Class/Mage/MageBuffs/MagicPowerPotion"
+import { BeeGun } from "../screens/Class/Mage/MageWeapons/BeeGun"
+import { JungleArmor } from "../screens/Class/Mage/MageArmor/JungleArmor"
+import { SkyFracture } from "../screens/Class/Mage/MageWeapons/SkyFracture"
+import { ScorcererEmblem } from "../screens/Class/Mage/MageAcs/ScorcererEmblem"
+import { CelestialEmblem } from "../screens/Class/Mage/MageAcs/CelestialEmblem"
+import { Razorpine } from "../screens/Class/Mage/MageWeapons/Razorpine"
+import { SpectreArmor } from "../screens/Class/Mage/MageArmor/SpectreArmor"
+import { NebulaBlaze } from "../screens/Class/Mage/MageWeapons/NebulaBlaze"
+import { Snapthorn } from "../screens/Class/Summoner/SumWeapons/Snapthorn"
+import { SumPreBosses } from "../screens/Class/Summoner/GuideSum/Pre-bosses(sum)/SumPreBosses"
+import { FlinxStaff } from "../screens/Class/Summoner/SumWeapons/FlinxStaff"
+import { SumPreGolem } from "../screens/Class/Summoner/GuideSum/Pre-golem(sum)/SumPreGolem"
+import { SumPreHardmode } from "../screens/Class/Summoner/GuideSum/Pre-hardmode(sum)/SumPreHardmode"
+import { SumreLunarEvents } from "../screens/Class/Summoner/GuideSum/Pre-lunarevents(sum)/SumPreLunarEvents"
+import { SumPreMechBosses } from "../screens/Class/Summoner/GuideSum/Pre-mechbosses(sum)/SumPreMechBosses"
+import { SumPreMoonlord } from "../screens/Class/Summoner/GuideSum/Pre-moonlord(sum)/SumPreMoonlord"
+import { SumPrePlantera } from "../screens/Class/Summoner/GuideSum/Pre-plantera(sum)/SumPrePlantera"
+import { FlinxFurCoat } from "../screens/Class/Summoner/SumArmor/FlinxFurCoat"
+import { SummoningPotion } from "../screens/Class/Summoner/SumBuffs/SummoningPotion"
+import { FeralClaws } from "../screens/Class/Summoner/SumAcs/FeralClaws"
+import { SpinalTap } from "../screens/Class/Summoner/SumWeapons/SpinalTap"
+import { ImpStaff } from "../screens/Class/Summoner/SumWeapons/ImpStaff"
+import { ObsidianArmor } from "../screens/Class/Summoner/SumArmor/ObsidianArmor"
+import { PygmyNecklace } from "../screens/Class/Summoner/SumAcs/PygmyNecklace"
+import { CoolWhip } from "../screens/Class/Summoner/SumWeapons/CoolWhip"
+import { SpiderArmor } from "../screens/Class/Summoner/SumArmor/SpiderArmor"
+import { SummonerEmblem } from "../screens/Class/Summoner/SumAcs/SummonerEmblem"
+import { Durendal } from "../screens/Class/Summoner/SumWeapons/Durendal"
+import { SpiderStaff } from "../screens/Class/Summoner/SumWeapons/SpiderStaff"
+import { OpticStaff } from "../screens/Class/Summoner/SumWeapons/OpticStaff"
+import { MorningStar } from "../screens/Class/Summoner/SumWeapons/MorningStar"
+import { Terraprisma } from "../screens/Class/Summoner/SumWeapons/Terraprisma"
+import { TikiArmor } from "../screens/Class/Summoner/SumArmor/TikiArmor"
+import { HerculesBeetle } from "../screens/Class/Summoner/SumArmor/HerculesBeetle"
+import { PapyrusScarab } from "../screens/Class/Summoner/SumAcs/PapyrusScarab"
+import { NecromanticScroll } from "../screens/Class/Summoner/SumAcs/NecromanticScroll"
 
 export const Router = () => {
   return (
@@ -95,9 +155,9 @@ export const Router = () => {
 
             {/* clases */}
             <Route element={<MeleeMain/>} path="/melee"/>
-            <Route element={<Mage/>} path="/mage"/>
+            <Route element={<MageMain/>} path="/mage"/>
             <Route element={<RangedMain/>} path="/ranged"/>
-            <Route element={<Summoner/>} path="/summoner"/>
+            <Route element={<SummonerMain/>} path="/summoner"/>
 
 
             {/* melee */}
@@ -128,8 +188,8 @@ export const Router = () => {
             <Route element={<TerraBlade/>} path="/meleeWeapons/TerraBlade"/>
             <Route element={<TrueExcalibur/>} path="/meleeWeapons/TrueExcalibur"/>
             <Route element={<BeetleArmor/>} path="/meleeArmor/BeetleArmor"/>
-            <Route element={<SolarEruption/>} path="/acs/SolarEruption"/>
-            <Route element={<Daybreak/>} path="/acs/Daybreak"/>
+            <Route element={<SolarEruption/>} path="/melee/SolarEruption"/>
+            <Route element={<Daybreak/>} path="/melee/Daybreak"/>
 
 
             {/* melee stages */}
@@ -141,17 +201,90 @@ export const Router = () => {
             <Route element={<MeleePreLunarEvents/>} path="/melee/MeleePreLunarEvents"/>
             <Route element={<MeleePreMoonLord/>} path="/melee/MeleePreMoonLord"/>
 
-            
+            {/* ranged */}
+            <Route element={<Minishark/>} path="/ranged/Minishark"/>
+            <Route element={<ArcheryPotion/>} path="/ranged/ArcheryPotion"/>
+            <Route element={<TheBeesKnees/>} path="/ranged/TheBeesKnees"/>
+            <Route element={<NecroArmor/>} path="/ranged/NecroArmor"/>
+            <Route element={<DaedalusStormbow/>} path="/ranged/DaedalusStormbow"/>
+            <Route element={<OnyxBlaster/>} path="/ranged/OnyxBlaster"/>
+            <Route element={<RangerEmblem/>} path="/ranged/RangerEmblem"/>
+            <Route element={<Megashark/>} path="/ranged/Megashark"/>
+            <Route element={<HallowedArmor/>} path="/ranged/HallowedArmor"/>
+            <Route element={<ShroomiteArmor/>} path="/ranged/ShroomiteArmor"/>
+            <Route element={<Tsunami/>} path="/ranged/Tsunami"/>
+            <Route element={<SniperScope/>} path="/ranged/SniperScope"/>
+            <Route element={<Phantasm/>} path="/ranged/Phantasm"/>
+            <Route element={<Quivers/>} path="/ranged/Quivers"/>
+
             {/* ranger stages */}
             <Route element={<RangedPreBosses/>} path="/ranged/RangedPreBosses"/>
             <Route element={<RangedPreHardMode/>} path="/ranged/RangedPreHardMode"/>
             <Route element={<RangedPreMechBosses/>} path="/ranged/RangedPreMechBosses"/>
             <Route element={<RangedPrePlantera/>} path="/ranged/RangedPrePlantera"/>
-            <Route element={<RangedreGolem/>} path="/ranged/RangedreGolem"/>
+            <Route element={<RangedreGolem/>} path="/ranged/RangedPreGolem"/>
             <Route element={<RangedPreLunarEvents/>} path="/ranged/RangedPreLunarEvents"/>
             <Route element={<RangedPreMoonLord/>} path="/ranged/RangedPreMoonLord"/>
 
-        
+            {/* mage */}
+            <Route element={<ThunderZapper/>} path="/mage/ThunderZapper"/>
+            <Route element={<ManaRegenerationPotion/>} path="/mage/ManaRegenerationPotion"/>
+            <Route element={<MagicPowerPotion/>} path="/mage/MagicPowerPotion"/>
+            <Route element={<BeeGun/>} path="/mage/BeeGun"/>
+            <Route element={<JungleArmor/>} path="/mage/JungleArmor"/>
+            <Route element={<SkyFracture/>} path="/mage/SkyFracture"/>
+            <Route element={<ScorcererEmblem/>} path="/mage/ScorcererEmblem"/>
+            <Route element={<CelestialEmblem/>} path="/mage/CelestialEmblem"/>
+            <Route element={<Razorpine/>} path="/mage/Razorpine"/>
+            <Route element={<SpectreArmor/>} path="/mage/SpectreArmor"/>
+            <Route element={<NebulaBlaze/>} path="/mage/NebulaBlaze"/>
+      
+            {/* mage stages */}
+            <Route element={<MagePreBosses/>} path="/mage/MagePreBosses"/>
+            <Route element={<MagePreHardmode/>} path="/mage/MagePreHardmode"/>
+            <Route element={<MagePreMechBosses/>} path="/mage/MagePreMechBosses"/>
+            <Route element={<MagePrePlantera/>} path="/mage/MagePrePlantera"/>
+            <Route element={<MagePreGolem/>} path="/mage/MagePreGolem"/>
+            <Route element={<MagePreLunarEvents/>} path="/mage/MagePreLunarEvents"/>
+            <Route element={<MagePreMoonLord/>} path="/mage/MagePreMoonLord"/>
+
+            {/* summoner */}
+            <Route element={<Snapthorn/>} path="/sum/Snapthorn"/>
+            <Route element={<FlinxStaff/>} path="/sum/FlinxStaff"/>
+            <Route element={<FlinxFurCoat/>} path="/sum/FlinxFurCoat"/>
+            <Route element={<SummoningPotion/>} path="/sum/SummoningPotion"/>
+            <Route element={<FeralClaws/>} path="/sum/FeralClaws"/>
+            <Route element={<SpinalTap/>} path="/sum/SpinalTap"/>
+            <Route element={<ImpStaff/>} path="/sum/ImpStaff"/>
+            <Route element={<ObsidianArmor/>} path="/sum/ObsidianArmor"/>
+            <Route element={<PygmyNecklace/>} path="/sum/PygmyNecklace"/>
+            <Route element={<CoolWhip/>} path="/sum/CoolWhip"/>
+            <Route element={<SpiderArmor/>} path="/sum/SpiderArmor"/>
+            <Route element={<SummonerEmblem/>} path="/sum/SummonerEmblem"/>
+            <Route element={<Durendal/>} path="/sum/Durendal"/>
+            <Route element={<SpiderStaff/>} path="/sum/SpiderStaff"/>
+            <Route element={<OpticStaff/>} path="/sum/OpticStaff"/>
+            <Route element={<MorningStar/>} path="/sum/MorningStar"/>
+            <Route element={<Terraprisma/>} path="/sum/Terraprisma"/>
+            <Route element={<TikiArmor/>} path="/sum/TikiArmor"/>
+            <Route element={<HerculesBeetle/>} path="/sum/HerculesBeetle"/>
+            <Route element={<NecromanticScroll/>} path="/sum/NecromanticScroll"/>
+            <Route element={<PapyrusScarab/>} path="/sum/PapyrusScarab"/>
+            <Route element={<OpticStaff/>} path="/sum/OpticStaff"/>
+            <Route element={<OpticStaff/>} path="/sum/OpticStaff"/>
+
+
+
+            {/* summoner stages */} 
+            <Route element={<SumPreBosses/>} path="/sum/SumPreBosses"/>
+            <Route element={<SumPreGolem/>} path="/sum/SumPreGolem"/>
+            <Route element={<SumPreHardmode/>} path="/sum/SumPreHardmode"/>
+            <Route element={<SumreLunarEvents/>} path="/sum/SumPreLunarEvents"/>
+            <Route element={<SumPreMechBosses/>} path="/sum/SumPreMechBosses"/>
+            <Route element={<SumPreMoonlord/>} path="/sum/SumPreMoonlord"/>
+            <Route element={<SumPrePlantera/>} path="/sum/SumPrePlantera"/>
+
+
             {/* acs */}
             <Route element={<HermesBoots/>} path="/acs/HermesBoots"/>
             <Route element={<RocketBoots/>} path="/acs/RocketBoots"/>

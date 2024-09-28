@@ -16,10 +16,10 @@ export const MeleePreMoonLord= () => {
                   <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
                     <h1 className='font-bold'>Weapons:</h1>
                     <div className='flex mb-2 mt-2'>
-                      <img className='' src='https://terraria.wiki.gg/images/1/10/Solar_Eruption.png'/> <Link className='h-6' to={'/acs/SolarEruption'}><h1 className=' mt-2  hover:underline hover:text-blue-500 duration-200 ml-2'>Solar Eruption</h1></Link>
+                      <img className='' src='https://terraria.wiki.gg/images/1/10/Solar_Eruption.png'/> <Link className='h-6' to={'/melee/SolarEruption'}><h1 className=' mt-2  hover:underline hover:text-blue-500 duration-200 ml-2'>Solar Eruption</h1></Link>
                     </div>
                     <div className='flex mb-2 mt-2'>
-                      <img className='h-10 w-10' src='https://terraria.wiki.gg/images/7/77/Daybreak.png'/> <Link className='h-6' to={'/acs/Daybreak'}><h1 className=' mt-2  hover:underline hover:text-blue-500 duration-200 ml-2'>Daybreak</h1></Link>
+                      <img className='h-10 w-10' src='https://terraria.wiki.gg/images/7/77/Daybreak.png'/> <Link className='h-6' to={'/melee/Daybreak'}><h1 className=' mt-2  hover:underline hover:text-blue-500 duration-200 ml-2'>Daybreak</h1></Link>
                     </div>
                    
                   </div>

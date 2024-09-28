@@ -16,14 +16,14 @@ export const RangedPreLunarEvents= () => {
                   <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
                     <h1 className='font-bold'>Weapons:</h1>
                     <div className='flex mb-2'>
-                      <img className='' src='https://terraria.wiki.gg/images/4/4d/Terra_Blade.png'/> <Link className='h-6 mt-2' to={'/meleeWeapons/TerraBlade'}><h1 className=' mt-2  hover:underline hover:text-blue-500 duration-200 ml-2'>Terra Blade</h1></Link>
+                      <img className='' src='https://terraria.wiki.gg/images/c/c4/Tsunami.png'/> <Link className='h-6 mt-2' to={'/ranged/Tsunami'}><h1 className=' mt-2  hover:underline hover:text-blue-500 duration-200 ml-2'>Tsunami</h1></Link>
                     </div>
                     
                   </div>
                   <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
                     <h1 className='font-bold'>Armor:</h1>
                     <div className='flex'>
-                      <img src='https://terraria.wiki.gg/images/0/0c/Beetle_armor.png' /> <Link className='h-6 mt-2' to={'/meleeArmor/BeetleArmor'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-1'>Beetle armor</h1></Link>
+                      <img src='https://terraria.wiki.gg/images/5/5d/Shroomite_armor_female.png' /> <Link className='h-6 mt-2' to={'/ranged/ShroomiteArmor'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-1'>Shroomite Armor</h1></Link>
                     </div>
                   </div>
                   <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
@@ -45,30 +45,28 @@ export const RangedPreLunarEvents= () => {
                       <div className='flex mt-2'>
                         <img src='https://terraria.wiki.gg/images/e/ec/Rage_Potion.png' /> <Link className='h-6 mt-2' to={'/meleeBafs/rage'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
                       </div>
+                      <div className='flex mt-2'>
+                        <img src='https://terraria.wiki.gg/images/9/9f/Archery_Potion.png' /> <Link className='h-6 mt-2' to={'/ranged/ArcheryPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Archery Potion</h1></Link>
+                      </div>
                       
                   </div>
                 </div>
               </div>
-              
-              <div className='ml-3 mt-11'>
-                <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3 '>
-                    <h1 className='font-bold'>Melee Accessories:</h1>
-                    <div className='p-2' > 
-                      <div className='flex '>
-                        <img className='w-7 h-7' src='https://terraria.wiki.gg/images/d/d7/Warrior_Emblem.png' /> <Link className='h-6' to={'/meleeAcs/warriorEmblem'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Warrior Emblem</h1></Link>
-                      </div>
-                      <div className='flex mt-2'>
-                        <img  src='https://terraria.wiki.gg/images/0/05/Berserker%27s_Glove.png' /> <Link className='h-6 mt-2' to={'/meleeAcs/berserkerGlove'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-2'>Berserker glove</h1></Link>
-                      </div>
-                      <div className='flex mt-2'>
-                        <img  src='https://terraria.wiki.gg/images/8/8a/Fire_Gauntlet.png' /> <Link className='h-6 mt-2' to={'/meleeAcs/fireGauntlet'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Fire Gauntlet</h1></Link>
-                      </div>
-                    </div>
-                  </div>
-              </div>
               <div className='mt-3' >
                 <PreLunarEventsAcs/>
               </div>
+              <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] h-40 ml-3 mt-14'>
+                  <h1 className='font-bold'>Ranged Accessories:</h1>
+                  <div className='flex'>
+                    <img className='w-7 h-7' src='https://terraria.wiki.gg/images/3/31/Ranger_Emblem.png' /> <Link className='h-6' to={'/ranged/RangerEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Ranger Emblem</h1></Link>
+                  </div>
+                  <div className='flex mt-2'>
+                    <img  src='https://terraria.wiki.gg/images/b/b8/Magic_Quiver.png' /> <Link className='' to={'/ranged/Quivers'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Quivers</h1></Link>
+                  </div>
+                  <div className='flex mt-2'>
+                    <img  src='https://terraria.wiki.gg/images/3/3a/Sniper_Scope.png' /> <Link className='' to={'/ranged/SniperScope'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Sniper Scope</h1></Link>
+                  </div>
+                </div>
             </div>
           </div>
     </div>
