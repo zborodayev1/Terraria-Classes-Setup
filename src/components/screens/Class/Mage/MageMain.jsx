@@ -9,8 +9,8 @@ export const MageMain = () => {
       <a className="font-bold">Magicians</a> are fragile but highly varied in attack style, often utilizing special mechanics such as homing, lifesteal, and area-of-effect damage. They are held back by reliance on mana, which regenerates very slowly unless the Mana Regeneration buff is in effect. Mana becomes less of a problem as the player progresses, as they obtain helpful Armors and Accessories such as the Mana Flower. Enemies also have a high chance to drop mana when killed by a player with less than full Mana, which proves useful in situations with lots of enemies where theyll end up using lots of mana. Magic-users must craft or purchase mana potions if they wish to recover mana instantly.
       </h1>
       <div className="flex" >
-        <img className="" src='https://terraria.wiki.gg/images/9/9e/Nebula_armor.png'/>
-        <img className="h-8 ml-2" src='https://terraria.wiki.gg/images/0/0e/Last_Prism.png'/>
+        <img className="" src='/Nebula_armor.webp'/>
+        <img className="h-8 ml-2" src='/Last_Prism.webp'/>
       </div>
       <div className='flex justify-center'>
           <h1 className='text-2xl'>Guide</h1>

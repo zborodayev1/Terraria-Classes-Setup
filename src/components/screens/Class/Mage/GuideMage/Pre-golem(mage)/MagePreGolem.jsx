@@ -17,42 +17,39 @@ export const MagePreGolem= () => {
                   <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
                     <h1 className='font-bold'>Weapons:</h1>
                     <div className='flex mb-2'>
-                      <img className='' src='https://terraria.wiki.gg/images/6/6c/Razorpine.png'/> <Link className='s' to={'/mage/Razorpine'}><h1 className=' mt-2  hover:underline hover:text-blue-500 duration-200 ml-2'>Razorpine</h1></Link>
+                      <img className='' src='/Razorpine.webp'/> <Link className='s' to={'/mage/Razorpine'}><h1 className=' mt-2  hover:underline hover:text-blue-500 duration-200 ml-2'>Razorpine</h1></Link>
                     </div>     
                   </div>
                   <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
                     <h1 className='font-bold'>Armor:</h1>
                     <div className='flex'>
-                      <img src='https://terraria.wiki.gg/images/c/c0/Spectre_armor.png' /> <Link className='h-6 mt-2' to={'/mage/SpectreArmor'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-1'>Spectre armor</h1></Link>
+                      <img src='/Spectre_armor.webp' /> <Link className='h-6 mt-2' to={'/mage/SpectreArmor'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-1'>Spectre armor</h1></Link>
                     </div>
                   </div>
-                  <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
-                    <h1 className='font-bold'>Buffs:</h1>
-                    <div className='flex'>
-                      <img src='https://terraria.wiki.gg/images/f/f6/Sake.png' /> <Link className='h-6 mt-2' to={'/meleeBafs/sake'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-2'>Sake</h1></Link>
-                    </div>
-                    <div className='flex mt-2'>
-                      <img src='https://terraria.wiki.gg/images/7/71/Flask_of_Ichor.png' /> <Link className='h-6 mt-2' to={'/meleeBafs/ichor'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-2'>Ichor</h1></Link>
-                      <h1 className='mt-2 italic mx-2'>or</h1>
-                      <img src='https://terraria.wiki.gg/images/0/08/Flask_of_Cursed_Flames.png' /> <Link className='h-6 mt-2' to={'/meleeBafs/cursedFlames'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-2'>Cursed flames</h1></Link>
-                    </div>
-                      <div className='flex mt-2'>
-                        <img src='https://terraria.wiki.gg/images/3/3b/Sharpening_Station.png' /> <Link className='h-6' to={'/meleeBafs/sharpeningStation'}><h1 className=' hover:underline hover:text-blue-500 duration-200 ml-2'>Sharpening Station</h1></Link>
-                      </div>
-                      <div className='flex mt-2'>
-                        <img src='https://terraria.wiki.gg/images/d/d7/Wrath_Potion.png' /> <Link className='h-6 mt-2' to={'/meleeBafs/wrathPotion'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
-                      </div>
-                      <div className='flex mt-2'>
-                        <img src='https://terraria.wiki.gg/images/e/ec/Rage_Potion.png' /> <Link className='h-6 mt-2' to={'/meleeBafs/rage'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
-                      </div>
-                      <div className='flex mt-2'>
-                      <img src='https://terraria.wiki.gg/images/c/cc/Mana_Regeneration_Potion.png' /> <Link className='h-6 mt-2' to={'/mage/ManaRegenerationPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Mana Regeneration Potion </h1></Link>
-                    </div>
-                    <div className='flex mt-2'>
-                      <img src='https://terraria.wiki.gg/images/2/2c/Magic_Power_Potion.png' /> <Link className='h-6 mt-2' to={'/mage/MagicPowerPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Magic Power Potion</h1></Link>
-                    </div>
-                      
+                  <div className='border border-gray-600 rounded-lg p-3 bg-[#101017]  mt-3'>
+                  <h1 className='font-bold'>Buffs:</h1>
+                  <div className='flex mt-2'>
+                    <img src='/Flask_of_Ichor.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/ichor'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Ichor</h1></Link>
+                    <h1 className='mt-2 italic mx-2'>or</h1>
+                    <img src='/Flask_of_Cursed_Flames.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/cursedFlames'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Cursed flames</h1></Link>
                   </div>
+                    <div className='flex mt-2'>
+                      <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/meleeBafs/sharpeningStation'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Sharpening Station</h1></Link>
+                    </div>
+                    <div className='flex mt-2'>
+                      <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/wrathPotion'}><h1 className='ml-2   hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
+                    </div>
+                    <div className='flex mt-2'>
+                      <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/rage'}><h1 className='ml-2   hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
+                    </div>
+                    <div className='flex mt-2'>
+                      <img src='/Mana_Regeneration_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/ManaRegenerationPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Mana Regeneration Potion </h1></Link>
+                    </div>
+                    <div className='flex mt-2'>
+                      <img src='/Magic_Power_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/MagicPowerPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Magic Power Potion</h1></Link>
+                    </div>
+                </div>
+                
                 </div>
               </div>
               {/* mixed acs */}
@@ -62,10 +59,10 @@ export const MagePreGolem= () => {
               <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] h-40 ml-3 mt-14'>
                   <h1 className='font-bold'>Mage Accessories:</h1>
                   <div className='flex'>
-                    <img className='w-7 h-7' src='https://terraria.wiki.gg/images/b/b6/Sorcerer_Emblem.png' /> <Link className='h-6' to={'/mage/ScorcererEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Sorcerer Emblem</h1></Link>
+                    <img className='w-7 h-7' src='/Sorcerer_Emblem.webp' /> <Link className='h-6' to={'/mage/ScorcererEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Sorcerer Emblem</h1></Link>
                   </div>
                   <div className='flex mt-3'>
-                    <img className='w-7 h-7' src='https://terraria.wiki.gg/images/0/04/Celestial_Emblem.png' /> <Link className='h-6' to={'/mage/CelestialEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Celestial Emblem</h1></Link>
+                    <img className='w-7 h-7' src='/Celestial_Emblem.webp' /> <Link className='h-6' to={'/mage/CelestialEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Celestial Emblem</h1></Link>
                   </div>
                 </div>
             </div>

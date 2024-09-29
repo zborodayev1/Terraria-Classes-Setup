@@ -15,7 +15,7 @@ Its same-tier counterpart is the Gold armor.</h1>
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-2'>
-                    <img className='' src='https://terraria.wiki.gg/images/9/94/Platinum_armor.png'/> <h1 className='mt-2 ml-2' >Platinum Armor</h1>
+                    <img className='' src='/Platinum_armor.webp'/> <h1 className='mt-2 ml-2' >Platinum Armor</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-48 ml-2' >
@@ -23,17 +23,17 @@ Its same-tier counterpart is the Gold armor.</h1>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-1' >
-                    <img className='' src='https://terraria.wiki.gg/images/d/d2/Platinum_Bar.png'/> <h1 className='ml-1 text-sm' >Platinum Bar x75</h1>
+                    <img className='' src='/Platinum_Bar.webp'/> <h1 className='ml-1 text-sm' >Platinum Bar x75</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-48 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Iron Anvil</Link>
+                      <img className='w-8 h-4' src='/Iron_Anvil.webp'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Iron Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/32/Lead_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Lead Anvil</Link>
+                      <img className='w-8 h-4' src='/Lead_Anvil.webp'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Lead Anvil</Link>
                   </div>
               </div>
           </div>

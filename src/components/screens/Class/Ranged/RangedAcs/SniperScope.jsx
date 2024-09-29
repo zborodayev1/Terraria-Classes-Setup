@@ -12,7 +12,7 @@ export const SniperScope = () => {
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/3/3a/Sniper_Scope.png'/> <h1 className='ml-2 font-bold' >Sniper Scope</h1>
+                    <img className='' src='/Sniper_Scope.webp'/> <h1 className='ml-2 font-bold' >Sniper Scope</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-36 ml-2' >
@@ -20,20 +20,20 @@ export const SniperScope = () => {
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/0/0f/Rifle_Scope.png'/> <h1 className='ml-1' >Rifle Scope</h1>
+                    <img className='' src='/Rifle_Scope.webp'/> <h1 className='ml-1' >Rifle Scope</h1>
                   </div>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/5/5a/Destroyer_Emblem.png'/> <Link to='/acs/DestroyerEmblem' className='ml-1 hover:underline hover:text-blue-500 duration-200  ' >Destroyer Emblem</Link>
+                    <img className='' src='/Destroyer_Emblem.webp'/> <Link to='/acs/DestroyerEmblem' className='ml-1 hover:underline hover:text-blue-500 duration-200  ' >Destroyer Emblem</Link>
                   </div>
               </div>
               <div className='border border-gray-300 h-36 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                    <img className='w-8 h-5 ' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
+                    <img className='w-8 h-5 ' src='/Mythril_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
                 </div>
                 <div className='flex' >
-                    <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
+                    <img className='w-8 h-5' src='/Orichalcum_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
                 </div>
               </div>
           </div>

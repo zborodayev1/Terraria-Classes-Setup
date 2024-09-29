@@ -24,7 +24,7 @@ Spectre Hood set bonus: Lifesteal orbs spawn when dealing magic damage to an ene
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/c/c0/Spectre_armor.png'/> <h1 className=' ml-2 font-bold' >Volcano</h1>
+                    <img className='' src='/Spectre_armor.webp'/> <h1 className=' ml-2 font-bold' >Volcano</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-36 ml-2' >
@@ -32,17 +32,17 @@ Spectre Hood set bonus: Lifesteal orbs spawn when dealing magic damage to an ene
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/c/c0/Spectre_Bar.png'/> <h1 className='ml-1 text-sm ' >Spectre Bar</h1><h1 className='ml-1 text-sm text-white/75'>x54</h1>
+                    <img className='' src='/Spectre_Bar.webp'/> <h1 className='ml-1 text-sm ' >Spectre Bar</h1><h1 className='ml-1 text-sm text-white/75'>x54</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-36 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                    <img className='w-8 h-5 ' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
+                    <img className='w-8 h-5 ' src='/Mythril_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
                 </div>
                 <div className='flex' >
-                    <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
+                    <img className='w-8 h-5' src='/Orichalcum_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
                 </div>
               </div>
           </div>

@@ -15,7 +15,7 @@ Its best modifier is Agile, as it does not have any knockback and thus cannot ge
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-2'>
-                    <img className='' src='https://terraria.wiki.gg/images/3/36/Megashark.png'/> <Link to='/ranged/Megashark' className='mt-2 ml-2   hover:underline hover:text-blue-500 duration-200  ' >Megashark</Link>
+                    <img className='' src='/Megashark.pnwebpg'/> <Link to='/ranged/Megashark' className='mt-2 ml-2   hover:underline hover:text-blue-500 duration-200  ' >Megashark</Link>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-50 ml-2' >
@@ -23,16 +23,16 @@ Its best modifier is Agile, as it does not have any knockback and thus cannot ge
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-1' >
-                    <img className='' src='https://terraria.wiki.gg/images/9/96/Minishark.png'/> <h1 className='ml-1 text-sm font-bold' >Minishark</h1>
+                    <img className='' src='/Minishark.webp'/> <h1 className='ml-1 text-sm font-bold' >Minishark</h1>
                   </div>
                   <div className='flex mt-2' >
-                    <img className='' src='https://terraria.wiki.gg/images/c/cf/Illegal_Gun_Parts.png'/> <h1  className='ml-1 text-sm' >Illegal Gun Parts</h1>
+                    <img className='' src='/Illegal_Gun_Parts.webp'/> <h1  className='ml-1 text-sm' >Illegal Gun Parts</h1>
                   </div>
                   <div className='flex mt-2' >
-                    <img className='' src='https://terraria.wiki.gg/images/9/9b/Shark_Fin.png'/> <h1 className='ml-1 text-sm' >Shark Fin</h1><h1 className='ml-1 text-sm text-white/75'>x5</h1>
+                    <img className='' src='/Shark_Fin.webp'/> <h1 className='ml-1 text-sm' >Shark Fin</h1><h1 className='ml-1 text-sm text-white/75'>x5</h1>
                   </div>
                   <div className='flex mt-2' >
-                    <img className='' src='https://terraria.wiki.gg/images/3/39/Soul_of_Might.png'/> <h1 className='ml-2 text-sm' >Soul of Might</h1><h1 className='ml-1 text-sm text-white/75'>x20</h1>
+                    <img className='' src='/Soul_of_Might.webp'/> <h1 className='ml-2 text-sm' >Soul of Might</h1><h1 className='ml-1 text-sm text-white/75'>x20</h1>
                   </div>
                   
               </div>
@@ -40,10 +40,10 @@ Its best modifier is Agile, as it does not have any knockback and thus cannot ge
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-5 ' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
+                      <img className='w-8 h-5 ' src='/Mythril_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
+                      <img className='w-8 h-5' src='/Orichalcum_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
                   </div>
               </div>
           </div>

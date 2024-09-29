@@ -17,10 +17,10 @@ It currently shares identical stats with Ancient Hallowed armor, but differs in 
       <h1 className='font-bold my-2 py-1 w-3/6 text-center border border-gray-600  rounded-md bg-[#101017] mt-5'>Crafting</h1>
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-40 bg-[#101017]'>
           <div className='flex'>
-              <div className='w-52'>
+              <div className='w-60'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
-                  <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/b/b6/Hallowed_armor.png'/> <h1 className='mt-2 ml-2 font-bold' >Hallowed armor</h1>
+                  <div className=' mt-3'>
+                    <img className='' src='/Hallowed_armor.webp'/> <h1 className='mt-2 ml-2 font-bold' >Hallowed armor</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-36 ml-2' >
@@ -28,17 +28,17 @@ It currently shares identical stats with Ancient Hallowed armor, but differs in 
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/d/d9/Hallowed_Bar.png'/> <h1 className='ml-1 text-sm ' >Hallowed Bar</h1><h1 className='ml-1 text-sm text-white/75'>x54</h1>
+                    <img className='' src='/Hallowed_Bar.webp'/> <h1 className='ml-1 text-sm ' >Hallowed Bar</h1><h1 className='ml-1 text-sm text-white/75'>x54</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-36 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-5 ' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
+                      <img className='w-8 h-5 ' src='/Mythril_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
+                      <img className='w-8 h-5' src='/Orichalcum_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
                   </div>
               </div>
           </div>

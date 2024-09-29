@@ -19,7 +19,7 @@ Crafting the full set while wearing either the Beetle Scale Mail or Beetle Shell
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-2'>
-                  <img className='' src='https://terraria.wiki.gg/images/0/0c/Beetle_armor.png'/> <h1 className='ml-1  ' >Beetle Armor</h1>
+                  <img className='' src='/Beetle_armor.webp'/> <h1 className='ml-1  ' >Beetle Armor</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-48 ml-2' >
@@ -27,20 +27,20 @@ Crafting the full set while wearing either the Beetle Scale Mail or Beetle Shell
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-1' >
-                    <img className='' src='https://terraria.wiki.gg/images/d/dd/Turtle_armor.png'/> <h1 className='mt-2 ml-2' >Turtle armor</h1>
+                    <img className='' src='/Turtle_armor.webp'/> <h1 className='mt-2 ml-2' >Turtle armor</h1>
                   </div>
                   <div className='flex mt-1' >
-                    <img className='' src='https://terraria.wiki.gg/images/c/cb/Beetle_Husk.png'/> <h1 className='ml-1 text-sm ' >Beetle Husk</h1><h1 className='ml-1 text-sm text-white/75'>x18</h1>
+                    <img className='' src='/Beetle_Husk.webp'/> <h1 className='ml-1 text-sm ' >Beetle Husk</h1><h1 className='ml-1 text-sm text-white/75'>x18</h1>
                   </div>                
               </div>
               <div className='border border-gray-300 h-48 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2    hover:underline hover:text-blue-500 duration-200 ' >Mythril Anvil</Link>
+                      <img className='w-8 h-4' src='/Mythril_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2    hover:underline hover:text-blue-500 duration-200 ' >Mythril Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200 ' >Orichalcum Anvil</Link>
+                      <img className='w-8 h-4' src='/Orichalcum_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200 ' >Orichalcum Anvil</Link>
                   </div>
               </div>
           </div>

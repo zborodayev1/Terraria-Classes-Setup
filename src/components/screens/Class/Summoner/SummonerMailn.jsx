@@ -9,9 +9,9 @@ export const SummonerMain = () => {
       <a className="font-bold">Summoners</a> utilize Minions to deal damage for them. This makes summoners great for farming enemies or if they have to go do something. Whips are the primary weapons that will focus summons and increase their damage, as well as allowing the player to deal damage themself. Different minions are useful for different situations, as some have high accuracy while some have less, and some are grounded while others fly. Summoners have very low defense, with even Stardust armor having only 38 defense, so the overall goal of a summoner is to avoid all attacks while letting their minions and their whips deal the damage. Many people stack the effects of whips, utilizing combos such as the Durendal to gain attack speed and the Dark Harvest to deal lots of damage. Summoner armors are essential to maximizing damage output, and for people who dont wear summoner armors, summons have very little power, however some people decide to do it for the defense.
       </h1>
       <div className="flex" >
-        <img className="" src='https://terraria.wiki.gg/images/1/14/Stardust_armor.png'/>
-        <img className=" ml-2" src='https://terraria.wiki.gg/images/b/b0/Terraprisma.png'/>
-        <img className="h-11 ml-2" src='https://terraria.wiki.gg/images/8/86/Kaleidoscope.png'/>
+        <img className="" src='/Stardust_armor.webp'/>
+        <img className=" ml-2" src='/Terraprisma.webp'/>
+        <img className="h-11 ml-2" src='/Kaleidoscope.webp'/>
       </div>
       <div className='flex justify-center'>
           <h1 className='text-2xl'>Guide</h1>

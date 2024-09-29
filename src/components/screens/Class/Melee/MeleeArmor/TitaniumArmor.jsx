@@ -19,7 +19,7 @@ export const TitaniumArmor = () => {
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-2'>
-                    <img className='' src='https://terraria.wiki.gg/images/7/72/Titanium_armor.png'/> <h1 className='mt-2 ml-2' >Titanium armor</h1>
+                    <img className='' src='/Titanium_armor.webp'/> <h1 className='mt-2 ml-2' >Titanium armor</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-50 ml-2' >
@@ -27,17 +27,17 @@ export const TitaniumArmor = () => {
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-1' >
-                    <img className='' src='https://terraria.wiki.gg/images/9/94/Titanium_Bar.png'/> <h1 className='ml-1 text-sm' >Titanium Bar x59</h1>
+                    <img className='' src='/Titanium_Bar.webp'/> <h1 className='ml-1 text-sm' >Titanium Bar x59</h1>
                   </div>                
               </div>
               <div className='border border-gray-300 h-50 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2    hover:underline hover:text-blue-500 duration-200 ' >Mythril Anvil</Link>
+                      <img className='w-8 h-4' src='/Mythril_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2    hover:underline hover:text-blue-500 duration-200 ' >Mythril Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200 ' >Orichalcum Anvil</Link>
+                      <img className='w-8 h-4' src='/Orichalcum_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200 ' >Orichalcum Anvil</Link>
                   </div>
               </div>
           </div>

@@ -14,7 +14,7 @@ Its best modifier is Mythical.</h1>
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/5/54/Sky_Fracture.png'/> <h1 className='mt-2 ml-2 font-bold' >Sky Fracture</h1>
+                    <img className='' src='/Sky_Fracture.webp'/> <h1 className='mt-2 ml-2 font-bold' >Sky Fracture</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-36 ml-2' >
@@ -22,23 +22,23 @@ Its best modifier is Mythical.</h1>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/0/05/Magic_Missile.png'/> <h1 className='ml-1 text-sm ' >Magic Missile</h1>
+                    <img className='' src='/Magic_Missile.webp'/> <h1 className='ml-1 text-sm ' >Magic Missile</h1>
                   </div>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/d/da/Light_Shard.png'/> <h1 className='ml-1 text-sm ' >Light Shard</h1><h1 className='ml-1 text-sm text-white/75'>x2</h1>
+                    <img className='' src='/Light_Shard.webp'/> <h1 className='ml-1 text-sm ' >Light Shard</h1><h1 className='ml-1 text-sm text-white/75'>x2</h1>
                   </div>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/e/ea/Soul_of_Light.png'/> <h1 className='ml-1 text-sm ' >Soul of Light</h1><h1 className='ml-1 text-sm text-white/75'>x16</h1>
+                    <img className='' src='/Soul_of_Light.webp'/> <h1 className='ml-1 text-sm ' >Soul of Light</h1><h1 className='ml-1 text-sm text-white/75'>x16</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-36 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                    <img className='w-8 h-5 ' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
+                    <img className='w-8 h-5 ' src='/Mythril_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200   ' >Mythril Anvil</Link>
                 </div>
                 <div className='flex' >
-                    <img className='w-8 h-5' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
+                    <img className='w-8 h-5' src='/Orichalcum_Anvil.webp'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Orichalcum Anvilr</Link>
                 </div>
               </div>
           </div>

@@ -15,7 +15,7 @@ Its best modifier is Unreal. Since it does not benefit from speed modifiers, God
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/a/a7/Phantasm.png'/> <h1 className='mt-2 ml-2 font-bold' >Phantasm</h1>
+                    <img className='' src='/Phantasm.webp'/> <h1 className='mt-2 ml-2 font-bold' >Phantasm</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-36 ml-2' >
@@ -23,14 +23,14 @@ Its best modifier is Unreal. Since it does not benefit from speed modifiers, God
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/e/e0/Vortex_Fragment.png'/> <h1 className='ml-1 text-sm ' >Vortex Fragment</h1><h1 className='ml-1 text-sm text-white/75'>x18</h1>
+                    <img className='' src='/Vortex_Fragment.webp'/> <h1 className='ml-1 text-sm ' >Vortex Fragment</h1><h1 className='ml-1 text-sm text-white/75'>x18</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-36 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                    <img className='' src='https://terraria.wiki.gg/images/e/e2/Ancient_Manipulator.png'/> <h1 className='text-base ml-2' >Ancient Manipulator</h1>
+                    <img className='' src='/Ancient_Manipulator.webp'/> <h1 className='text-base ml-2' >Ancient Manipulator</h1>
                   </div>  
               </div>
           </div>

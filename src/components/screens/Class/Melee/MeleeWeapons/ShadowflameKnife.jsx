@@ -9,7 +9,7 @@ export const ShadowflameKnife = () => {
        <div className='mt-2 p-2 border border-gray-600 rounded-md bg-[#101017] w-72'>
           <h1 className='font-bold'>Obtained from</h1>
           <div className='flex'>
-            <img src='https://terraria.wiki.gg/images/a/aa/Goblin_Warlock.gif'/><h1 className='mt-2 mx-2'>Goblin Warlock</h1><h1 className='mt-2 text-white/75'>16.7%</h1>
+            <img src='/Goblin_Warlock.webp'/><h1 className='mt-2 mx-2'>Goblin Warlock</h1><h1 className='mt-2 text-white/75'>16.7%</h1>
           </div>
        </div>
     </div>

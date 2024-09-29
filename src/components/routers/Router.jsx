@@ -19,7 +19,6 @@ import { CursedFlames } from "../screens/Class/Melee/MeleeBuffs/CursedFlames"
 import { WarriorEmblem } from "../screens/Class/Melee/MeleeAcs/WarriorEmblem"
 import { BerserkerGlove } from "../screens/Class/Melee/MeleeAcs/BerserkerGlove"
 import { WrathPotion } from "../screens/Class/Melee/MeleeBuffs/WrathPotion"
-import { Zenith } from "../screens/Class/Melee/MeleeWeapons/Zenith"
 import { Rage } from "../screens/Class/Melee/MeleeBuffs/Rage"
 import { HardModeAnvils } from "../screens/Wiki/Items/HardMode/From_underbroundHard/HardModeAnvils"
 import { Jungle_Spores } from "../screens/Wiki/Items/PreHardMode/From_mobs/Jungle_Spores"
@@ -176,7 +175,6 @@ export const Router = () => {
             <Route element={<WarriorEmblem/>} path="/meleeAcs/warriorEmblem"/>
             <Route element={<BerserkerGlove/>} path="/meleeAcs/berserkerGlove"/>
             <Route element={<WrathPotion/>} path="/meleeBafs/wrathPotion"/>
-            <Route element={<Zenith/>} path="/meleeWeapons/zenith"/>
             <Route element={<Rage/>} path="/meleeBafs/rage"/>
             <Route element={<Muramasa/>} path="/meleeWeapons/muramasa"/>
             <Route element={<LightsBane/>} path="/meleeWeapons/lightsBane"/>
@@ -270,8 +268,6 @@ export const Router = () => {
             <Route element={<HerculesBeetle/>} path="/sum/HerculesBeetle"/>
             <Route element={<NecromanticScroll/>} path="/sum/NecromanticScroll"/>
             <Route element={<PapyrusScarab/>} path="/sum/PapyrusScarab"/>
-            <Route element={<OpticStaff/>} path="/sum/OpticStaff"/>
-            <Route element={<OpticStaff/>} path="/sum/OpticStaff"/>
 
 
 

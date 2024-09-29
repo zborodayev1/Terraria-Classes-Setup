@@ -12,7 +12,7 @@ Its best modifier is Unreal.</h1>
         <h1 className='font-bold my-2 py-1 w-3/6 text-center border border-gray-600  rounded-md bg-[#101017] mt-5'>Obtained from</h1>
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-50 bg-[#101017]'>
           <div className='flex'>
-            <img src='https://terraria.wiki.gg/images/5/5e/Hallowed_Mimic2.png'/><h1 className='mt-3 ml-2'>Hallowed Mimic</h1>        
+            <img src='/Hallowed_Mimic.webp'/><h1 className='mt-3 ml-2'>Hallowed Mimic</h1>        
           </div>
         </div>
       </div>

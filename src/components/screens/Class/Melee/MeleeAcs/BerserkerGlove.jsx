@@ -21,7 +21,7 @@ export const BerserkerGlove = () => {
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/0/05/Berserker%27s_Glove.png'/> <h1 className='ml-2 font-bold' >Berserkers Glove</h1>
+                    <img className='' src='/Berserkers_Glove.webp'/> <h1 className='ml-2 font-bold' >Berserkers Glove</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-50 ml-2' >
@@ -29,17 +29,17 @@ export const BerserkerGlove = () => {
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                     <img className='' src='https://terraria.wiki.gg/images/2/28/Power_Glove.png'/> <h1 className='ml-1' >Power Glove</h1>
+                     <img className='' src='/Power_Glove.webp'/> <h1 className='ml-1' >Power Glove</h1>
                   </div>
                   <div className='flex mt-3' >
-                  <img className='' src='https://terraria.wiki.gg/images/b/b9/Flesh_Knuckles.png'/> <h1 className='ml-2 text-sm' >Flesh Knuckles</h1>
+                  <img className='' src='/Flesh_Knuckles.webp'/> <h1 className='ml-2 text-sm' >Flesh Knuckles</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-50 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                      <img className='' src='https://terraria.wiki.gg/images/1/17/Tinkerer%27s_Workshop.png'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
+                      <img className='' src='/Tinkerer_Workshop.webp'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
                   </div>
               </div>
           </div>

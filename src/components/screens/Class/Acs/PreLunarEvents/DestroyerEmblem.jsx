@@ -15,7 +15,7 @@ export const DestroyerEmblem = () => {
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/5/5a/Destroyer_Emblem.png'/> <h1 className=' ml-2  font-bold' >Destroyer Emblem</h1>
+                    <img className='' src='/Destroyer_Emblem.webp'/> <h1 className=' ml-2  font-bold' >Destroyer Emblem</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-50 ml-2' >
@@ -23,17 +23,17 @@ export const DestroyerEmblem = () => {
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/c/c3/Avenger_Emblem.png'/> <Link to='/acs/AvangerEmblem' className='ml-1 hover:underline hover:text-blue-500 duration-200 ' >Avanger Emblem</Link>
+                    <img className='' src='/Avenger_Emblem.webp'/> <Link to='/acs/AvangerEmblem' className='ml-1 hover:underline hover:text-blue-500 duration-200 ' >Avanger Emblem</Link>
                   </div>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/f/f1/Eye_of_the_Golem.png'/> <h1  className='ml-1' >Eye of the Golem</h1>
+                    <img className='' src='/Eye_of_the_Golem.webp'/> <h1  className='ml-1' >Eye of the Golem</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-50 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                      <img className='' src='https://terraria.wiki.gg/images/1/17/Tinkerer%27s_Workshop.png'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
+                      <img className='' src='/Tinkerer_Workshop.webp'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
                   </div>
               </div>
           </div>

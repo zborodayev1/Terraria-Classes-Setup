@@ -13,7 +13,7 @@ Magic Power Potions can be crafted or found in Shadow Chests and Pots in the Und
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='h-7' src='https://terraria.wiki.gg/images/2/2c/Magic_Power_Potion.png'/> <h1 className='ml-2' >Magic Power Potion</h1>
+                    <img className='h-7' src='/Magic_Power_Potion.webp'/> <h1 className='ml-2' >Magic Power Potion</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-44 ml-2' >
@@ -21,23 +21,23 @@ Magic Power Potions can be crafted or found in Shadow Chests and Pots in the Und
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/1/16/Bottled_Water.png'/> <h1 className='ml-1 ' >Botteled water</h1>
+                    <img className='' src='/Bottled_Water.webp'/> <h1 className='ml-1 ' >Botteled water</h1>
                   </div>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/5/5b/Moonglow.png'/> <h1 className='ml-1 ' >Moonglow</h1>
+                    <img className='' src='/Moonglow.webp'/> <h1 className='ml-1 ' >Moonglow</h1>
                   </div>
                   <div className='flex mt-3' >
-                     <img className='' src='https://terraria.wiki.gg/images/c/c8/Deathweed.png'/> <h1 className='ml-2 ' >Deathweed</h1>
+                     <img className='' src='/Deathweed.webp'/> <h1 className='ml-2 ' >Deathweed</h1>
                   </div> 
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/9/9c/Fallen_Star.png'/> <h1 className='ml-2 ' >Fallen Star</h1>
+                    <img className='' src='/Fallen_Star.webp'/> <h1 className='ml-2 ' >Fallen Star</h1>
                   </div>                      
               </div>
               <div className='border border-gray-300 h-44 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                     <img className='' src='https://terraria.wiki.gg/images/4/40/Bottle_%28crafting_station%29.png'/> <h1 className='text-base ml-2' >Placed Bottle</h1>
+                     <img className='' src='/Bottle_crafting_station.webp'/> <h1 className='text-base ml-2' >Placed Bottle</h1>
                   </div>
               </div>
           </div>

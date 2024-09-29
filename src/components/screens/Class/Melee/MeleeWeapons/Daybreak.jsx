@@ -15,7 +15,7 @@ Its best modifier is Godly or Demonic. Both modifiers increase the average damag
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-2'>
-                    <img className='' src='https://terraria.wiki.gg/images/7/77/Daybreak.png'/> <h1 className='mt-2 ml-2  font-bold' >Daybreak</h1>
+                    <img className='' src='/Daybreak.webp'/> <h1 className='mt-2 ml-2  font-bold' >Daybreak</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-50 ml-2' >
@@ -23,7 +23,7 @@ Its best modifier is Godly or Demonic. Both modifiers increase the average damag
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-1' >
-                    <img className='' src='https://terraria.wiki.gg/images/2/26/Solar_Fragment.png'/> <h1 className='ml-1' >Solar Fragment</h1><h1 className='ml-1 text-white/75'>x18</h1>
+                    <img className='' src='/Solar_Fragment.webp'/> <h1 className='ml-1' >Solar Fragment</h1><h1 className='ml-1 text-white/75'>x18</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-50 ml-2' ></div>

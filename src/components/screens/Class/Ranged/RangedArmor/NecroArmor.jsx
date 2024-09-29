@@ -17,7 +17,7 @@ If the full set is worn, the player leaves an afterimage while running just like
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/d/d3/Necro_armor.png'/> <h1 className='mt-2 ml-2 font-bold' >Necro Armor</h1>
+                    <img className='' src='/Necro_armor.webp'/> <h1 className='mt-2 ml-2 font-bold' >Necro Armor</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-36 ml-2' >
@@ -25,17 +25,17 @@ If the full set is worn, the player leaves an afterimage while running just like
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/2/2c/Bone.png'/> <h1 className='ml-1 text-sm ' >Bone</h1><h1 className='ml-1 text-sm text-white/75'>x150</h1>
+                    <img className='' src='/Bone.webp'/> <h1 className='ml-1 text-sm ' >Bone</h1><h1 className='ml-1 text-sm text-white/75'>x150</h1>
                   </div>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/4/48/Cobweb.png'/> <h1 className='ml-1 text-sm ' >Cobweb</h1><h1 className='ml-1 text-sm text-white/75'>x135</h1>
+                    <img className='' src='/Cobweb.webp'/> <h1 className='ml-1 text-sm ' >Cobweb</h1><h1 className='ml-1 text-sm text-white/75'>x135</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-36 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                      <img className='' src='https://terraria.wiki.gg/images/9/91/Work_Bench.png'/> <h1 className='text-sm ml-2' >Work Bench</h1>
+                      <img className='' src='/Work_Bench.webp'/> <h1 className='text-sm ml-2' >Work Bench</h1>
                   </div>
               </div>
           </div>

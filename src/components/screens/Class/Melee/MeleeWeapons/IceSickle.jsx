@@ -8,16 +8,16 @@ export const IceSickle = () => {
           <h1 className='font-bold'>Obtained from</h1>
           <div>
             <div className='mt-2 flex'>
-              <img src='https://terraria.wiki.gg/images/e/ee/Armored_Viking.gif'/> <h1 className='mt-2 mx-2'>Armored Viking</h1> <h1 className='mt-2 text-sm text-white/75'>1%</h1>
+              <img src='/Armored_Viking.webp'/> <h1 className='mt-2 mx-2'>Armored Viking</h1> <h1 className='mt-2 text-sm text-white/75'>1%</h1>
             </div>
             <div className='mt-2 flex'>
-              <img src='https://terraria.wiki.gg/images/6/66/Ice_Elemental.gif'/> <h1 className='mt-2 mx-2'>Ice Elemental</h1> <h1 className='mt-2 text-sm text-white/75'>1%</h1>
+              <img src='/Ice_Elemental.webp'/> <h1 className='mt-2 mx-2'>Ice Elemental</h1> <h1 className='mt-2 text-sm text-white/75'>1%</h1>
             </div>
             <div className='mt-2 flex'>
-              <img src='https://terraria.wiki.gg/images/b/bd/Ice_Tortoise.gif'/> <h1 className='mt-2 mx-2'>Ice Tortoise</h1> <h1  className='mt-2 text-sm text-white/75'>1%</h1>
+              <img src='/Ice_Tortoise.webp'/> <h1 className='mt-2 mx-2'>Ice Tortoise</h1> <h1  className='mt-2 text-sm text-white/75'>1%</h1>
             </div>
             <div className='mt-2 flex'>
-              <img src='https://terraria.wiki.gg/images/7/7b/Icy_Merman.gif'/> <h1 className='mt-2 mx-2'>Icy Merman</h1> <h1 className='mt-2 text-sm text-white/75'>1%</h1>
+              <img src='/Icy_Merman.webp'/> <h1 className='mt-2 mx-2'>Icy Merman</h1> <h1 className='mt-2 text-sm text-white/75'>1%</h1>
             </div>
           </div>
       </div>

@@ -9,8 +9,8 @@ export const RangedMain = () => {
       <a className="font-bold">Rangers</a> are able to attack from a distance, doing high single-target, piercing, or splash damage. They utilize weapons like bows and guns, as well as thrown objects. Ranged users must constantly acquire ammunition, unless using the Endless Quiver or Endless Musket Pouch. This can be done through crafting or purchasing from the Arms Dealer. Rangers have decent defense, and are good at killing enemies while keeping a safe distance. For many weapons that do not use regular ammo (such as the Nail Gun or the Candy Corn Rifle), players can buy the ammo from the Arms Dealer while having the weapon in their inventory. There are different Arrows, Bullets, Darts and Rockets that each have their own use and effect. Using the right one in a situation can make a huge difference.
       </h1>
       <div className="flex" >
-        <img className="" src='https://terraria.wiki.gg/images/6/6e/Vortex_armor.png'/>
-        <img className="h-8" src='https://terraria.wiki.gg/images/0/04/S.D.M.G..png'/>
+        <img className="" src='/Vortex_armor.webp'/>
+        <img className="h-8" src='/S.webp'/>
       </div>
       <div className='flex justify-center'>
           <h1 className='text-2xl'>Guide</h1>

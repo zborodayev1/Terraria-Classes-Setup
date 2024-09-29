@@ -13,7 +13,7 @@ Its best modifier is Mythical.</h1>
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/f/fc/Nebula_Blaze.png'/> <h1 className=' ml-2 font-bold' >Nebula Blaze</h1>
+                    <img className='' src='/Nebula_Blaze.webp'/> <h1 className=' ml-2 font-bold' >Nebula Blaze</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-36 ml-2' >
@@ -21,14 +21,14 @@ Its best modifier is Mythical.</h1>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/b/b0/Nebula_Fragment.png'/> <h1 className='ml-1 text-sm ' >Nebula Fragment</h1><h1 className='ml-1 text-sm text-white/75'>x18</h1>
+                    <img className='' src='/Nebula_Fragment.webp'/> <h1 className='ml-1 text-sm ' >Nebula Fragment</h1><h1 className='ml-1 text-sm text-white/75'>x18</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-36 ml-2' ></div>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
-                    <img className='' src='https://terraria.wiki.gg/images/e/e2/Ancient_Manipulator.png'/> <h1 className='text-base ml-2' >Ancient Manipulator</h1>
+                    <img className='' src='/Ancient_Manipulator.webp'/> <h1 className='text-base ml-2' >Ancient Manipulator</h1>
                   </div> 
               </div>
           </div>
