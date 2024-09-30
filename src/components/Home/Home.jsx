@@ -1,11 +1,13 @@
 import AnimatedCircles from "../circles/circles";
 import styles from '../css/App.module.scss';
+import CalDropdownMenu from "../dropdown/caldropdown";
 import DropdownMenu from "../dropdown/dropdown";
 
 
 export const Home = () => {
   return (
     <>
+    <h1 className="bg-slate-50 hover:bg-gray-800">2232121232</h1>
       <AnimatedCircles />
       <div className={styles.Home}>
         <div className="flex justify-center items-center h-screen">
@@ -14,7 +16,10 @@ export const Home = () => {
             <h1 className="text-lime-50/50">
               P.s: in this guide there will be only relevant types of armor and weapons in the passage,
             </h1>
-            <DropdownMenu />
+            <div className="flex justify-center">
+              <DropdownMenu />
+              <CalDropdownMenu />
+            </div>
           </div>
         </div>
       </div>

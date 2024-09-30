@@ -141,6 +141,7 @@ import { TikiArmor } from "../screens/Class/Summoner/SumArmor/TikiArmor"
 import { HerculesBeetle } from "../screens/Class/Summoner/SumArmor/HerculesBeetle"
 import { PapyrusScarab } from "../screens/Class/Summoner/SumAcs/PapyrusScarab"
 import { NecromanticScroll } from "../screens/Class/Summoner/SumAcs/NecromanticScroll"
+import { CalMeleeMain } from "../screens/Calamity/Melee/CalMeleeMain"
 
 export const Router = () => {
   return (
@@ -157,7 +158,6 @@ export const Router = () => {
             <Route element={<MageMain/>} path="/mage"/>
             <Route element={<RangedMain/>} path="/ranged"/>
             <Route element={<SummonerMain/>} path="/summoner"/>
-
 
             {/* melee */}
             <Route element={<Starfury/>} path="/meleeWeapons/starfury"/>
@@ -317,6 +317,14 @@ export const Router = () => {
             <Route element={<PreHardModeAnvils/>} path="/wiki/preHardMode/preHardModeAnvils"/>
             <Route element={<IronBar/>} path="/wiki/preHardMode/ironBar"/>
             <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>
+
+            {/* calamity classes */}
+            <Route element={<CalMeleeMain/>} path="/cal/melee"/>
+            <Route element={<MageMain/>} path="/cal/mage"/>
+            <Route element={<RangedMain/>} path="/cal/ranged"/>
+            <Route element={<SummonerMain/>} path="/cal/summoner"/>
+            <Route element={<SummonerMain/>} path="/cal/rogue"/>
+
 
 
             {/* <Route element={} path=""/> */}
