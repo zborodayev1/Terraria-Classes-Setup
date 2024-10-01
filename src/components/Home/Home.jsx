@@ -7,7 +7,6 @@ import DropdownMenu from "../dropdown/dropdown";
 export const Home = () => {
   return (
     <>
-    <h1 className="bg-slate-50 hover:bg-gray-800">2232121232</h1>
       <AnimatedCircles />
       <div className={styles.Home}>
         <div className="flex justify-center items-center h-screen">

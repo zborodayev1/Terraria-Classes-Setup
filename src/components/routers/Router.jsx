@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Home } from "../Home/Home"
 import { ErrorNotFound } from "../../assets/Errors/ErrorNotFound"
-import { Classes } from "../screens/ClassesMain"
 import { MeleeMain } from '../screens/Class/Melee/MeleeMain'
 import { SummonerMain } from '../screens/Class/Summoner/SummonerMailn'
 import { Starfury } from "../screens/Class/Melee/MeleeWeapons/Starfury"
@@ -149,7 +148,6 @@ export const Router = () => {
         <Routes>
             <Route element={<Home/>} path="/" />
             <Route element={<ErrorNotFound/>} path="*" />
-            <Route element={<Classes/>} path="/class" />
             <Route element={<Test/>} path="/test"/>
 
 

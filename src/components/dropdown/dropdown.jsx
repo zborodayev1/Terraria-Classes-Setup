@@ -14,7 +14,7 @@ function DropdownMenu() {
         onClick={toggleDropdown}
         className="bg-yellow-300/30 text-white px-12 py-2 rounded-md"
       >
-        Classes
+        Terraria
       </button>
 
       {isOpen && (
