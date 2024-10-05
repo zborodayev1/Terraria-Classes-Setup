@@ -24,10 +24,10 @@ Its best modifier is Legendary. While Light does decrease the base use time by 1
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-1' >
-                     <img className='w-10 h-10' src='/True_Nights_Edge.webp'/> <Link to='/meleeWeapons/trueNightsEdge' className='ml-1 text-sm mt-2  hover:underline hover:text-blue-500 duration-200 ' >True Nights Edge</Link>
+                     <img className='w-10 h-10' src='/True_Nights_Edge.webp'/> <Link to='/melee/pre-plantera/trueNightsEdge' className='ml-1 text-sm mt-2  hover:underline hover:text-blue-500 duration-200 ' >True Nights Edge</Link>
                   </div>
                   <div className='flex mt-1' >
-                    <img className='w-10 h-10' src='/True_Excalibur.webp'/> <Link to='/meleeWeapons/TrueExcalibur' className='ml-1 text-sm mt-2  hover:underline hover:text-blue-500 duration-200 ' >True Excalibur</Link>
+                    <img className='w-10 h-10' src='/True_Excalibur.webp'/> <Link to='/melee/TrueExcalibur' className='ml-1 text-sm mt-2  hover:underline hover:text-blue-500 duration-200 ' >True Excalibur</Link>
                   </div>
                   <div className='flex mt-1' >
                   <img className='' src='/Broken_Hero_Sword.webp'/> <h1 className='ml-2 text-sm ' >Broken Hero Sword</h1>

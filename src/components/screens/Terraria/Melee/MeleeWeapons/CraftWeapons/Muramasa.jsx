@@ -17,7 +17,7 @@ Its best modifier is Legendary.</h1>
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-2'>
-                    <img className='w-10 h-10' src='/Nights_Edge.webp'/> <Link to='/meleeWeapons/nightsEdge' className='mt-2 ml-2   hover:underline hover:text-blue-500 duration-200  ' >Nights Edge</Link>
+                    <img className='w-10 h-10' src='/Nights_Edge.webp'/> <Link to='/melee/pre-harbdome/nightsEdge' className='mt-2 ml-2   hover:underline hover:text-blue-500 duration-200  ' >Nights Edge</Link>
                   </div>
               </div>   
                 <div className='border border-gray-300  ml-2' >
@@ -25,16 +25,16 @@ Its best modifier is Legendary.</h1>
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-1' >
-                    <img className='w-10 h-10' src='/Lights_Bane.webp'/> <Link to='/meleeWeapons/lightsBane' className='ml-1 text-sm    hover:underline hover:text-blue-500 duration-200  ' >Lights Bane</Link>
+                    <img className='w-10 h-10' src='/Lights_Bane.webp'/> <Link to='/melee/lightsBane' className='ml-1 text-sm    hover:underline hover:text-blue-500 duration-200  ' >Lights Bane</Link>
                   </div>
                   <div className='flex mt-1' >
                   <img className='w-10 h-10' src='/Muramasa.webp'/> <h1 className='ml-1 text-sm font-bold' >Muramasa</h1>
                   </div>
                   <div className='flex mt-1' >
-                    <img className='w-10 h-10' src='/Blade_of_Grass.webp'/> <Link to='/meleeWeapons/bladeofgrass' className='ml-1 text-sm  hover:underline hover:text-blue-500 duration-200 ' >Blade of Grass</Link>
+                    <img className='w-10 h-10' src='/Blade_of_Grass.webp'/> <Link to='/melee/pre-bosses/bladeofgrass' className='ml-1 text-sm  hover:underline hover:text-blue-500 duration-200 ' >Blade of Grass</Link>
                   </div>
                   <div className='flex mt-1' >
-                    <img className='w-10 h-10' src='/Volcano.webp'/> <Link to='/meleeWeapons/volcano' className='ml-2 text-sm    hover:underline hover:text-blue-500 duration-200 ' >Volcano</Link>
+                    <img className='w-10 h-10' src='/Volcano.webp'/> <Link to='/melee/volcano' className='ml-2 text-sm    hover:underline hover:text-blue-500 duration-200 ' >Volcano</Link>
                   </div>
                   
               </div>

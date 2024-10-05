@@ -25,25 +25,25 @@ export const MeleeMain = () => {
       </div>
         <div className='flex justify-between border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3'>
           <div >
-            <Link to='/melee/MeleePreBosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
+            <Link to='/melee/pre-bosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
           </div>
           <div>
-            <Link to='/melee/MeleePreHardMode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
+            <Link to='/melee/pre-hardmode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
           </div>
           <div>
-            <Link to='/melee/MeleePreMechBosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
+            <Link to='/melee/pre-mechbosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
           </div>
           <div>
-            <Link to='/melee/MeleePrePlantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
+            <Link to='/melee/pre-plantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
           </div>
           <div>
-            <Link to='/melee/MeleePreGolem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
+            <Link to='/melee/pre-golem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
           </div>
           <div>
-            <Link to='/melee/MeleePreLunarEvents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
+            <Link to='/melee/pre-lunarevents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
           </div>
           <div>
-            <Link to='/melee/MeleePreMoonLord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
+            <Link to='/melee/pre-moonlord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
           </div>  
         </div>  
     </div>  

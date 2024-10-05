@@ -47,7 +47,7 @@ Its best modifier is Legendary.</h1>
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-2'>
-                    <img className='w-12 h-12' src='/True_Excalibur.webp'/> <Link to='/meleeWeapons/TrueExcalibur' className='mt-2 ml-2 hover:underline hover:text-blue-500 duration-200' >True Excalibur</Link>
+                    <img className='w-12 h-12' src='/True_Excalibur.webp'/> <Link to='/melee/TrueExcalibur' className='mt-2 ml-2 hover:underline hover:text-blue-500 duration-200' >True Excalibur</Link>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-50 ml-2' >

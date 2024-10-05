@@ -27,24 +27,24 @@ export const RangedreGolem= () => {
                   <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
                     <h1 className='font-bold'>Armor:</h1>
                     <div className='flex'>
-                      <img src='/Shroomite_armor.webp' /> <Link className='h-6 mt-2' to={'/ranged/ShroomiteArmor'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-1'>Shroomite Armor</h1></Link>
+                      <img src='/Shroomite_armor.webp' /> <Link className='h-6 mt-2' to={'/ranged/pre-golem/ShroomiteArmor'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-1'>Shroomite Armor</h1></Link>
                     </div>
                   </div>
                   <div className='border border-gray-600 rounded-lg p-3  bg-[#101017]  mt-3'>
                     <h1 className='font-bold'>Buffs:</h1>
                     <div className='flex mt-2'>
-                      <img src='/Flask_of_Ichor.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/ichor'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Ichor</h1></Link>
+                      <img src='/Flask_of_Ichor.webp' /> <Link className='h-6 mt-2' to={'/melee/baffs/ichor'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Ichor</h1></Link>
                       <h1 className='mt-2 italic mx-2'>or</h1>
-                      <img src='/Flask_of_Cursed_Flames.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/cursedFlames'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-2'>Cursed flames</h1></Link>
+                      <img src='/Flask_of_Cursed_Flames.webp' /> <Link className='h-6 mt-2' to={'/melee/baffs/cursedFlames'}><h1 className=' hover:underline  hover:text-blue-500 duration-200 ml-2'>Cursed flames</h1></Link>
                     </div>
                       <div className='flex mt-2'>
-                        <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/meleeBafs/sharpeningStation'}><h1 className=' hover:underline hover:text-blue-500 duration-200 ml-2'>Sharpening Station</h1></Link>
+                        <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/melee/baffs/sharpeningStation'}><h1 className=' hover:underline hover:text-blue-500 duration-200 ml-2'>Sharpening Station</h1></Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/wrathPotion'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
+                        <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/melee/baffs/wrathPotion'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/rage'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
+                        <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/melee/baffs/rage'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
                       </div>
                       <div className='flex mt-2'>
                         <img src='/Archery_Potion.webp' /> <Link className='h-6 mt-2' to={'/ranged/ArcheryPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Archery Potion</h1></Link>

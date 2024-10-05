@@ -18,25 +18,25 @@ export const RangedMain = () => {
       </div>
       <div className='flex justify-between border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3 '>
         <div >
-          <Link to='/ranged/RangedPreBosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
+          <Link to='/ranged/pre-bosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
         </div>
         <div>
-          <Link to='/ranged/RangedPreHardMode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
+          <Link to='/ranged/pre-hardmode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
         </div>
         <div>
-          <Link to='/ranged/RangedPreMechBosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
+          <Link to='/ranged/pre-mechbosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
         </div>
         <div>
-          <Link to='/ranged/RangedPrePlantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
+          <Link to='/ranged/pre-plantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
         </div>
         <div>
-          <Link to='/ranged/RangedPreGolem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
+          <Link to='/ranged/pre-golem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
         </div>
         <div>
-          <Link to='/ranged/RangedPreLunarEvents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
+          <Link to='/ranged/pre-lunarevents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
         </div>
         <div>
-          <Link to='/ranged/RangedPreMoonLord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
+          <Link to='/ranged/pre-moonlord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
         </div>  
       </div>  
     </div>  
