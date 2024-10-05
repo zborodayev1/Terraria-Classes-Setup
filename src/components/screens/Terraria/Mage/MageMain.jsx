@@ -18,25 +18,25 @@ export const MageMain = () => {
       </div>
       <div className='flex justify-between border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3 '>
         <div >
-          <Link to='/mage/MagePreBosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
+          <Link to='/mage/pre-bosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
         </div>
         <div>
-          <Link to='/mage/MagePreHardmode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
+          <Link to='/mage/pre-hardmode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
         </div>
         <div>
-          <Link to='/mage/MagePreMechBosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
+          <Link to='/mage/pre-mechbosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
         </div>
         <div>
-          <Link to='/mage/MagePrePlantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
+          <Link to='/mage/pre-plantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
         </div>
         <div>
-          <Link to='/mage/MagePreGolem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
+          <Link to='/mage/pre-golem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
         </div>
         <div>
-          <Link to='/mage/MagePreLunarEvents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
+          <Link to='/mage/pre-lunarevents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
         </div>
         <div>
-          <Link to='/mage/MagePreMoonLord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
+          <Link to='/mage/pre-moonlord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
         </div>  
       </div>  
     </div>  

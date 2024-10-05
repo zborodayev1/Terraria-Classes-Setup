@@ -16,31 +16,31 @@ export const MagePreHardmode = () => {
               <div className='border border-gray-600 rounded-lg p-3  bg-[#101017] '> 
                 <h1 className="font-bold">Weapons:</h1>
                   <div className='flex'>
-                    <img className='h-5' src='/Bee_Gun.webp'/> <Link className='h-6' to={'/mage/BeeGun'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Bee Gun</h1></Link>
+                    <img className='h-5' src='/Bee_Gun.webp'/> <Link className='h-6' to={'/mage/pre-hardmode/BeeGun'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Bee Gun</h1></Link>
                   </div>
               </div>
               <div className='border border-gray-600 rounded-lg p-3  bg-[#101017] mt-3'>
                 <h1 className="font-bold">Armor:</h1>
                 <div className='flex'>
-                  <img className='w-7 h-12' src='/Jungle_armor.webp' /> <Link className='h-6 mt-2' to={'/mage/JungleArmor'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Jungle Armor</h1></Link>
+                  <img className='w-7 h-12' src='/Jungle_armor.webp' /> <Link className='h-6 mt-2' to={'/mage/pre-hardmode/JungleArmor'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Jungle Armor</h1></Link>
                 </div>
               </div>
               <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3'>
                     <h1 className="font-bold" >Buffs:</h1>
                     <div className='flex'>
-                      <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/meleeBafs/sharpeningStation'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Sharpening Station</h1></Link>
+                      <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/buffs/sharpeningStation'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Sharpening Station</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/wrathPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
+                      <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/wrathPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/rage'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
+                      <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/rage'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Mana_Regeneration_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/ManaRegenerationPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Mana Regeneration Potion </h1></Link>
+                      <img src='/Mana_Regeneration_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/buffs/ManaRegenerationPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Mana Regeneration Potion </h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Magic_Power_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/MagicPowerPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Magic Power Potion</h1></Link>
+                      <img src='/Magic_Power_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/buffs/MagicPowerPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Magic Power Potion</h1></Link>
                     </div>
                 </div>
             </div>

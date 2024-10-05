@@ -29,24 +29,24 @@ export const MagePreLunarEvents= () => {
                   <div className='border border-gray-600 rounded-lg p-3 bg-[#101017]  mt-3'>
                   <h1 className='font-bold'>Buffs:</h1>
                   <div className='flex mt-2'>
-                    <img src='/Flask_of_Ichor.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/ichor'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Ichor</h1></Link>
+                    <img src='/Flask_of_Ichor.webp' /> <Link className='h-6 mt-2' to={'/buffs/ichor'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Ichor</h1></Link>
                     <h1 className='mt-2 italic mx-2'>or</h1>
-                    <img src='/Flask_of_Cursed_Flames.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/cursedFlames'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Cursed flames</h1></Link>
+                    <img src='/Flask_of_Cursed_Flames.webp' /> <Link className='h-6 mt-2' to={'/buffs/cursedFlames'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Cursed flames</h1></Link>
                   </div>
                     <div className='flex mt-2'>
-                      <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/meleeBafs/sharpeningStation'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Sharpening Station</h1></Link>
+                      <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/buffs/sharpeningStation'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Sharpening Station</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/wrathPotion'}><h1 className='ml-2   hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
+                      <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/wrathPotion'}><h1 className='ml-2   hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/rage'}><h1 className='ml-2   hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
+                      <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/rage'}><h1 className='ml-2   hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Mana_Regeneration_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/ManaRegenerationPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Mana Regeneration Potion </h1></Link>
+                      <img src='/Mana_Regeneration_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/buffs/ManaRegenerationPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Mana Regeneration Potion </h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Magic_Power_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/MagicPowerPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Magic Power Potion</h1></Link>
+                      <img src='/Magic_Power_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/buffs/MagicPowerPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Magic Power Potion</h1></Link>
                     </div>
                 </div>
                 </div>
@@ -58,10 +58,10 @@ export const MagePreLunarEvents= () => {
               <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] h-40 ml-3 mt-14'>
                   <h1 className='font-bold'>Mage Accessories:</h1>
                   <div className='flex'>
-                    <img className='w-7 h-7' src='/Sorcerer_Emblem.webp' /> <Link className='h-6' to={'/mage/ScorcererEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Sorcerer Emblem</h1></Link>
+                    <img className='w-7 h-7' src='/Sorcerer_Emblem.webp' /> <Link className='h-6' to={'/mage/acs/ScorcererEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Sorcerer Emblem</h1></Link>
                   </div>
                   <div className='flex mt-3'>
-                    <img className='w-7 h-7' src='/Celestial_Emblem.webp' /> <Link className='h-6' to={'/mage/CelestialEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Celestial Emblem</h1></Link>
+                    <img className='w-7 h-7' src='/Celestial_Emblem.webp' /> <Link className='h-6' to={'/mage/acs/CelestialEmblem'}><h1 className='   hover:underline hover:text-blue-500 duration-200 ml-2'>Celestial Emblem</h1></Link>
                   </div>
                 </div>
             </div>

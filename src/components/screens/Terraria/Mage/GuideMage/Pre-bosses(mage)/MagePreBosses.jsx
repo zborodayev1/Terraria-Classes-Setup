@@ -16,31 +16,31 @@ export const MagePreBosses = () => {
                 <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] '>
                   <h1 className='mb-2 font-bold' >Weapons:</h1>
                   <div className='flex'>
-                    <img className='' src='/Thunder_Zapper.webp'/> <Link className='h-6' to={'/mage/ThunderZapper'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Thunder Zapper</h1></Link>
+                    <img className='' src='/Thunder_Zapper.webp'/> <Link className='h-6' to={'/mage/pre-bosses/ThunderZapper'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Thunder Zapper</h1></Link>
                   </div>
                 </div>
                   <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3'>
                     <h1 className="font-bold">Armor:</h1>
                     <div className='flex'>
-                      <img className='w-7 h-12' src='/Platinum_armor.webp' /> <Link className='h-6 mt-3' to={'/meleeArmor/platinumArmor'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Platinum armor</h1></Link>
+                      <img className='w-7 h-12' src='/Platinum_armor.webp' /> <Link className='h-6 mt-3' to={'/classes/platinumArmor'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Platinum armor</h1></Link>
                     </div>
                 </div>
                 <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3'>
                     <h1 className="font-bold" >Buffs:</h1>
                     <div className='flex'>
-                      <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/melee/baffs/sharpeningStation'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Sharpening Station</h1></Link>
+                      <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/buffs/sharpeningStation'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Sharpening Station</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/melee/baffs/wrathPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
+                      <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/wrathPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/melee/baffs/rage'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
+                      <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/rage'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Mana_Regeneration_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/ManaRegenerationPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Mana Regeneration Potion </h1></Link>
+                      <img src='/Mana_Regeneration_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/buffs/ManaRegenerationPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Mana Regeneration Potion </h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Magic_Power_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/MagicPowerPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Magic Power Potion</h1></Link>
+                      <img src='/Magic_Power_Potion.webp' /> <Link className='h-6 mt-2' to={'/mage/buffs/MagicPowerPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Magic Power Potion</h1></Link>
                     </div>
                 </div>
               </div>

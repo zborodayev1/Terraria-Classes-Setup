@@ -165,17 +165,17 @@ export const Router = () => {
             <Route element={<NightsEdge/>} path="/melee/pre-hardmode/nightsEdge"/>
             <Route element={<PlatinumArmor/>} path="/classes/platinumArmor"/>
             <Route element={<MoltenArmor/>} path="/melee/pre-hardmode/moltenArmor"/>
-            <Route element={<SharpeningStation/>} path="/melee/baffs/sharpeningStation" />
-            <Route element={<Sake/>} path="/melee/baffs/sake"/>
-            <Route element={<Ichor/>} path="/melee/baffs/ichor" />
-            <Route element={<CursedFlames/>} path="/melee/baffs/cursedFlames" />warr
+            <Route element={<SharpeningStation/>} path="/buffs/sharpeningStation" />
+            <Route element={<Sake/>} path="/buffs/sake"/>
+            <Route element={<Ichor/>} path="/buffs/ichor" />
+            <Route element={<CursedFlames/>} path="/buffs/cursedFlames" />warr
             <Route element={<IceSickle/>} path="/melee/pre-mechbosses/iceSickle" />
             <Route element={<ShadowflameKnife/>} path="/melee/pre-mechbosses/shadowflameKnife"/>
             <Route element={<TitaniumArmor/>} path="/classes/titanumArmor"/>
             <Route element={<WarriorEmblem/>} path="/melee/warriorEmblem"/>
             <Route element={<BerserkerGlove/>} path="/melee/berserkerGlove"/>
-            <Route element={<WrathPotion/>} path="/melee/baffs/wrathPotion"/>
-            <Route element={<Rage/>} path="/melee/baffs/rage"/>
+            <Route element={<WrathPotion/>} path="/buffs/wrathPotion"/>
+            <Route element={<Rage/>} path="/buffs/rage"/>
             <Route element={<Muramasa/>} path="/melee/muramasa"/>
             <Route element={<LightsBane/>} path="/melee/lightsBane"/>
             <Route element={<Volcano/>} path="/melee/volcano"/>
@@ -225,60 +225,60 @@ export const Router = () => {
             <Route element={<RangedPreMoonLord/>} path="/ranged/pre-moonlord"/>
 
             {/* mage */}
-            <Route element={<ThunderZapper/>} path="/mage/ThunderZapper"/>
-            <Route element={<ManaRegenerationPotion/>} path="/mage/ManaRegenerationPotion"/>
-            <Route element={<MagicPowerPotion/>} path="/mage/MagicPowerPotion"/>
-            <Route element={<BeeGun/>} path="/mage/BeeGun"/>
-            <Route element={<JungleArmor/>} path="/mage/JungleArmor"/>
+            <Route element={<ThunderZapper/>} path="/mage/pre-bosses/ThunderZapper"/>
+            <Route element={<ManaRegenerationPotion/>} path="/mage/buffs/ManaRegenerationPotion"/>
+            <Route element={<MagicPowerPotion/>} path="/mage/buffs/MagicPowerPotion"/>
+            <Route element={<BeeGun/>} path="/mage/pre-hardmode/BeeGun"/>
+            <Route element={<JungleArmor/>} path="/mage/pre-hardmode/JungleArmor"/>
             <Route element={<SkyFracture/>} path="/mage/SkyFracture"/>
-            <Route element={<ScorcererEmblem/>} path="/mage/ScorcererEmblem"/>
-            <Route element={<CelestialEmblem/>} path="/mage/CelestialEmblem"/>
+            <Route element={<ScorcererEmblem/>} path="/mage/acs/ScorcererEmblem"/>
+            <Route element={<CelestialEmblem/>} path="/mage/acs/CelestialEmblem"/>
             <Route element={<Razorpine/>} path="/mage/Razorpine"/>
             <Route element={<SpectreArmor/>} path="/mage/SpectreArmor"/>
-            <Route element={<NebulaBlaze/>} path="/mage/NebulaBlaze"/>
+            <Route element={<NebulaBlaze/>} path="/mage/pre-moonlord/NebulaBlaze"/>
       
             {/* mage stages */}
-            <Route element={<MagePreBosses/>} path="/mage/MagePreBosses"/>
-            <Route element={<MagePreHardmode/>} path="/mage/MagePreHardmode"/>
-            <Route element={<MagePreMechBosses/>} path="/mage/MagePreMechBosses"/>
-            <Route element={<MagePrePlantera/>} path="/mage/MagePrePlantera"/>
-            <Route element={<MagePreGolem/>} path="/mage/MagePreGolem"/>
-            <Route element={<MagePreLunarEvents/>} path="/mage/MagePreLunarEvents"/>
-            <Route element={<MagePreMoonLord/>} path="/mage/MagePreMoonLord"/>
+            <Route element={<MagePreBosses/>} path="/mage/pre-bosses"/>
+            <Route element={<MagePreHardmode/>} path="/mage/pre-hardmode"/>
+            <Route element={<MagePreMechBosses/>} path="/mage/pre-mechbosses"/>
+            <Route element={<MagePrePlantera/>} path="/mage/pre-plantera"/>
+            <Route element={<MagePreGolem/>} path="/mage/pre-golem"/>
+            <Route element={<MagePreLunarEvents/>} path="/mage/pre-lunarevents"/>
+            <Route element={<MagePreMoonLord/>} path="/mage/pre-moonlord"/>
 
             {/* summoner */}
-            <Route element={<Snapthorn/>} path="/sum/Snapthorn"/>
-            <Route element={<FlinxStaff/>} path="/sum/FlinxStaff"/>
-            <Route element={<FlinxFurCoat/>} path="/sum/FlinxFurCoat"/>
-            <Route element={<SummoningPotion/>} path="/sum/SummoningPotion"/>
-            <Route element={<FeralClaws/>} path="/sum/FeralClaws"/>
-            <Route element={<SpinalTap/>} path="/sum/SpinalTap"/>
-            <Route element={<ImpStaff/>} path="/sum/ImpStaff"/>
-            <Route element={<ObsidianArmor/>} path="/sum/ObsidianArmor"/>
-            <Route element={<PygmyNecklace/>} path="/sum/PygmyNecklace"/>
-            <Route element={<CoolWhip/>} path="/sum/CoolWhip"/>
-            <Route element={<SpiderArmor/>} path="/sum/SpiderArmor"/>
-            <Route element={<SummonerEmblem/>} path="/sum/SummonerEmblem"/>
-            <Route element={<Durendal/>} path="/sum/Durendal"/>
-            <Route element={<SpiderStaff/>} path="/sum/SpiderStaff"/>
-            <Route element={<OpticStaff/>} path="/sum/OpticStaff"/>
+            <Route element={<Snapthorn/>} path="/sum/pre-bosses/Snapthorn"/>
+            <Route element={<FlinxStaff/>} path="/sum/pre-bosses/FlinxStaff"/>
+            <Route element={<FlinxFurCoat/>} path="/sum/pre-bosses/FlinxFurCoat"/>
+            <Route element={<SummoningPotion/>} path="/sum/buffs/SummoningPotion"/>
+            <Route element={<FeralClaws/>} path="/sum/acs/FeralClaws"/>
+            <Route element={<SpinalTap/>} path="/sum/pre-hardmode/SpinalTap"/>
+            <Route element={<ImpStaff/>} path="/sum/pre-hardmode/ImpStaff"/>
+            <Route element={<ObsidianArmor/>} path="/sum/pre-hardmode/ObsidianArmor"/>
+            <Route element={<PygmyNecklace/>} path="/sum/acs/PygmyNecklace"/>
+            <Route element={<CoolWhip/>} path="/sum/pre-mechbosses/CoolWhip"/>
+            <Route element={<SpiderArmor/>} path="/sum/pre-mechbosses/SpiderArmor"/>
+            <Route element={<SummonerEmblem/>} path="/sum/acs/SummonerEmblem"/>
+            <Route element={<Durendal/>} path="/sum/pre-plantera/Durendal"/>
+            <Route element={<SpiderStaff/>} path="/sum/pre-mechbosses/SpiderStaff"/>
+            <Route element={<OpticStaff/>} path="/sum/pre-plantera/OpticStaff"/>
             <Route element={<MorningStar/>} path="/sum/MorningStar"/>
             <Route element={<Terraprisma/>} path="/sum/Terraprisma"/>
             <Route element={<TikiArmor/>} path="/sum/TikiArmor"/>
-            <Route element={<HerculesBeetle/>} path="/sum/HerculesBeetle"/>
-            <Route element={<NecromanticScroll/>} path="/sum/NecromanticScroll"/>
-            <Route element={<PapyrusScarab/>} path="/sum/PapyrusScarab"/>
+            <Route element={<HerculesBeetle/>} path="/sum/acs/HerculesBeetle"/>
+            <Route element={<NecromanticScroll/>} path="/sum/acs/NecromanticScroll"/>
+            <Route element={<PapyrusScarab/>} path="/sum/acs/PapyrusScarab"/>
 
 
 
             {/* summoner stages */} 
-            <Route element={<SumPreBosses/>} path="/sum/SumPreBosses"/>
-            <Route element={<SumPreGolem/>} path="/sum/SumPreGolem"/>
-            <Route element={<SumPreHardmode/>} path="/sum/SumPreHardmode"/>
-            <Route element={<SumreLunarEvents/>} path="/sum/SumPreLunarEvents"/>
-            <Route element={<SumPreMechBosses/>} path="/sum/SumPreMechBosses"/>
-            <Route element={<SumPreMoonlord/>} path="/sum/SumPreMoonlord"/>
-            <Route element={<SumPrePlantera/>} path="/sum/SumPrePlantera"/>
+            <Route element={<SumPreBosses/>} path="/sum/pre-bosses"/>
+            <Route element={<SumPreGolem/>} path="/sum/pre-golem"/>
+            <Route element={<SumPreHardmode/>} path="/sum/pre-hardmode"/>
+            <Route element={<SumreLunarEvents/>} path="/sum/pre-lunarevents"/>
+            <Route element={<SumPreMechBosses/>} path="/sum/pre-mechbosses"/>
+            <Route element={<SumPreMoonlord/>} path="/sum/pre-moonlord"/>
+            <Route element={<SumPrePlantera/>} path="/sum/pre-plantera"/>
 
 
             {/* acs */}

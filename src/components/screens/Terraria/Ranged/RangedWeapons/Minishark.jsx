@@ -15,7 +15,7 @@ Its best modifier is Agile, as it does not have any knockback and thus cannot ge
               <div className='w-52'>
                   <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-2'>
-                    <img className='' src='/Megashark.pnwebpg'/> <Link to='/ranged/Megashark' className='mt-2 ml-2   hover:underline hover:text-blue-500 duration-200  ' >Megashark</Link>
+                    <img className='' src='/Megashark.webp'/> <Link to='/ranged/Megashark' className='mt-2 ml-2   hover:underline hover:text-blue-500 duration-200  ' >Megashark</Link>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-50 ml-2' >

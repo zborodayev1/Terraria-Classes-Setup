@@ -19,25 +19,25 @@ export const SummonerMain = () => {
       </div>
       <div className='flex justify-between border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3 '>
         <div >
-          <Link to='/sum/SumPreBosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
+          <Link to='/sum/pre-bosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
         </div>
         <div>
-          <Link to='/sum/SumPreHardmode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
+          <Link to='/sum/pre-hardmode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre HardMode</Link>
         </div>
         <div>
-          <Link to='/sum/SumPreMechBosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
+          <Link to='/sum/pre-mechbosses' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Mech Bosses</Link>
         </div>
         <div>
-          <Link to='/sum/SumPrePlantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
+          <Link to='/sum/pre-plantera' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Plantera</Link>
         </div>
         <div>
-          <Link to='/sum/SumPreGolem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
+          <Link to='/sum/pre-golem' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Golem</Link>
         </div>
         <div>
-          <Link to='/sum/SumPreLunarEvents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
+          <Link to='/sum/pre-lunarevents' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Lunar Events</Link>
         </div>
         <div>
-          <Link to='/sum/SumPreMoonLord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
+          <Link to='/sum/pre-moonlord' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre Moon Lord</Link>
         </div>  
       </div>  
     </div>  

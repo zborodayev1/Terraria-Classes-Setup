@@ -9,7 +9,7 @@ export const SumreLunarEvents= () => {
           <div className='flex'>
               <div>
                 <div className='flex'>
-                  <h1 className='text-xl my-2'>Pre-Golem</h1>
+                  <h1 className='text-xl my-2'>Pre Lunar Events</h1>
                   <div className='bg-[#004cc6] w-4 h-6 ml-2 mt-3'></div>
                 </div>  
                 {/* main */}
@@ -32,24 +32,24 @@ export const SumreLunarEvents= () => {
                   <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3'>
                     <h1 className='font-bold'>Buffs:</h1>
                     <div className='flex'>
-                      <img src='/Sake.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/sake'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Sake</h1></Link>
+                      <img src='/Sake.webp' /> <Link className='h-6 mt-2' to={'/buffs/sake'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Sake</h1></Link>
                     </div>
                     <div className='flex mt-2'>
-                      <img src='/Flask_of_Ichor.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/ichor'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Ichor</h1></Link>
+                      <img src='/Flask_of_Ichor.webp' /> <Link className='h-6 mt-2' to={'/buffs/ichor'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Ichor</h1></Link>
                       <h1 className='mt-2 italic mx-2'>or</h1>
-                      <img src='/Flask_of_Cursed_Flames.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/cursedFlames'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Cursed flames</h1></Link>
+                      <img src='/Flask_of_Cursed_Flames.webp' /> <Link className='h-6 mt-2' to={'/buffs/cursedFlames'}><h1 className='  hover:underline hover:text-blue-500 duration-200 ml-2'>Cursed flames</h1></Link>
                     </div>
                       <div className='flex mt-2'>
-                        <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/meleeBafs/sharpeningStation'}><h1 className=' hover:underline hover:text-blue-500 duration-200 ml-2'>Sharpening Station</h1></Link>
+                        <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/buffs/sharpeningStation'}><h1 className=' hover:underline hover:text-blue-500 duration-200 ml-2'>Sharpening Station</h1></Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/wrathPotion'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
+                        <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/wrathPotion'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/meleeBafs/rage'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
+                        <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/rage'}><h1 className='ml-2  hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
                       </div>
                       <div className='flex mt-2'>
-                      <img src='/Summoning_Potion.webp' /> <Link className='h-6 mt-2' to={'/sum/SummoningPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Summoning Potion</h1></Link>
+                      <img src='/Summoning_Potion.webp' /> <Link className='h-6 mt-2' to={'/sum/buffs/SummoningPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Summoning Potion</h1></Link>
                     </div>
                       
                   </div>
@@ -63,19 +63,19 @@ export const SumreLunarEvents= () => {
                 <h1 className='mb-2 font-bold' >Summoner Accessories:</h1>
                 <div>
                   <div className="flex">
-                    <img src="/Feral_Claws.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/FeralClaws' >Feral Claws</Link >
+                    <img src="/Feral_Claws.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/acs/FeralClaws' >Feral Claws</Link >
                   </div>
                   <div className="flex mt-3">
-                    <img src="/Pygmy_Necklace.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/PygmyNecklace' >Pygmy Necklace</Link >
+                    <img src="/Pygmy_Necklace.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/acs/PygmyNecklace' >Pygmy Necklace</Link >
                   </div>
                   <div className="flex mt-3">
-                    <img src="/Hercules_Beetle.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/HerculesBeetle' >Hercules Beetle</Link >
+                    <img src="/Hercules_Beetle.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/acs/HerculesBeetle' >Hercules Beetle</Link >
                   </div>
                   <div className="flex mt-3">
-                    <img src="/Necromantic_Scroll.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/NecromanticScroll' >Necromantic Scroll</Link >
+                    <img src="/Necromantic_Scroll.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/acs/NecromanticScroll' >Necromantic Scroll</Link >
                   </div>
                   <div className="flex mt-3">
-                    <img src="/Papyrus_Scarab.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/PapyrusScarab' >Papyrus Scarab</Link >
+                    <img src="/Papyrus_Scarab.webp"/><Link className="ml-2  hover:underline hover:text-blue-500 duration-200" to='/sum/acs/PapyrusScarab' >Papyrus Scarab</Link >
                   </div>
                 </div>
               </div>
