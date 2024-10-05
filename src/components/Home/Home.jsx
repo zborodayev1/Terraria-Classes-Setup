@@ -1,6 +1,6 @@
-import AnimatedCircles from "../circles/circles";
-import DropdownMenu from "../dropdown/dropdown";
-import CalDropdownMenu from "../dropdown/caldropdown";
+import AnimatedCircles from "./circles/circles";
+import DropdownMenu from "./dropdowns/dropdown";
+import CalDropdownMenu from "./dropdowns/caldropdown";
 
 
 export const Home = () => {

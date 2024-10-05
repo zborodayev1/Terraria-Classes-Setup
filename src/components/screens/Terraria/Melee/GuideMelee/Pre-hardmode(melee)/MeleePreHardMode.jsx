@@ -28,13 +28,13 @@ export const MeleePreHardMode = () => {
               <div className='border border-gray-600 rounded-lg p-3  bg-[#101017] mt-3'>
                   <h1 className="font-bold">Buffs:</h1>
                   <div className='flex'>
-                    <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/melee/buffs/sharpeningStation'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Sharpening Station</h1></Link>
+                    <img src='/Sharpening_Station.webp' /> <Link className='h-6' to={'/buffs/sharpeningStation'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Sharpening Station</h1></Link>
                   </div>
                   <div className='flex mt-2'>
-                    <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/melee/buffs/wrathPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
+                    <img src='/Wrath_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/wrathPotion'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Wrath Potion</h1></Link>
                   </div>
                   <div className='flex mt-2'>
-                    <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/melee/buffs/rage'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
+                    <img src='/Rage_Potion.webp' /> <Link className='h-6 mt-2' to={'/buffs/rage'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Rage Potion</h1></Link>
                   </div>
               </div>
             </div>

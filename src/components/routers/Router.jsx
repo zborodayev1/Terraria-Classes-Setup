@@ -143,6 +143,11 @@ import { NecromanticScroll } from "../screens/Terraria/Summoner/SumAcs/Necromant
 import { CalMeleeMain } from "../screens/Calamity/Melee/CalMeleeMain"
 import { BurntSienna } from "../screens/Calamity/Melee/Weapons/BurntSienna"
 import { CalMeleePreBosses } from "../screens/Calamity/Melee/Guide/CalMelePreBosses"
+import { GladiatorsLocket } from "../screens/Calamity/Mix/Acs/Accessories/GladiatorsLocket"
+import { FrogLeg } from "../screens/Calamity/Mix/Acs/Accessories/FrogLeg"
+import { CalFeralClaws } from "../screens/Calamity/Melee/Acs/FeralClaws"
+import { Rover_Drive } from "../screens/Calamity/Mix/Acs/Accessories/Rover_Drive"
+import { CalMeleePreEater_of_Worlds} from "../screens/Calamity/Melee/Guide/Pre-Eater_of_Worlds"
 
 export const Router = () => {
   return (
@@ -165,10 +170,10 @@ export const Router = () => {
             <Route element={<NightsEdge/>} path="/melee/pre-hardmode/nightsEdge"/>
             <Route element={<PlatinumArmor/>} path="/classes/platinumArmor"/>
             <Route element={<MoltenArmor/>} path="/melee/pre-hardmode/moltenArmor"/>
-            <Route element={<SharpeningStation/>} path="/buffs/sharpeningStation" />
+            <Route element={<SharpeningStation/>} path="melee/buffs/sharpeningStation" />
             <Route element={<Sake/>} path="/buffs/sake"/>
             <Route element={<Ichor/>} path="/buffs/ichor" />
-            <Route element={<CursedFlames/>} path="/buffs/cursedFlames" />warr
+            <Route element={<CursedFlames/>} path="/buffs/cursedFlames" />
             <Route element={<IceSickle/>} path="/melee/pre-mechbosses/iceSickle" />
             <Route element={<ShadowflameKnife/>} path="/melee/pre-mechbosses/shadowflameKnife"/>
             <Route element={<TitaniumArmor/>} path="/classes/titanumArmor"/>
@@ -304,7 +309,7 @@ export const Router = () => {
             <Route element={<AvangerEmblem/>} path="/acs/AvangerEmblem"/>
             <Route element={<MoonStone/>} path="/acs/MoonStone"/>
             <Route element={<CelestialStone/>} path="/acs/CelestialStone"/>
-            <Route element={<CelestialShell/>} path="/acs/CelestialShell"/>
+            <Route element={<CelestialShell/>} path="/acs/CelestialShell"/>Fera
             <Route element={<MoonShell/>} path="/acs/MoonShell"/>
             <Route element={<DestroyerEmblem/>} path="/acs/DestroyerEmblem"/>
 
@@ -327,6 +332,19 @@ export const Router = () => {
 
             {/* calamity stages */}
             <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreEater_of_Worlds/>} path="/cal/melee/Pre_Eater_of_Worlds"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
 
             {/* calamity melee pre bosses */}
             <Route element={<BurntSienna/>} path="/cal/melee/pre-bosses/BurntSienna"/>
@@ -340,7 +358,13 @@ export const Router = () => {
 
 
             {/* calamity acs */}
-            
+            <Route element={<GladiatorsLocket/>} path="/cal/acs/GladiatorsLocket"/>
+            <Route element={<FrogLeg/>} path="/cal/acs/FrogLeg"/>
+            <Route element={<CalFeralClaws/>} path="/cal/acs/FeralClaws"/>
+            <Route element={<Rover_Drive/>} path="/cal/acs/RoverDrive"/>
+            <Route element={<FrogLeg/>} path="/cal/acs/FrogLeg"/>
+            <Route element={<FrogLeg/>} path="/cal/acs/FrogLeg"/>
+            <Route element={<FrogLeg/>} path="/cal/acs/FrogLeg"/>
 
 
             {/* <Route element={} path=""/> */}
