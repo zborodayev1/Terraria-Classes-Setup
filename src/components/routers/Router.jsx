@@ -161,7 +161,7 @@ export const Router = () => {
 
             {/* melee */}
             <Route element={<Starfury/>} path="/mele/pre-bosses/starfury"/>
-            <Route element={<BladeOfGrass/>} path="/meleeWeapons/bladeofgrass"/>
+            <Route element={<BladeOfGrass/>} path="/mele/pre-bosses/bladeofgrass"/>
             <Route element={<NightsEdge/>} path="/meleeWeapons/nightsEdge"/>
             <Route element={<PlatinumArmor/>} path="/meleeArmor/platinumArmor"/>
             <Route element={<MoltenArmor/>} path="/meleeArmor/moltenArmor"/>

@@ -19,7 +19,7 @@ export const MeleePreBosses = () => {
                     <img className='w-12 h-12' src='/Blade_of_Grass.webp'/> <Link className='h-6 mt-3' to={'/meleeWeapons/bladeofgrass'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Blade of grass</h1></Link>
                   </div>
                   <div className='flex'>
-                    <img className='w-12 h-12' src='/Starfury.webp'/> <Link className='h-6 mt-3' to={'/meleeWeapons/starfury'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Starfury</h1></Link>
+                    <img className='w-12 h-12' src='/Starfury.webp'/> <Link className='h-6 mt-3' to={'/mele/pre-bosses/starfury'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Starfury</h1></Link>
                   </div>
                 </div>
                   <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3'>
