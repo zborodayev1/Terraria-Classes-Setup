@@ -3,12 +3,7 @@
   margin: 0 auto;
   text-align: center;
 }
-.classes{
-  @apply text-xl m-2  
-}
-.class{
-  @apply text-blue-500 hover:underline
-}
+
 .main{
   margin: 1.25rem;
   min-height: 45.5rem;
@@ -18,27 +13,19 @@
   background-color:#15171f
   
 }
-.mainMelee{
-  margin: 1.25rem;
-  border: 8px solid rgba(145, 63, 1, 0.483);
-  height: 150vh;
-  padding: 20px;
-  background-color:rgba(145, 63, 1, 0.483);
-}
+
 .Home{
   margin: 1.25rem;
-  border: 8px solid rgba(145, 63, 1, 0.483);
   height: 100vh;
   padding: 20px;
-  background-color:rgba(145, 63, 1, 0.483);
 }
-.calamitybutton{
-  border-radius: 0.375rem /* 6px */;
-  padding-top: 0.5rem /* 8px */;
-  padding-bottom: 0.5rem /* 8px */;
-  padding-left: 3rem /* 48px */;
-  padding-right: 3rem /* 48px */;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity)) /* #ffffff */;
-  background-color: rgb(253 224 71 / 0.3);
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      filter: blur(30px);
+  }
+  100% {
+      opacity: 1;
+      filter: blur(0px);
+  }
 }
