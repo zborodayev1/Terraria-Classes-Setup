@@ -10,7 +10,7 @@ export const HardModeAnvils = () => {
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-44 bg-[#101017]'>
           <div className='flex'>
               <div className='w-52'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
                     <img className='w-8 h-5' src='/Mythril_Anvil.webp'/> <h1 className=' ml-2' >Mythril Anvil</h1>
                   </div>
@@ -21,7 +21,7 @@ export const HardModeAnvils = () => {
                 <div className='border border-gray-300 h-40 ml-2' >
               </div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
                      <img className='w-8 h-6' src='/Mythril_Bar.webp'/> <h1 className='ml-1 text-sm' >Mythril Bar </h1><h1 className='ml-1 text-sm text-white/50 '>x10</h1>
                   </div>
@@ -31,7 +31,7 @@ export const HardModeAnvils = () => {
               </div>
               <div className='border border-gray-300 h-40 ml-2' ></div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex' >
                       <img className='w-8 h-4' src='/Iron_Anvil.webp'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Iron Anvil</Link>
                   </div>
