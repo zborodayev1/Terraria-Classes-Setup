@@ -21,7 +21,7 @@ export const CalMeleeMain = () => {
       </div>
         <div className='flex justify-between border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3'>
           <div >
-            <Link to='/melee/MeleePreBosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
+            <Link to='/cal/melee/pre-bosses' className='flex justify-center text-center font-bold  hover:underline hover:text-blue-500 duration-150' >Pre Bosses</Link>  
           </div>
           <div>
             <Link to='/melee/MeleePreHardMode' className='text-center font-bold  hover:text-blue-500 duration-150 hover:underline' >Pre-Eater of Worlds / Brain of Cthulhu</Link>

@@ -141,6 +141,8 @@ import { HerculesBeetle } from "../screens/Terraria/Summoner/SumArmor/HerculesBe
 import { PapyrusScarab } from "../screens/Terraria/Summoner/SumAcs/PapyrusScarab"
 import { NecromanticScroll } from "../screens/Terraria/Summoner/SumAcs/NecromanticScroll"
 import { CalMeleeMain } from "../screens/Calamity/Melee/CalMeleeMain"
+import { BurntSienna } from "../screens/Calamity/Melee/Weapons/BurntSienna"
+import { CalMeleePreBosses } from "../screens/Calamity/Melee/Guide/CalMelePreBosses"
 
 export const Router = () => {
   return (
@@ -158,7 +160,7 @@ export const Router = () => {
             <Route element={<SummonerMain/>} path="/summoner"/>
 
             {/* melee */}
-            <Route element={<Starfury/>} path="/meleeWeapons/starfury"/>
+            <Route element={<Starfury/>} path="/mele/pre-bosses/starfury"/>
             <Route element={<BladeOfGrass/>} path="/meleeWeapons/bladeofgrass"/>
             <Route element={<NightsEdge/>} path="/meleeWeapons/nightsEdge"/>
             <Route element={<PlatinumArmor/>} path="/meleeArmor/platinumArmor"/>
@@ -323,6 +325,22 @@ export const Router = () => {
             <Route element={<SummonerMain/>} path="/cal/summoner"/>
             <Route element={<SummonerMain/>} path="/cal/rogue"/>
 
+            {/* calamity stages */}
+            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
+
+            {/* calamity melee pre bosses */}
+            <Route element={<BurntSienna/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+
+
+            {/* calamity acs */}
+            
 
 
             {/* <Route element={} path=""/> */}

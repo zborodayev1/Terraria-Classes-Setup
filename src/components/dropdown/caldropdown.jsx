@@ -102,7 +102,7 @@ function CalDropdownMenu() {
             aria-labelledby="options-menu"
           >
             <Link
-              to="/melee"
+              to="/cal/melee"
               className="block px-4 py-2 text-sm text-gray-700 transition duration-300 ease-in-out hover:bg-[#A5B1C2] hover:backdrop-blur-sm"
               onClick={() => setIsOpen(false)}
             >
