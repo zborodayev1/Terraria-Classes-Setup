@@ -141,14 +141,15 @@ import { HerculesBeetle } from "../screens/Terraria/Summoner/SumArmor/HerculesBe
 import { PapyrusScarab } from "../screens/Terraria/Summoner/SumAcs/PapyrusScarab"
 import { NecromanticScroll } from "../screens/Terraria/Summoner/SumAcs/NecromanticScroll"
 import { CalMeleeMain } from "../screens/Calamity/Melee/CalMeleeMain"
-import { BurntSienna } from "../screens/Calamity/Melee/Weapons/BurntSienna"
-import { CalMeleePreBosses } from "../screens/Calamity/Melee/Guide/CalMelePreBosses"
+import { CalMeleePreBosses } from "../screens/Calamity/Melee/CalMeleeGuide/CalMeleePreBosses"
 import { GladiatorsLocket } from "../screens/Calamity/Mix/Acs/Accessories/GladiatorsLocket"
 import { FrogLeg } from "../screens/Calamity/Mix/Acs/Accessories/FrogLeg"
-import { CalFeralClaws } from "../screens/Calamity/Melee/Acs/FeralClaws"
+import { CalFeralClaws } from "../screens/Calamity/Melee/CalMeleeAcs/FeralClaws"
 import { Rover_Drive } from "../screens/Calamity/Mix/Acs/Accessories/Rover_Drive"
-import { CalMeleePreEater_of_Worlds} from "../screens/Calamity/Melee/Guide/Pre-Eater_of_Worlds"
-
+import { CalMeleePreEater_of_Worlds} from "../screens/Calamity/Melee/CalMeleeGuide/Pre-Eater_of_Worlds"
+import { CalBladeOfGrass } from "../screens/Calamity/Melee/CalMeleeWeapons/CalBladeOfGrass"
+import { BurntSienna } from "../screens/Calamity/Melee/CalMeleeWeapons/BurntSienna"
+import { RedtideSpear } from "../screens/Calamity/Melee/CalMeleeWeapons/RedtideSpear"
 export const Router = () => {
   return (
     <BrowserRouter>
@@ -346,10 +347,10 @@ export const Router = () => {
             <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
             <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
 
-            {/* calamity melee pre bosses */}
+            {/* calamity melee  */}
             <Route element={<BurntSienna/>} path="/cal/melee/pre-bosses/BurntSienna"/>
-            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
-            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
+            <Route element={<CalBladeOfGrass/>} path="/cal/melee/pre-eater_of_worlds/BladeOfGrass"/>
+            <Route element={<RedtideSpear/>} path="/cal/melee/pre-eater_of_worlds/RedtideSpear"/>
             <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
             <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
             <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>

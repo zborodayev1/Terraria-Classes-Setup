@@ -15,7 +15,10 @@ export const CalMeleePreEater_of_Worlds = () => {
                 <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] '>
                   <h1 className='mb-2 font-bold' >Weapons:</h1>
                   <div className='flex'>
-                    <img className='w-12 h-12' src='/Burnt_Sienna.webp'/> <Link className='h-6 mt-3' to={'/cal/melee/pre-bosses/BurntSienna'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Burnt Sienna</h1></Link>
+                    <img className='w-12 h-12' src='/Blade_of_Grass.webp'/> <Link className='h-6 mt-3' to={'/cal/melee/pre-eater_of_worlds/BladeOfGrass'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Blade of Grass</h1></Link>
+                  </div>
+                  <div className='flex'>
+                    <img className='w-12 h-12' src='/Redtide_Spear.webp'/> <Link className='h-6 mt-3' to={'/cal/melee/pre-eater_of_worlds/RedtideSpear'}><h1 className='ml-1 hover:underline hover:text-blue-500 duration-200'>Redtide Spear</h1></Link>
                   </div>
                 </div>
                   <div className='border border-gray-600 rounded-lg p-3 bg-[#101017] mt-3'>

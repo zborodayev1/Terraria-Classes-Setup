@@ -21,7 +21,7 @@ export const Rover_Drive = () => {
               <div className='w-52 ml-2'>
                   <h1 className='font-bold border border-gray-600 dark:bg-slate-100 bg-[#1c1f20] text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='/Rover_Drive.webp'/> <h1 className='ml-1 text-sm ' >Rover Drive</h1>
+                    <img className='' src='/Rover_Drive.webp'/> <h1 className='ml-1 text-sm font-bold' >Rover Drive</h1>
                   </div>
                   <div className='flex mt-3' >
                     <img className='' src='/Astral_Bar.webp'/> <h1 className='ml-1 text-sm ' >Astral Bar</h1><h1 className='ml-1 text-sm text-white/75'>x11</h1>

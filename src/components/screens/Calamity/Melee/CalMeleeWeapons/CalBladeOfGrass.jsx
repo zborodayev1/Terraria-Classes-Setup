@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { Link } from 'react-router-dom'
 import styles from '../../../../css/App.module.scss'
 
@@ -21,7 +20,7 @@ Its best modifier is Legendary.</h1>
                     <div className='w-52'>
                         <h1 className='font-bold border dark: dark:bg-slate-100 bg-[#1c1f20] border-gray-600  text-center rounded-md mb-1'>Result</h1>
                         <div className='flex mt-3'>
-                        <img className='' src='/Blade_of_Grass.webp'/> <h1 className='mt-2 ml-2 font-bold' >Blade</h1>
+                        <img className='w-10 h-10' src='/Blade_of_Grass.webp'/> <h1 className='mt-2 ml-2 font-bold' >Blade of Grass</h1>
                         </div>
                     </div>   
                         <div className='border border-gray-300 h-40 ml-2' >
@@ -29,23 +28,23 @@ Its best modifier is Legendary.</h1>
                     <div className='w-52 ml-2'>
                         <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                         <div className='flex mt-3' >
-                        <img className='' src='/Stinger.webp'/> <Link to='/wiki/items/stinger'className='ml-1 text-sm   hover:underline hover:text-blue-500 duration-200  ' >Stingers</Link><h1 className='ml-1 text-sm text-white/75'>x12</h1>
+                        <img className='w-4 h-5' src='/Stinger.webp'/> <Link to='/wiki/items/stinger'className='ml-1 text-sm   hover:underline hover:text-blue-500 duration-200  ' >Stingers</Link><h1 className='ml-1 text-sm text-white/75'>x12</h1>
                         </div>
                         <div className='flex mt-3' >
-                        <img className='' src='/Jungle_Spores.webp'/> <Link to='/wiki/items/jungle_Spore'className='ml-2 text-sm   hover:underline hover:text-blue-500 duration-200  ' >Jungle Spores</Link><h1 className='ml-1 text-sm  text-white/75'>x15</h1>
+                        <img className='w-5 h-4' src='/Jungle_Spores.webp'/> <Link to='/wiki/items/jungle_Spore'className='ml-2 text-sm   hover:underline hover:text-blue-500 duration-200  ' >Jungle Spores</Link><h1 className='ml-1 text-sm  text-white/75'>x15</h1>
                         </div>
                         <div className='flex mt-3' >
-                        <img className='' src='/Vine.webp'/> <Link to='/wiki/items/vine' className='ml-2 text-sm   hover:underline hover:text-blue-500 duration-200  ' >Vine</Link><h1 className='ml-1 text-sm  text-white/75'>x3</h1>
+                        <img className='w-4 h-6' src='/Vine.webp'/> <Link to='/wiki/items/vine' className='ml-2 text-sm   hover:underline hover:text-blue-500 duration-200  ' >Vine</Link><h1 className='ml-1 text-sm  text-white/75'>x3</h1>
                         </div>
                     </div>
                     <div className='border border-gray-300 h-40 ml-2' ></div>
                     <div className='w-52 ml-2'>
                         <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Crafting station</h1> 
                         <div className='flex' >
-                            <img className='' src='/Iron_Anvil.webp'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200  ' >Iron Anvil</Link>
+                            <img className='w-8 h-4' src='/Iron_Anvil.webp'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200  ' >Iron Anvil</Link>
                         </div>
                         <div className='flex' >
-                            <img className='' src='/Lead_Anvil.webp'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200  ' >Lead Anvil</Link>
+                            <img className='w-8 h-4' src='/Lead_Anvil.webp'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200  ' >Lead Anvil</Link>
                         </div>
                     </div>
                 </div>
@@ -54,10 +53,10 @@ Its best modifier is Legendary.</h1>
             <div className='ml-3'>
                 <div className='w-72 p-1 mt-3 bg-[#101017] rounded-md border border-gray-600 '>
                     <div className='flex justify-center'>
-                        <h1 className='bg-[#1c1f20] rounded-sm w-72 text-center border border-gray-600 py-1 dark:bg-slate-400'>Burnt</h1>
+                        <h1 className='bg-[#1c1f20] rounded-sm w-72 text-center border border-gray-600 py-1 dark:bg-slate-400'>Blade of Grass</h1>
                     </div>
                     <div className='flex justify-center mt-2'>
-                            <img src='/Burnt_Sienna.webp'/>
+                            <img src='/Blade_of_Grass.webp'/>
                     </div>
                     <div className='flex justify-center'>
                         <h1 className='mt-2 bg-[#1c1f20] rounded-sm w-72 border border-gray-600 text-center dark:bg-slate-400'>Statistics</h1>
@@ -65,8 +64,8 @@ Its best modifier is Legendary.</h1>
                     <div className='flex justify-center mt-2'>
                         <div className='text-sm'>
                             <h1 className='mt-2'><a className='font-bold'>Type Weapon </a>– Crafting material</h1>
-                            <h1 className='mt-2'><a className='font-bold'>Damage</a> 32 True melee</h1>
-                            <h1 className='mt-2 mb-2'><a className='font-bold'>Critical chance</a> 4%</h1>
+                            <h1 className='mt-2'><a className='font-bold'>Damage</a> – 18 melee</h1>
+                            <h1 className='mt-2 mb-2'><a className='font-bold'>Critical chance</a> – 4%</h1>
                         </div>
                     </div>
                 </div>
