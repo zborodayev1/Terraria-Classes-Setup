@@ -140,16 +140,6 @@ import { TikiArmor } from "../screens/Terraria/Summoner/SumArmor/TikiArmor"
 import { HerculesBeetle } from "../screens/Terraria/Summoner/SumArmor/HerculesBeetle"
 import { PapyrusScarab } from "../screens/Terraria/Summoner/SumAcs/PapyrusScarab"
 import { NecromanticScroll } from "../screens/Terraria/Summoner/SumAcs/NecromanticScroll"
-import { CalMeleeMain } from "../screens/Calamity/Melee/CalMeleeMain"
-import { CalMeleePreBosses } from "../screens/Calamity/Melee/CalMeleeGuide/CalMeleePreBosses"
-import { GladiatorsLocket } from "../screens/Calamity/Mix/Acs/Accessories/GladiatorsLocket"
-import { FrogLeg } from "../screens/Calamity/Mix/Acs/Accessories/FrogLeg"
-import { CalFeralClaws } from "../screens/Calamity/Melee/CalMeleeAcs/FeralClaws"
-import { Rover_Drive } from "../screens/Calamity/Mix/Acs/Accessories/Rover_Drive"
-import { CalMeleePreEater_of_Worlds} from "../screens/Calamity/Melee/CalMeleeGuide/Pre-Eater_of_Worlds"
-import { CalBladeOfGrass } from "../screens/Calamity/Melee/CalMeleeWeapons/CalBladeOfGrass"
-import { BurntSienna } from "../screens/Calamity/Melee/CalMeleeWeapons/BurntSienna"
-import { RedtideSpear } from "../screens/Calamity/Melee/CalMeleeWeapons/RedtideSpear"
 export const Router = () => {
   return (
     <BrowserRouter>
@@ -322,51 +312,7 @@ export const Router = () => {
             <Route element={<Vine/>} path="/wiki/items/vine"/>
             <Route element={<PreHardModeAnvils/>} path="/wiki/preHardMode/preHardModeAnvils"/>
             <Route element={<IronBar/>} path="/wiki/preHardMode/ironBar"/>
-            <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>
-
-            {/* calamity classes */}
-            <Route element={<CalMeleeMain/>} path="/cal/melee"/>
-            <Route element={<MageMain/>} path="/cal/mage"/>
-            <Route element={<RangedMain/>} path="/cal/ranged"/>
-            <Route element={<SummonerMain/>} path="/cal/summoner"/>
-            <Route element={<SummonerMain/>} path="/cal/rogue"/>
-
-            {/* calamity stages */}
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreEater_of_Worlds/>} path="/cal/melee/Pre_Eater_of_Worlds"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-            <Route element={<CalMeleePreBosses/>} path="/cal/melee/pre-bosses"/>
-
-            {/* calamity melee  */}
-            <Route element={<BurntSienna/>} path="/cal/melee/pre-bosses/BurntSienna"/>
-            <Route element={<CalBladeOfGrass/>} path="/cal/melee/pre-eater_of_worlds/BladeOfGrass"/>
-            <Route element={<RedtideSpear/>} path="/cal/melee/pre-eater_of_worlds/RedtideSpear"/>
-            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
-            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
-            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
-            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
-            <Route element={<SummonerMain/>} path="/cal/melee/pre-bosses/BurntSienna"/>
-
-
-            {/* calamity acs */}
-            <Route element={<GladiatorsLocket/>} path="/cal/acs/GladiatorsLocket"/>
-            <Route element={<FrogLeg/>} path="/cal/acs/FrogLeg"/>
-            <Route element={<CalFeralClaws/>} path="/cal/acs/FeralClaws"/>
-            <Route element={<Rover_Drive/>} path="/cal/acs/RoverDrive"/>
-            <Route element={<FrogLeg/>} path="/cal/acs/FrogLeg"/>
-            <Route element={<FrogLeg/>} path="/cal/acs/FrogLeg"/>
-            <Route element={<FrogLeg/>} path="/cal/acs/FrogLeg"/>
-
+            <Route element={<LeadBar/>} path="/wiki/preHardMode/leadBar"/>      
 
             {/* <Route element={} path=""/> */}
         </Routes>

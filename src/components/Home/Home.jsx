@@ -1,6 +1,5 @@
 import AnimatedCircles from "./circles/circles";
 import DropdownMenu from "./dropdowns/dropdown";
-import CalDropdownMenu from "./dropdowns/caldropdown";
 
 
 export const Home = () => {
@@ -10,13 +9,12 @@ export const Home = () => {
       <div >
         <div className="flex justify-center items-center h-screen animate-fade-in bg-gradient-to-t from-[#A5B1C2]/15 to-transparent ">
           <div className="text-center">
-            <span className="flex justify-center bg-gradient-to-t from-[rgb(165,177,194)] via-[#B0BCCF] to-[#CBD4DF] bg-clip-text text-transparent text-6xl font-manrope font-bold p-4 ">Terraria class guide</span>
+            <span className="flex justify-center bg-gradient-to-t from-[rgb(165,177,194)] via-[#B0BCCF] to-[#CBD4DF] bg-clip-text text-transparent text-6xl font-manrope font-bold p-4">Terraria class guide</span>
             <h1 className="text-lime-50/50">
               P.s: in this guide there will be only relevant types of armor and weapons in the passage,
             </h1>
             <div className="flex justify-center">
               <DropdownMenu />
-              <CalDropdownMenu />
             </div>
            {/* <div className="flex items-center justify-center animate-pulse">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff" fill="none">
